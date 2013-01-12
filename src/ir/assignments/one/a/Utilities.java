@@ -1,4 +1,4 @@
-package ir.assignments.two.a;
+package ir.assignments.one.a;
 
 import java.io.File;
 import java.util.ArrayList;
