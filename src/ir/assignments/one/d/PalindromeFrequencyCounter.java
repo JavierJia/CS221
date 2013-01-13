@@ -2,6 +2,7 @@ package ir.assignments.one.d;
 
 import ir.assignments.one.a.Frequency;
 import ir.assignments.one.a.Utilities;
+import ir.assignments.one.b.WordFrequencyCounter;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -43,9 +44,17 @@ public class PalindromeFrequencyCounter {
 	 * @return A list of palindrome frequencies, ordered by decreasing frequency.
 	 */
 	private static List<Frequency> computePalindromeFrequencies(ArrayList<String> words) {
-		// TODO Write body!
-		// You will likely want to create helper methods / classes to help implement this functionality
-		return null;
+		if ( words == null || words.isEmpty()){
+			return new ArrayList<Frequency>(0);
+		}
+		List<String> list = new ArrayList<String>(words.size());
+		PalindromDetector detector = new PalindromDetector();
+		for( String word : words){
+			for( String phrase: detector.detectBy(word)){
+				list.add(phrase);
+			}
+		}
+		return WordFrequencyCounter.computeWordFrequencies(list);
 	}
 	
 	/**
@@ -56,6 +65,11 @@ public class PalindromeFrequencyCounter {
 	public static void main(String[] args) {
 		File file = new File(args[0]);
 		ArrayList<String> words = Utilities.tokenizeFile(file);
+//		String[] test = {"do", "geese", "see", "god", "abba", "bat", "tab"};
+//		ArrayList<String> words = new ArrayList<String>();
+//		for( String str: test){
+//			words.add(str);
+//		}
 		List<Frequency> frequencies = computePalindromeFrequencies(words);
 		Utilities.printFrequencies(frequencies);
 	}

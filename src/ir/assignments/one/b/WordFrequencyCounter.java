@@ -4,7 +4,12 @@ import ir.assignments.one.a.Frequency;
 import ir.assignments.one.a.Utilities;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Counts the total number of words and their frequencies in a text file.
@@ -43,8 +48,26 @@ public final class WordFrequencyCounter {
 	 * @return A list of word frequencies, ordered by decreasing frequency.
 	 */
 	public static List<Frequency> computeWordFrequencies(List<String> words) {
-		// TODO Write body!
-		return null;
+		Map<String,Integer> dict = new HashMap<String,Integer>(words.size()<<1); 
+		for( String word: words){
+			if ( dict.containsKey(word)){
+				dict.put(word, dict.get(word)+1);
+			}else{
+				dict.put(word, 1);
+			}
+		}
+		List<Frequency> list = new ArrayList<Frequency>(dict.size());
+		for( Map.Entry<String, Integer> entry: dict.entrySet()){
+			list.add(new Frequency(entry.getKey(), entry.getValue()));
+		}
+		Collections.sort(list, new Comparator<Frequency>(){
+			@Override
+			public int compare(Frequency o1, Frequency o2) {
+				//reversed sequence
+				return o2.getFrequency() - o1.getFrequency();
+			}
+		});
+		return list;
 	}
 	
 	/**

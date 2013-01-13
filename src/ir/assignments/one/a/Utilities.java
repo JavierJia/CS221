@@ -1,8 +1,12 @@
 package ir.assignments.one.a;
 
+import java.io.BufferedInputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * A collection of utility methods for text processing.
@@ -27,10 +31,26 @@ public class Utilities {
 	 * 
 	 * @param input The file to read in and tokenize.
 	 * @return The list of tokens (words) from the input file, ordered by occurrence.
+	 * @throws IOException 
 	 */
 	public static ArrayList<String> tokenizeFile(File input) {
-		// TODO Write body!
-		return null;
+		BufferedInputStream buffer;
+		try {
+			buffer = new BufferedInputStream(new FileInputStream(input));
+				Scanner scan = new Scanner(buffer);
+		
+			ArrayList<String> tokens = new ArrayList<String>(); 
+			while( scan.hasNextLine()){
+				String line = scan.nextLine();
+				for(String w : line.split("\\W")){
+					tokens.add(w.toLowerCase());
+				}
+			}
+			return tokens;
+		} catch ( IOException e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 	
 	/**
@@ -73,6 +93,31 @@ public class Utilities {
 	 * @param frequencies A list of frequencies.
 	 */
 	public static void printFrequencies(List<Frequency> frequencies) {
-		// TODO Write body!
+		if (frequencies == null || frequencies.isEmpty()){
+			System.out.println();
+			System.out.printf("Total item count: 0\n");
+			System.out.printf("Unique item count: 0\n");
+			return;
+		}
+		boolean is2gram = frequencies.get(0).getText().contains(" ");
+		
+		int sum = 0;
+		for( Frequency freqenct : frequencies){
+			sum += freqenct.getFrequency();
+		}
+		
+		System.out.println();
+		if (is2gram){
+			System.out.printf("Total 2-gram count: %d\n", sum);
+			System.out.printf("Unique 2-gram count: %d\n", frequencies.size());
+		}else{
+			System.out.printf("Total item count: %d\n", sum);
+			System.out.printf("Unique item count: %d\n", frequencies.size());
+		}
+		System.out.println();
+		for( Frequency freq: frequencies){
+			System.out.printf("%s\t%d\n", freq.getText(), freq.getFrequency());
+		}
+		System.out.println();
 	}
 }

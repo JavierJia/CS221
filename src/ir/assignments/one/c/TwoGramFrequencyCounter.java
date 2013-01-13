@@ -2,6 +2,7 @@ package ir.assignments.one.c;
 
 import ir.assignments.one.a.Frequency;
 import ir.assignments.one.a.Utilities;
+import ir.assignments.one.b.WordFrequencyCounter;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -44,8 +45,14 @@ public final class TwoGramFrequencyCounter {
 	 * @return A list of two gram frequencies, ordered by decreasing frequency.
 	 */
 	private static List<Frequency> computeTwoGramFrequencies(ArrayList<String> words) {
-		// TODO Write body!
-		return null;
+		if ( words == null || words.size()<2){
+			return new ArrayList<Frequency>(0);
+		}
+		List<String> list = new ArrayList<String>(words.size()-1);
+		for( int i = 1; i< words.size(); i++){
+			list.add(words.get(i-1) + " " + words.get(i));
+		}
+		return WordFrequencyCounter.computeWordFrequencies(list);
 	}
 	
 	/**
