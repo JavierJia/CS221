@@ -19,7 +19,7 @@ public class PalindromDetector {
 		this.append(word);
 		List<String> parlindroms = new LinkedList<String>();
 		for( StringBuilder builder : historyString){
-			if (isPalindrom(builder.toString().replaceAll(" ", ""))){
+			if (isPalindrom(builder.toString())){
 				parlindroms.add(builder.toString());
 			}
 		}
@@ -46,17 +46,24 @@ public class PalindromDetector {
 	 * @param word
 	 * @return
 	 */
-	public static boolean isPalindrom(String word){
+	public static boolean isPalindrom(String word){		
 		if (word== null || word.length()<2){
 			return false;
 		}
-		int lstart = (word.length()-1)/2;
-		int rstart = lstart;
-		if ( word.length() %2 ==0){
-			rstart++;
-		}
-		for( int i = 0; lstart-i >=0; i++ ){
-			if ( word.charAt(lstart-i) != word.charAt(rstart+i)){
+		for( int istart = 0, iend = word.length()-1; istart < iend ; istart++, iend-- ){
+			while (word.charAt(istart) == ' '){
+				istart++;
+				if (istart >= iend){
+					return true;
+				}
+			}
+			while (word.charAt(iend) == ' '){
+				iend--;
+				if (istart >= iend){
+					return true;
+				}
+			}
+			if ( word.charAt(istart) != word.charAt( iend)){
 				return false;
 			}
 		}

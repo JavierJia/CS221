@@ -6,6 +6,8 @@ import ir.assignments.one.b.WordFrequencyCounter;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class PalindromeFrequencyCounter {
@@ -54,7 +56,23 @@ public class PalindromeFrequencyCounter {
 				list.add(phrase);
 			}
 		}
-		return WordFrequencyCounter.computeWordFrequencies(list);
+		ArrayList<Frequency> freqs = WordFrequencyCounter.computeDictinary(list);
+		Collections.sort(freqs, new Comparator<Frequency>(){
+
+			@Override
+			public int compare(Frequency o1, Frequency o2) {
+				int icmp = o2.getText().split(" ").length - o1.getText().split(" ").length;
+				if (icmp == 0){
+					icmp = o2.getFrequency() - o1.getFrequency();
+					if (icmp == 0){
+						icmp = o2.getText().compareTo(o1.getText());
+					}
+				}
+				return icmp;
+			}
+			
+		});
+		return freqs;
 	}
 	
 	/**
@@ -64,12 +82,13 @@ public class PalindromeFrequencyCounter {
 	 */
 	public static void main(String[] args) {
 		File file = new File(args[0]);
-		ArrayList<String> words = Utilities.tokenizeFile(file);
-//		String[] test = {"do", "geese", "see", "god", "abba", "bat", "tab"};
-//		ArrayList<String> words = new ArrayList<String>();
-//		for( String str: test){
-//			words.add(str);
-//		}
+		ArrayList<String> words; 
+		words = Utilities.tokenizeFile(file);
+		String[] test = {"do", "geese", "see", "god", "abba", "bat", "tab"};
+//		words = new ArrayList<String>();
+		for( String str: test){
+			words.add(str);
+		}
 		List<Frequency> frequencies = computePalindromeFrequencies(words);
 		Utilities.printFrequencies(frequencies);
 	}

@@ -48,6 +48,18 @@ public final class WordFrequencyCounter {
 	 * @return A list of word frequencies, ordered by decreasing frequency.
 	 */
 	public static List<Frequency> computeWordFrequencies(List<String> words) {
+		ArrayList<Frequency> list = computeDictinary(words);
+		Collections.sort(list, new Comparator<Frequency>(){
+			@Override
+			public int compare(Frequency o1, Frequency o2) {
+				//reversed sequence
+				return o2.getFrequency() - o1.getFrequency();
+			}
+		});
+		return list;
+	}
+	
+	public static ArrayList<Frequency> computeDictinary(List<String> words){
 		Map<String,Integer> dict = new HashMap<String,Integer>(words.size()<<1); 
 		for( String word: words){
 			if ( dict.containsKey(word)){
@@ -56,17 +68,10 @@ public final class WordFrequencyCounter {
 				dict.put(word, 1);
 			}
 		}
-		List<Frequency> list = new ArrayList<Frequency>(dict.size());
+		ArrayList<Frequency> list = new ArrayList<Frequency>(dict.size());
 		for( Map.Entry<String, Integer> entry: dict.entrySet()){
 			list.add(new Frequency(entry.getKey(), entry.getValue()));
 		}
-		Collections.sort(list, new Comparator<Frequency>(){
-			@Override
-			public int compare(Frequency o1, Frequency o2) {
-				//reversed sequence
-				return o2.getFrequency() - o1.getFrequency();
-			}
-		});
 		return list;
 	}
 	

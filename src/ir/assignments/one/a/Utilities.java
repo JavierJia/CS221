@@ -99,7 +99,7 @@ public class Utilities {
 			System.out.printf("Unique item count: 0\n");
 			return;
 		}
-		boolean is2gram = frequencies.get(0).getText().contains(" ");
+		boolean is2gram = frequencies.get(0).getText().split(" ").length==2;
 		
 		int sum = 0;
 		for( Frequency freqenct : frequencies){
