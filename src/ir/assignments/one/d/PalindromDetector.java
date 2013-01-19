@@ -48,11 +48,6 @@ public class PalindromDetector {
 		for ( int i = 0 ; i < palindromLength.length; i++ ){
 			palindromLength[i] = UnKnown;
 		}
-		
-		//TODO
-		for (Boolean b : isStart){
-			System.out.print(b);
-		}
 		return palindromLength;
 	}
 
