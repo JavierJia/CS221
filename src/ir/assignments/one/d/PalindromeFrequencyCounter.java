@@ -100,5 +100,6 @@ public class PalindromeFrequencyCounter {
 		}
 		List<Frequency> frequencies = computePalindromeFrequencies(words);
 		Utilities.printFrequencies(frequencies);
+		//
 	}
 }
