@@ -66,9 +66,9 @@ public class PalindromeFrequencyCounter {
 				if (icmp == 0) {
 					icmp = o2.getFrequency() - o1.getFrequency();
 					if (icmp == 0) {
-						icmp = o2.getText().length() - o1.getText().length();
+						//icmp = o2.getText().length() - o1.getText().length();
 						if (icmp == 0){
-							icmp = o2.getText().compareTo(o1.getText());
+							icmp = o1.getText().compareTo(o2.getText());
 						}
 					}
 				}

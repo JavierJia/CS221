@@ -55,7 +55,11 @@ public final class WordFrequencyCounter {
 			@Override
 			public int compare(Frequency o1, Frequency o2) {
 				// reversed sequence
-				return o2.getFrequency() - o1.getFrequency();
+				int cmp = o2.getFrequency() - o1.getFrequency();
+				if (cmp == 0){
+					cmp = o1.getText().compareTo(o2.getText());
+				}
+				return cmp;
 			}
 		});
 		return list;

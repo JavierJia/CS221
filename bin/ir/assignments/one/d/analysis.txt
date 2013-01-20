@@ -18,10 +18,16 @@ position	0 1 2 3 4 5 6 7 8
 
 2.1 initialize each position to UNKNOWN
 position	0 1 2 3 4 5 6 7 8
-value		? ? ?
-We scan the letter from left to right,
- fillup the right half array centered from start;
- e.g.
+value		? ? ? ? ? ? ? ? ? 
+
+2.2 scan first "unknow" position from left to right
+if there is no palindrome, each step compare 2n times 
+if there is an palindrome, we can speed up the comparation by the substring which is also a palindrome 
+
+as we anotation in fillup functon:
+/**
+ *fillup the right half array centered from start;
+ *e.g.
  * 	 	a   a   c   a   a
  * pos: 0 1 2 3 4 5 6 7 8
  * val[ 1 2 1 0 5 ? ? ? ? ]
@@ -32,7 +38,12 @@ We scan the letter from left to right,
  * 
  * the ? means that the palindrom from this postion is at least 2;
  * in code, we represent ? as negative number.
- * @param start
- * @param palindromLength
- * @return index of next unknown number
- */Å
+ */
+
+2.3 move to the next unknow position;
+2.4 go to 2.2
+
+Note that at each step of the algorithm we're either incrementing our current position in the input string ,
+or filling in an entry in the lengths array. 
+Since the lengths array has size linear in the size of the input array, the algorithm has worst-case linear running time. 
+
