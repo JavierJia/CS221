@@ -1,1 +1,38 @@
-Please place your analysis of the runtime complexity of your palindrome algorithm in this file.
+The linear time code is construct from the thought from 
+ http://www.akalin.cx/longest-palindrome-linear-time
+ 
+The basic step:
+1. We concatenate all the words into a string
+2. Find and store the longest palidrome centered in that position
+3. Recontruct the word segment from each of the palidrome
+
+1 and 3 are obvious O(n)
+The 2nd step is as follow:
+
+Given a string of length N, such as "aacaa", we have a position of the size 2N+1,
+The one before the first and the one after the last is useless for Palindome, 
+We construct a 2N-1 position array.
+
+string		a   a   c   a   a
+position	0 1 2 3 4 5 6 7 8
+
+2.1 initialize each position to UNKNOWN
+position	0 1 2 3 4 5 6 7 8
+value		? ? ?
+We scan the letter from left to right,
+ fillup the right half array centered from start;
+ e.g.
+ * 	 	a   a   c   a   a
+ * pos: 0 1 2 3 4 5 6 7 8
+ * val[ 1 2 1 0 5 ? ? ? ? ]
+ * 
+ * the value of palindromLength is the length of palindrom centered by current position
+ * without compare, we can directly construct the unknown value from left side
+ * val[ 1 2 1 0 5 0 1 2? ?]
+ * 
+ * the ? means that the palindrom from this postion is at least 2;
+ * in code, we represent ? as negative number.
+ * @param start
+ * @param palindromLength
+ * @return index of next unknown number
+ */Å

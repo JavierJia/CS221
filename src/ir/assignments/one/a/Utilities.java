@@ -44,7 +44,9 @@ public class Utilities {
 			while (scan.hasNextLine()) {
 				String line = scan.nextLine();
 				for (String w : line.split("\\W")) {
-					tokens.add(w.toLowerCase());
+					if ( w.length() > 0){
+						tokens.add(w.toLowerCase());
+					}
 				}
 			}
 			return tokens;

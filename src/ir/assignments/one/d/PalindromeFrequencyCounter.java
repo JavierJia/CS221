@@ -89,15 +89,15 @@ public class PalindromeFrequencyCounter {
 		File file = new File(args[0]);
 		ArrayList<String> words;
 		words = Utilities.tokenizeFile(file);
-		String[] test = { "do", "geese", "see", "god", "abba", "bat", "tab"};
-		String[] test2 = { "a", "a", "c", "a","a","a","a"};
-		// words = new ArrayList<String>();
-		for (String str : test) {
-			words.add(str);
-		}
-		for (String str : test2) {
-			words.add(str);
-		}
+//		String[] test = { "do", "geese", "see", "god", "abba", "bat", "tab"};
+//		String[] test2 = { "a", "a", "c", "a","a","a","a"};
+//		// words = new ArrayList<String>();
+//		for (String str : test) {
+//			words.add(str);
+//		}
+//		for (String str : test2) {
+//			words.add(str);
+//		}
 		List<Frequency> frequencies = computePalindromeFrequencies(words);
 		Utilities.printFrequencies(frequencies);
 		//
