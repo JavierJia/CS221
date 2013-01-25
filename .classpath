@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/crawler4j-3.3.jar" sourcepath="/Users/jiajianfeng/workplace/code/course/cs221/ref/crawler4j"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
