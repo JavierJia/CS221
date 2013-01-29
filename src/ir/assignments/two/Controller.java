@@ -16,6 +16,7 @@ public class Controller {
 		public static final int PolitenessDelay= 300;
 	}
 	public static int threadNumber = 12;
+	public static int MaxDepth=10;
     public static void main(String[] args) throws Exception {
     	
     	if (args.length>0){
@@ -26,6 +27,15 @@ public class Controller {
     			threadNumber = 12;
     		}
     	}
+    	if (args.length>1){
+    		try{
+    			MaxDepth = Integer.parseInt(args[1]);
+    		}
+    		finally{
+    			MaxDepth = 10;
+    		}
+    	}
+
         /*
          * crawlStorageFolder is a folder where intermediate crawl data is
          * stored.
@@ -52,7 +62,7 @@ public class Controller {
          * You can set the maximum crawl depth here. The default value is -1 for
          * unlimited depth
          */
-        config.setMaxDepthOfCrawling(-1);
+        config.setMaxDepthOfCrawling(MaxDepth);
 
         /*
          * You can set the maximum number of pages to crawl. The default value
