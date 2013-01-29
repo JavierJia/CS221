@@ -44,13 +44,13 @@ public class Controller {
          * crawlStorageFolder is a folder where intermediate crawl data is
          * stored.
          */
-        String crawlStorageFolder = args[0]; //./data/crawl/root
+        String crawlStorageFolder = "./data/crawl/root";
 
         /*
          * numberOfCrawlers shows the number of concurrent threads that should
          * be initiated for crawling.
          */
-        int numberOfCrawlers = Integer.parseInt(args[1]);
+        int numberOfCrawlers = 4;
 
         CrawlConfig config = new CrawlConfig();
 
@@ -97,6 +97,7 @@ public class Controller {
          */
         PageFetcher pageFetcher = new PageFetcher(config);
         RobotstxtConfig robotstxtConfig = new RobotstxtConfig();
+        robotstxtConfig.setUserAgentName("UCI IR crawler 62487298 10244988");
         RobotstxtServer robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
         CrawlController controller = new CrawlController(config, pageFetcher, robotstxtServer);
 
