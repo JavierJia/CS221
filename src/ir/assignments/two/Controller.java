@@ -18,7 +18,7 @@ public class Controller {
 	public static int threadNumber = 12;
     public static void main(String[] args) throws Exception {
     	
-    	if (args.length>1){
+    	if (args.length>0){
     		try{
     			threadNumber = Integer.parseInt(args[0]);
     		}
