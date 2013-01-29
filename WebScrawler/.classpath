@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="lib" path="lib/crawler4j-3.3.jar" sourcepath="C:/Users/Leopold/Documents/GitHub/crawler4j"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/apache-mime4j-core-0.7.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/apache-mime4j-dom-0.7.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/boilerpipe-1.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/commons-compress-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/crawler4j-3.3.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/httpcore-4.1.4.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/je-4.0.92.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/metadata-extractor-2.4.0-beta-1.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/tika-core-1.0.jar"/>
+	<classpathentry kind="lib" path="G:/221InformationRetrieval/WebScrawler/lib/tika-parsers-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
