@@ -10,12 +10,22 @@ public class Controller {
 
 	public class MyOption{
 		public static final String crawlStorageFolder = "./data/crawl/root";
-		public static final String crawlLogFile = "./data/crawllog.data";
-		public static final int threadNumber = 4;
+		public static final String crawlLogFile = "./data/web.data";
+		
 		public static final String agentName = "UCI IR crawler 62487298 10244988";
 		public static final int PolitenessDelay= 300;
 	}
+	public static int threadNumber = 12;
     public static void main(String[] args) throws Exception {
+    	
+    	if (args.length>1){
+    		try{
+    			threadNumber = Integer.parseInt(args[0]);
+    		}
+    		finally{
+    			threadNumber = 12;
+    		}
+    	}
         /*
          * crawlStorageFolder is a folder where intermediate crawl data is
          * stored.
@@ -26,7 +36,7 @@ public class Controller {
          * numberOfCrawlers shows the number of concurrent threads that should
          * be initiated for crawling.
          */
-        int numberOfCrawlers = MyOption.threadNumber;
+        int numberOfCrawlers = threadNumber;
 
         CrawlConfig config = new CrawlConfig();
 
@@ -83,8 +93,7 @@ public class Controller {
          * which are found in these pages
          */
         controller.addSeed("http://www.ics.uci.edu/~lopes/");
-        //controller.addSeed("http://www.ics.uci.edu/");
-
+        controller.addSeed("http://www.ics.uci.edu/");
         /*
          * Start the crawl. This is a blocking operation, meaning that your code
          * will reach the line after this only when crawling is finished.
