@@ -1,12 +1,15 @@
 package ir.assignments.two;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.util.Collection;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import edu.uci.ics.crawler4j.crawler.*;
-import edu.uci.ics.crawler4j.parser.*;
-import edu.uci.ics.crawler4j.url.*;
+import edu.uci.ics.crawler4j.crawler.Page;
+import edu.uci.ics.crawler4j.crawler.WebCrawler;
+import edu.uci.ics.crawler4j.parser.HtmlParseData;
+import edu.uci.ics.crawler4j.url.WebURL;
 
 public class Crawler extends WebCrawler {
 	/**
@@ -50,13 +53,48 @@ public class Crawler extends WebCrawler {
 
 		if (page.getParseData() instanceof HtmlParseData) {
 			HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
+			String title = htmlParseData.getTitle();
 			String text = htmlParseData.getText();
 			String html = htmlParseData.getHtml();
 			List<WebURL> links = htmlParseData.getOutgoingUrls();
+
+			if (LOGFILE != null) {
+				writeToLog(url, title, text);
+			}
 
 			System.out.println("Text length: " + text.length());
 			System.out.println("Html length: " + html.length());
 			System.out.println("Number of outgoing links: " + links.size());
 		}
 	}
+
+	private synchronized void writeToLog(String url, String title, String text) {
+		try {
+			// write the data ...
+			FileWriter fWriter = new FileWriter(LOGFILE, true);
+			StringBuilder sb = new StringBuilder(url);
+			sb.append("\n");
+			sb.append(title);
+			sb.append("\n");
+			sb.append(text.replace(System.getProperty("line.separator")," "));
+			sb.append("\n\n");
+			fWriter.write(sb.toString());
+			fWriter.flush();
+			fWriter.close();
+		} catch (Exception e) {
+			System.err.println("Error when writing " + url );
+			e.printStackTrace();
+		}
+	}
+
+	public static void setLogFile(String filename) {
+		LOGFILE = new File(filename);
+	}
+
+	public static String getLogFile() {
+		return LOGFILE.getName();
+	}
+
+	private static File LOGFILE = null;
+
 }

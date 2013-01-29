@@ -8,49 +8,25 @@ import edu.uci.ics.crawler4j.robotstxt.RobotstxtServer;
 
 public class Controller {
 
+	public class MyOption{
+		public static final String crawlStorageFolder = "./data/crawl/root";
+		public static final String crawlLogFile = "./data/crawllog.data";
+		public static final int threadNumber = 4;
+		public static final String agentName = "UCI IR crawler 62487298 10244988";
+		public static final int PolitenessDelay= 300;
+	}
     public static void main(String[] args) throws Exception {
-//        String crawlStorageFolder = "./data/crawl/root";
-//        int numberOfCrawlers = 7;
-//
-//        CrawlConfig config = new CrawlConfig();
-//        config.setPolitenessDelay(300);
-//        config.setCrawlStorageFolder(crawlStorageFolder);
-//        
-//        // Instantiate the controller for this crawl.
-//         
-//        PageFetcher pageFetcher = new PageFetcher(config);
-//        RobotstxtConfig robotstxtConfig = new RobotstxtConfig();
-//        robotstxtConfig.setUserAgentName("UCI IR crawler 62487298 10244988"); 
-//        RobotstxtServer robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
-//        CrawlController controller = new CrawlController(config, pageFetcher, robotstxtServer);
-//
-//        
-//        /* 
-//         * For each crawl, you need to add some seed urls. These are the first
-//         * URLs that are fetched and then the crawler starts following links
-//         * which are found in these pages
-//         */
-//        //controller.addSeed("http://www.ics.uci.edu/~welling/");
-//        controller.addSeed("http://www.ics.uci.edu/~lopes/");
-//        controller.addSeed("http://www.ics.uci.edu/");
-//
-//        /*
-//         * Start the crawl. This is a blocking operation, meaning that your code
-//         * will reach the line after this only when crawling is finished.
-//         */
-//        controller.start(Crawler.class, numberOfCrawlers);
-        
         /*
          * crawlStorageFolder is a folder where intermediate crawl data is
          * stored.
          */
-        String crawlStorageFolder = "./data/crawl/root";
+        String crawlStorageFolder = MyOption.crawlStorageFolder;
 
         /*
          * numberOfCrawlers shows the number of concurrent threads that should
          * be initiated for crawling.
          */
-        int numberOfCrawlers = 4;
+        int numberOfCrawlers = MyOption.threadNumber;
 
         CrawlConfig config = new CrawlConfig();
 
@@ -60,7 +36,7 @@ public class Controller {
          * Be polite: Make sure that we don't send more than 1 request per
          * second (1000 milliseconds between requests).
          */
-        config.setPolitenessDelay(300);
+        config.setPolitenessDelay(MyOption.PolitenessDelay);
 
         /*
          * You can set the maximum crawl depth here. The default value is -1 for
@@ -97,7 +73,7 @@ public class Controller {
          */
         PageFetcher pageFetcher = new PageFetcher(config);
         RobotstxtConfig robotstxtConfig = new RobotstxtConfig();
-        robotstxtConfig.setUserAgentName("UCI IR crawler 62487298 10244988");
+        robotstxtConfig.setUserAgentName(MyOption.agentName);
         RobotstxtServer robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher);
         CrawlController controller = new CrawlController(config, pageFetcher, robotstxtServer);
 
@@ -107,12 +83,13 @@ public class Controller {
          * which are found in these pages
          */
         controller.addSeed("http://www.ics.uci.edu/~lopes/");
-        controller.addSeed("http://www.ics.uci.edu/");
+        //controller.addSeed("http://www.ics.uci.edu/");
 
         /*
          * Start the crawl. This is a blocking operation, meaning that your code
          * will reach the line after this only when crawling is finished.
          */
+        Crawler.setLogFile(MyOption.crawlLogFile);
         controller.start(Crawler.class, numberOfCrawlers);
 
     }
