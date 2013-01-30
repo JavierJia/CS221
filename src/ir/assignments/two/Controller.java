@@ -13,10 +13,10 @@ public class Controller {
 		public static final String crawlLogFile = "./data/web.data";
 		
 		public static final String agentName = "UCI IR crawler 62487298 10244988";
-		public static final int PolitenessDelay= 300;
+		public static final int PolitenessDelay= 100;
 	}
 	public static int threadNumber = 12;
-	public static int MaxDepth=10;
+	public static int MaxDepth=5;
     public static void main(String[] args) throws Exception {
     	
     	if (args.length>0){
@@ -32,7 +32,7 @@ public class Controller {
     			MaxDepth = Integer.parseInt(args[1]);
     		}
     		finally{
-    			MaxDepth = 10;
+    			MaxDepth = 5;
     		}
     	}
 
