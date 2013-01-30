@@ -32,6 +32,10 @@ public class Crawler extends WebCrawler {
 					+ "|rm|smil|wmv|swf|wma|zip|rar|gz))$");
 	private final static Pattern SURFIX = Pattern.compile("^http://.*\\.ics\\.uci\\.edu/.*");
 
+	//skip URLs containing certain characters as probable queries, etc.
+	private final static Pattern QUERRFILTERS = Pattern
+			.compile(".*[\\?\\*!@=].*");
+
 	/**
 	 * You should implement this function to specify whether the given url
 	 * should be crawled or not (based on your crawling logic).
@@ -41,6 +45,7 @@ public class Crawler extends WebCrawler {
 		String href = url.getURL().toLowerCase();
 		return !FILTERS.matcher(href).matches()
 				//&& href.startsWith("http://www.ics.uci.edu/");
+				&& !QUERRFILTERS.matcher(href).matches()
 				&& SURFIX.matcher(href).matches();
 	}
 
@@ -99,7 +104,7 @@ public class Crawler extends WebCrawler {
 
 	private static File LOGFILE = null;
 	public static void main(String[] args) throws Exception {
-		System.out.println(SURFIX.matcher("http://www.ics.uci.edu/2382/djfj").matches()) ;
+		System.out.println(QUERRFILTERS.matcher("http://www.ics.uci.edu/2323??82/djfj?").matches());
 		System.out.println(SURFIX.matcher("http://djf.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://tomato.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://cs.uci.edu/").matches()) ;
