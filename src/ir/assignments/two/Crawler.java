@@ -31,10 +31,11 @@ public class Crawler extends WebCrawler {
 					+ "|wav|avi|mov|mpeg|ram|m4v|pdf"
 					+ "|rm|smil|wmv|swf|wma|zip|rar|gz))$");
 	private final static Pattern SURFIX = Pattern.compile("^http://.*\\.ics\\.uci\\.edu/.*");
-
+	private final static Pattern SKIPSITE = Pattern.compile("^http://ftp\\.ics\\.uci\\.edu/.*");
+	
 	//skip URLs containing certain characters as probable queries, etc.
 	private final static Pattern QUERRFILTERS = Pattern
-			.compile(".*[\\?\\*!@=].*");
+			.compile(".*[\\?@=].*");
 
 	/**
 	 * You should implement this function to specify whether the given url
@@ -46,7 +47,8 @@ public class Crawler extends WebCrawler {
 		return !FILTERS.matcher(href).matches()
 				//&& href.startsWith("http://www.ics.uci.edu/");
 				&& !QUERRFILTERS.matcher(href).matches()
-				&& SURFIX.matcher(href).matches();
+				&& SURFIX.matcher(href).matches()
+				&& !SKIPSITE.matcher(href).matches();
 	}
 
 	/**

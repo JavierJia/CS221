@@ -16,7 +16,7 @@ public class Controller {
 		public static final int PolitenessDelay= 100;
 	}
 	public static int threadNumber = 12;
-	public static int MaxDepth=5;
+	public static int MaxDepth=-1;
     public static void main(String[] args) throws Exception {
     	
     	if (args.length>0){
@@ -32,7 +32,7 @@ public class Controller {
     			MaxDepth = Integer.parseInt(args[1]);
     		}
     		finally{
-    			MaxDepth = 5;
+    			MaxDepth = -1;
     		}
     	}
 
