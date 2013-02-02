@@ -31,7 +31,7 @@ public class Crawler extends WebCrawler {
 					+ "|wav|avi|mov|mpeg|ram|m4v|pdf"
 					+ "|rm|smil|wmv|swf|wma|zip|rar|gz))$");
 	private final static Pattern SURFIX = Pattern.compile("^http://.*\\.ics\\.uci\\.edu/.*");
-	private final static Pattern SKIPSITE = Pattern.compile("^http://ftp\\.ics\\.uci\\.edu/.*");
+	private final static Pattern SKIPSITE = Pattern.compile("^http://(ftp|fano|kdd)\\.ics\\.uci\\.edu/.*");
 	
 	//skip URLs containing certain characters as probable queries, etc.
 	private final static Pattern QUERRFILTERS = Pattern
@@ -110,5 +110,6 @@ public class Crawler extends WebCrawler {
 		System.out.println(SURFIX.matcher("http://djf.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://tomato.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://cs.uci.edu/").matches()) ;
+		System.out.println(SKIPSITE.matcher("http://kdd.ics.uci.edu/").matches());
 	}
 }

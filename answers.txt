@@ -1,1 +1,20 @@
-Put your answers to the questions here, on in a similarly named .doc or .pdf file.
+1. How much time did it take to crawl the entire domain?
+20h
+
+2. How many unique pages did you find in the entire domain? (Uniqueness is established by the URL)
+152339
+
+3. How many subdomains did you find? Submit the list of subdomains ordered alphabetically and the number of unique pages detected in each subdomain. The file should be called Subdomains.txt, and its content should be lines containing URL, number http://vision.ics.uci.edu, 10 ( not the actual number here) etc.
+72
+
+4. What is the longest page in terms of number of words? (HTML markup doesn’t count as words)
+http://www.ics.uci.edu/~xhx/project/MotifMap/SNP/motif_sites_overlap_db_snp.list.html
+12323433 words
+
+5. What are the 500 most common words in this domain? (Ignore English stop words, which can be found, for example, here) Submit the list of common words ordered by frequency. The file should be called CommonWords.txt.
+we omit the common word and also single letters
+using cmd:
+tail -n+3 count.txt | head -500 > CommonWords.txt
+
+6. What are the 20 most common 2-grams? (again ignore English stop words) A 2-gram, in this case, is a sequence of 2 words that aren’t stop words and that haven’t had a stop word in between them. Submit the list of 20 2-grams ordered by frequency. The file should be called Common2Grams.txt.
+see Common2Grams.txt
