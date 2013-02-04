@@ -2,7 +2,22 @@
 20h
 
 2. How many unique pages did you find in the entire domain? (Uniqueness is established by the URL)
+raw url:
 152339
+
+remove-dupblicate by bigram signature:
+# python cluster.py -d < data/web.data > data/web.signature
+68123
+
+cluster:
+# python cluster.py -c < data/web.signature > data/web.sketch
+we got 216 pages have overlaped shingles of 8/10 
+then after union_find
+# python union_find < data/web.sketch
+we got 26 class
+Then the total pages, after cluster is 
+
+68123 - 216 + 26 = 67933
 
 3. How many subdomains did you find? Submit the list of subdomains ordered alphabetically and the number of unique pages detected in each subdomain. The file should be called Subdomains.txt, and its content should be lines containing URL, number http://vision.ics.uci.edu, 10 ( not the actual number here) etc.
 72
