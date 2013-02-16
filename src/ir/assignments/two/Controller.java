@@ -10,7 +10,7 @@ public class Controller {
 
 	public class MyOption{
 		public static final String crawlStorageFolder = "./data/crawl/root";
-		public static final String crawlLogFile = "./data/webdata";
+		public static final String crawlLogFile = "./data/webdata/";
 		public static final String crawlLogLinkFile = "./data/link.data";
 		
 		public static final String agentName = "UCI IR crawler 62487298 10244988";

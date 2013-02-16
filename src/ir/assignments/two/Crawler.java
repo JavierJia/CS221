@@ -1,5 +1,6 @@
 package ir.assignments.two;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collection;
@@ -68,7 +69,9 @@ public class Crawler extends WebCrawler {
 			if (LOGPATH != null) {
 				writeToLog(url, title, text);
 			}
-			printLog(url,text,html,links);
+			if (LINKFILE != null){
+				printLog(url,text,html,links);
+			}
 		}
 	}
 
@@ -94,11 +97,23 @@ public class Crawler extends WebCrawler {
 		}
 	}
 	
-	private synchronized void writeToLog(WebURL url, String title, String text) {
+	private void writeToLog(WebURL url, String title, String text) {
 		try {
 			// write the data ...
 			String path = url.getURL().substring("http://".length());
-			FileWriter fWriter = new FileWriter(LOGPATH + path);
+			File file = new File(LOGPATH + path);
+			if (file.isDirectory()){
+				file = new File(LOGPATH + path + "default.txt");
+			}else if (url.getPath().indexOf(".") <0){
+				file = new File(LOGPATH + path + "/default.txt");
+			}
+			if (!file.exists()){
+				File parent = new File(file.getParent());
+				if (!parent.exists()){
+					parent.mkdirs();
+				}
+			}
+			FileWriter fWriter = new FileWriter(file);
 			fWriter.write(title);
 			fWriter.write(text);
 			fWriter.close();
