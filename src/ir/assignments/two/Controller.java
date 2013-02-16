@@ -10,13 +10,14 @@ public class Controller {
 
 	public class MyOption{
 		public static final String crawlStorageFolder = "./data/crawl/root";
-		public static final String crawlLogFile = "./data/web.data";
+		public static final String crawlLogFile = "./data/webdata";
+		public static final String crawlLogLinkFile = "./data/link.data";
 		
 		public static final String agentName = "UCI IR crawler 62487298 10244988";
 		public static final int PolitenessDelay= 100;
 	}
 	public static int threadNumber = 12;
-	public static int MaxDepth=-1;
+	public static int MaxDepth=10;
     public static void main(String[] args) throws Exception {
     	
     	if (args.length>0){
@@ -109,6 +110,7 @@ public class Controller {
          * will reach the line after this only when crawling is finished.
          */
         Crawler.setLogFile(MyOption.crawlLogFile);
+        Crawler.setLinkFile(MyOption.crawlLogLinkFile);
         controller.start(Crawler.class, numberOfCrawlers);
 
     }

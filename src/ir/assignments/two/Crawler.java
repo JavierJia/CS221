@@ -1,7 +1,7 @@
 package ir.assignments.two;
 
-import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -45,7 +45,6 @@ public class Crawler extends WebCrawler {
 	public boolean shouldVisit(WebURL url) {
 		String href = url.getURL().toLowerCase();
 		return !FILTERS.matcher(href).matches()
-				//&& href.startsWith("http://www.ics.uci.edu/");
 				&& !QUERRFILTERS.matcher(href).matches()
 				&& SURFIX.matcher(href).matches()
 				&& !SKIPSITE.matcher(href).matches();
@@ -57,8 +56,7 @@ public class Crawler extends WebCrawler {
 	 */
 	@Override
 	public void visit(Page page) {
-		String url = page.getWebURL().getURL();
-		System.out.println("URL: " + url);
+		WebURL url = page.getWebURL();
 
 		if (page.getParseData() instanceof HtmlParseData) {
 			HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
@@ -67,28 +65,42 @@ public class Crawler extends WebCrawler {
 			String html = htmlParseData.getHtml();
 			List<WebURL> links = htmlParseData.getOutgoingUrls();
 
-			if (LOGFILE != null) {
+			if (LOGPATH != null) {
 				writeToLog(url, title, text);
 			}
-
-			System.out.println("Text length: " + text.length());
-			System.out.println("Html length: " + html.length());
-			System.out.println("Number of outgoing links: " + links.size());
+			printLog(url,text,html,links);
 		}
 	}
 
-	private synchronized void writeToLog(String url, String title, String text) {
+	private synchronized void printLog(WebURL url, final String text, final String html, final List<WebURL> links){
+		System.out.println("URL: " + url.getURL());
+		System.out.println("Text length: " + text.length());
+		System.out.println("Html length: " + html.length());
+		System.out.println("Number of outgoing links: " + links.size());
+		try {
+			FileWriter fWriter = new FileWriter(LINKFILE,true);
+			StringBuilder builder = new StringBuilder(url.getURL());
+			builder.append("\t");
+			for ( WebURL link : links){
+				builder.append(link.getURL());
+				builder.append(" ");
+			}
+			builder.append("\n");
+			fWriter.write(builder.toString());
+			fWriter.close();
+		} catch (IOException e) {
+			System.err.println("Error when writing " + url.getURL());
+			e.printStackTrace();
+		}
+	}
+	
+	private synchronized void writeToLog(WebURL url, String title, String text) {
 		try {
 			// write the data ...
-			FileWriter fWriter = new FileWriter(LOGFILE, true);
-			StringBuilder sb = new StringBuilder(url);
-			sb.append("\n");
-			sb.append(title);
-			sb.append("\n");
-			sb.append(text.replace(System.getProperty("line.separator")," "));
-			sb.append("\n\n");
-			fWriter.write(sb.toString());
-			fWriter.flush();
+			String path = url.getURL().substring("http://".length());
+			FileWriter fWriter = new FileWriter(LOGPATH + path);
+			fWriter.write(title);
+			fWriter.write(text);
 			fWriter.close();
 		} catch (Exception e) {
 			System.err.println("Error when writing " + url );
@@ -96,20 +108,22 @@ public class Crawler extends WebCrawler {
 		}
 	}
 
-	public static void setLogFile(String filename) {
-		LOGFILE = new File(filename);
+	public static void setLogFile(String pathname) {
+		LOGPATH = pathname;
+	}
+	
+	public static void setLinkFile(String pathname){
+		LINKFILE = pathname;
 	}
 
-	public static String getLogFile() {
-		return LOGFILE.getName();
-	}
-
-	private static File LOGFILE = null;
+	private static String LOGPATH = null;
+	private static String LINKFILE = null;
 	public static void main(String[] args) throws Exception {
 		System.out.println(QUERRFILTERS.matcher("http://www.ics.uci.edu/2323??82/djfj?").matches());
 		System.out.println(SURFIX.matcher("http://djf.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://tomato.ics.uci.edu/").matches()) ;
 		System.out.println(SURFIX.matcher("http://cs.uci.edu/").matches()) ;
 		System.out.println(SKIPSITE.matcher("http://kdd.ics.uci.edu/").matches());
+		System.out.println("http://ics".substring("http://".length()));
 	}
 }
