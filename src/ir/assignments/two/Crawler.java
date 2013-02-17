@@ -103,9 +103,9 @@ public class Crawler extends WebCrawler {
 			String path = url.getURL().substring("http://".length());
 			File file = new File(LOGPATH + path);
 			if (file.isDirectory()){
-				file = new File(LOGPATH + path + "index");
+				file = new File(LOGPATH + path + "index.txt");
 			}else if (url.getPath().lastIndexOf('.') < url.getPath().lastIndexOf('/')){
-				file = new File(LOGPATH + path + "/index");
+				file = new File(LOGPATH + path + "/index.txt");
 			}
 			if (!file.exists()){
 				File parent = new File(file.getParent());
