@@ -33,7 +33,7 @@ public class Controller {
     			MaxDepth = Integer.parseInt(args[1]);
     		}
     		finally{
-    			MaxDepth = -1;
+    			MaxDepth = 10;
     		}
     	}
 

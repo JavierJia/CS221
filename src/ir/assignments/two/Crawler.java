@@ -103,9 +103,9 @@ public class Crawler extends WebCrawler {
 			String path = url.getURL().substring("http://".length());
 			File file = new File(LOGPATH + path);
 			if (file.isDirectory()){
-				file = new File(LOGPATH + path + "default.txt");
-			}else if (url.getPath().indexOf(".") <0){
-				file = new File(LOGPATH + path + "/default.txt");
+				file = new File(LOGPATH + path + "index");
+			}else if (url.getPath().lastIndexOf('.') < url.getPath().lastIndexOf('/')){
+				file = new File(LOGPATH + path + "/index");
 			}
 			if (!file.exists()){
 				File parent = new File(file.getParent());
@@ -114,8 +114,12 @@ public class Crawler extends WebCrawler {
 				}
 			}
 			FileWriter fWriter = new FileWriter(file);
-			fWriter.write(title);
-			fWriter.write(text);
+			if (title!=null){
+				fWriter.write(title);
+			}
+			if (text != null){
+				fWriter.write(text);
+			}
 			fWriter.close();
 		} catch (Exception e) {
 			System.err.println("Error when writing " + url );
