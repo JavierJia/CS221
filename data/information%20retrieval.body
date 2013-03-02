@@ -1,0 +1,259 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - information retrieval",
+    "totalResults": "1710",
+    "searchTerms": "information retrieval",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - information retrieval",
+    "totalResults": "1710",
+    "searchTerms": "information retrieval",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.14369,
+  "formattedSearchTime": "0.14",
+  "totalResults": "1710",
+  "formattedTotalResults": "1,710"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "CS 221 - Information Retrieval",
+   "htmlTitle": "CS 221 - \u003cb\u003eInformation Retrieval\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/cs221W12/index.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "An introduction to information retrieval including indexing, retrieval, classifying,   and clustering text and multimedia documents. Book. Introduction to Information ...",
+   "htmlSnippet": "An introduction to \u003cb\u003einformation retrieval\u003c/b\u003e including indexing, retrieval, classifying, \u003cbr\u003e  and clustering text and multimedia documents. Book. Introduction to Information \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "0y4WGBW54RsJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/cs221W12/index.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/cs221W12/index.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Exponential Family Harmoniums with an Application to Information ...",
+   "htmlTitle": "Exponential Family Harmoniums with an Application to \u003cb\u003eInformation\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~welling/publications/papers/GenHarm3.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "with an Application to Information Retrieval. Max Welling & Michal Rosen-Zvi.   Information and Computer Science. University of California. Irvine CA 92697-  3425 ...",
+   "htmlSnippet": "with an Application to \u003cb\u003eInformation Retrieval\u003c/b\u003e. Max Welling &amp; Michal Rosen-Zvi. \u003cbr\u003e  Information and Computer Science. University of California. Irvine CA 92697-\u003cbr\u003e  3425 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "97FxtlISO7gJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~welling/publications/papers/GenHarm3.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~welling/publications/papers/GenHarm3.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "TeX output 2004.09.14:1642",
+      "producer": "dvipdfm 0.13.2c, Copyright © 1998, by Mark A. Wicks",
+      "creationdate": "D:20040914164358-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CS 221 Information Retrieval Projects.pdf",
+   "htmlTitle": "CS 221 \u003cb\u003eInformation Retrieval\u003c/b\u003e Projects.pdf",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/cs221W12/slides/CS%20221%20Information%20Retrieval%20Projects.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "CRISTINA VIDEIRA LOPES. CS 221 Information Retrieval. Projects ... Goal:   retrieve Wikipedia pages related to the query and order them according to   relevance ...",
+   "htmlSnippet": "CRISTINA VIDEIRA LOPES. CS 221 \u003cb\u003eInformation Retrieval\u003c/b\u003e. Projects \u003cb\u003e...\u003c/b\u003e Goal: \u003cbr\u003e  retrieve Wikipedia pages related to the query and order them according to \u003cbr\u003e  relevance \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "NVIbYnyooJ8J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/.../CS%20221%20Information%20Retrieval%20Projects.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/.../CS%20221%20\u003cb\u003eInformation\u003c/b\u003e%20\u003cb\u003eRetrieval\u003c/b\u003e%20Projects.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Cristina Lopes",
+      "creator": "Microsoft PowerPoint",
+      "producer": "Mac OS X 10.5.8 Quartz PDFContext",
+      "creationdate": "D:20120111215108Z00'00'",
+      "moddate": "D:20120111215108Z00'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Processing Spatial-Keyword (SK) Queries in Geographic Information ...",
+   "htmlTitle": "Processing Spatial-Keyword (SK) Queries in Geographic \u003cb\u003eInformation\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~chenli/pub/2007-SSDBM.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "plications as Geographic Information Retrieval (GIR) Sys- tems. An example GIR   system that we address in this paper is a search engine built on top of hundreds ...",
+   "htmlSnippet": "plications as Geographic \u003cb\u003eInformation Retrieval\u003c/b\u003e (GIR) Sys- tems. An example GIR \u003cbr\u003e  system that we address in this paper is a search engine built on top of hundreds \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "se2A_cIR3j8J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~chenli/pub/2007-SSDBM.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~chenli/pub/2007-SSDBM.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20070712123225-04'",
+      "author": "Ramaswamy Hariharan",
+      "title": "Processing Spatial-Keyword (SK) Queries in Geographic Information Retrieval (GIR) Systems",
+      "producer": "Acrobat Distiller 5.0 (Windows)",
+      "creator": "gnuplot 4.2 patchlevel 0",
+      "creationdate": "D:20070408232521Z"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "INF 141 / CS 121 - Information Retrieval",
+   "htmlTitle": "INF 141 / CS 121 - \u003cb\u003eInformation Retrieval\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/inf141W12/index.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "An introduction to information retrieval including indexing, retrieval, classifying,   and clustering text and multimedia documents. Book. Introduction to Information ...",
+   "htmlSnippet": "An introduction to \u003cb\u003einformation retrieval\u003c/b\u003e including indexing, retrieval, classifying, \u003cbr\u003e  and clustering text and multimedia documents. Book. Introduction to Information \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "eVJRLlGLMZQJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/inf141W12/index.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/inf141W12/index.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Supporting BioMedical Information Retrieval: The BioTracer Approach",
+   "htmlTitle": "Supporting BioMedical \u003cb\u003eInformation Retrieval\u003c/b\u003e: The BioTracer Approach",
+   "link": "http://www.ics.uci.edu/~chenli/pub/2011-TLDKS.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Supporting BioMedical Information Retrieval: The BioTracer Approach. *. Heri   Ramampiaro1 and Chen Li2. 1. Department of Computer and Information   Science ...",
+   "htmlSnippet": "Supporting BioMedical \u003cb\u003eInformation Retrieval\u003c/b\u003e: The BioTracer Approach. *. Heri \u003cbr\u003e  Ramampiaro1 and Chen Li2. 1. Department of Computer and Information \u003cbr\u003e  Science \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "3y_pwrmwPYUJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~chenli/pub/2011-TLDKS.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~chenli/pub/2011-TLDKS.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20110722165003+05'30'",
+      "creator": "LaTeX with hyperref package",
+      "moddate": "D:20110722165003+05'30'",
+      "producer": "Acrobat Distiller 9.0.0 (Windows)"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Rate Adapting Poisson Model for Information Retrieval and ...",
+   "htmlTitle": "The Rate Adapting Poisson Model for \u003cb\u003eInformation Retrieval\u003c/b\u003e and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~welling/publications/papers/rap_icml06_final.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "The Rate Adapting Poisson Model for Information Retrieval and Object   Recognition. Peter V. Gehler. PGEHLER@TUEBINGEN.MPG.DE. Max Planck   Institute for ...",
+   "htmlSnippet": "The Rate Adapting Poisson Model for \u003cb\u003eInformation Retrieval\u003c/b\u003e and Object \u003cbr\u003e  Recognition. Peter V. Gehler. PGEHLER@TUEBINGEN.MPG.DE. Max Planck \u003cbr\u003e  Institute for \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "Om8k07ZrbkMJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~welling/publications/papers/rap_icml06_final.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~welling/publications/papers/rap_icml06_final.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "GPL Ghostscript 8.01",
+      "creationdate": "D:20060515191234",
+      "moddate": "D:20060515191234",
+      "creator": "dvips(k) 5.92b Copyright 2002 Radical Eye Software",
+      "title": "rap_icml06_final.dvi"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Winter 2009: Informatics 141 : Information Retrieval : Home",
+   "htmlTitle": "Winter 2009: Informatics 141 : \u003cb\u003eInformation Retrieval\u003c/b\u003e : Home",
+   "link": "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/index.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Informatics 141: Information Retrieval: ... \"An introduction to information retrieval   including indexing, retrieval, classifying, and clustering text and multimedia ...",
+   "htmlSnippet": "Informatics 141: \u003cb\u003eInformation Retrieval\u003c/b\u003e: \u003cb\u003e...\u003c/b\u003e &quot;An introduction to \u003cb\u003einformation retrieval\u003c/b\u003e \u003cbr\u003e  including indexing, retrieval, classifying, and clustering text and multimedia \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "7TLZKAfaR4QJ",
+   "formattedUrl": "www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/index.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/index.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/Misc/wordle.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "345",
+      "height": "146",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm3SdZ_NejDVMKTCDp0cSbRIvQbCIfVrPsYfNJD04BtbozCBzRA6fsQ0U"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "CS 221, Information Retrieval, Winter 2009-2010 Department of ...",
+   "htmlTitle": "CS 221, \u003cb\u003eInformation Retrieval\u003c/b\u003e, Winter 2009-2010 Department of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/index.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Computer Science 221: Information Retrieval. Winter 2009-2010. Department of   Informatics. Donald Bren School of Information and Computer Sciences ...",
+   "htmlSnippet": "Computer Science 221: \u003cb\u003eInformation Retrieval\u003c/b\u003e. Winter 2009-2010. Department of \u003cbr\u003e  Informatics. Donald Bren School of Information and Computer Sciences \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "6Klrjc_C7-sJ",
+   "formattedUrl": "www.ics.uci.edu/~djp3/classes/2010_01_CS221/index.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~djp3/classes/2010_01_CS221/index.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Tangible Interface for Collaborative Information Retrieval",
+   "htmlTitle": "Tangible Interface for Collaborative \u003cb\u003eInformation Retrieval\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~jen/Papers/lb212-blackwell.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Tangible Interface for Collaborative Information Retrieval. Alan F. Blackwell, Mark   Stringer, Eleanor F. Toye and Jennifer A. Rode. Computer Laboratory ...",
+   "htmlSnippet": "Tangible Interface for Collaborative \u003cb\u003eInformation Retrieval\u003c/b\u003e. Alan F. Blackwell, Mark \u003cbr\u003e  Stringer, Eleanor F. Toye and Jennifer A. Rode. Computer Laboratory \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "j5lJdjFBGw4J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~jen/Papers/lb212-blackwell.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~jen/Papers/lb212-blackwell.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20040225170635Z",
+      "creationdate": "D:20040225170531Z",
+      "title": "Microsoft Word - lb212-blackwell.doc",
+      "creator": "PScript5.dll Version 5.2",
+      "author": "jen",
+      "producer": "Acrobat Distiller 6.0 (Windows)"
+     }
+    ]
+   }
+  }
+ ]
+}

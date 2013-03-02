@@ -1,0 +1,262 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - graduate courses",
+    "totalResults": "3320",
+    "searchTerms": "graduate courses",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - graduate courses",
+    "totalResults": "3320",
+    "searchTerms": "graduate courses",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.162035,
+  "formattedSearchTime": "0.16",
+  "totalResults": "3320",
+  "formattedTotalResults": "3,320"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Graduate Education @ UC Irvine, Bren:ICS",
+   "htmlTitle": "\u003cb\u003eGraduate\u003c/b\u003e Education @ UC Irvine, Bren:ICS",
+   "link": "http://www.ics.uci.edu/grad/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jan 4, 2013 ... We invite you to explore our graduate studies brochure (PDF, 19MB), areas of ...   Plan your schedule with the draft of courses the Bren School is ...",
+   "htmlSnippet": "Jan 4, 2013 \u003cb\u003e...\u003c/b\u003e We invite you to explore our \u003cb\u003egraduate studies\u003c/b\u003e brochure (PDF, 19MB), areas of \u003cb\u003e...\u003c/b\u003e \u003cbr\u003e  Plan your schedule with the draft of courses the Bren School is \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "k_PnqJLO1HUJ",
+   "formattedUrl": "www.ics.uci.edu/grad/",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/bin/img/photos/objects/admission.gif"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "88",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAlaqyqUKXs9LCwmlwmXkFbtRxGei_9jMxjlPpYodF77gx9rMNGypXPg"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Fri, 04 Jan 2013 14:29:11 -0320"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "graduate course listing @ the bren school of information and ...",
+   "htmlTitle": "\u003cb\u003egraduate course\u003c/b\u003e listing @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/index.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Sep 24, 2012 ... Graduate course listing. This is a tentative schedule of CompSci, Informatics,   Networked Systems and Statistics courses that the Bren School is ...",
+   "htmlSnippet": "Sep 24, 2012 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eGraduate course\u003c/b\u003e listing. This is a tentative schedule of CompSci, Informatics, \u003cbr\u003e  Networked Systems and Statistics courses that the Bren School is \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "19biiIw1sUYJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/index.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/index.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:19 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "This site will look much better in a browser that supports web ...",
+   "htmlTitle": "This site will look much better in a browser that supports web \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/listing.php?year=2013&level=Graduate&department=CS&program=ALL",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Note: This is a TENTATIVE schedule. The course listings shown ...",
+   "htmlSnippet": "Note: This is a TENTATIVE schedule. The \u003cb\u003ecourse\u003c/b\u003e listings shown \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "KGWp9hiGSdgJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/listing.php?year...Graduate...",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/listing.php?year...\u003cb\u003eGraduate\u003c/b\u003e...",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:19 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "This site will look much better in a browser that supports web ...",
+   "htmlTitle": "This site will look much better in a browser that supports web \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/listing.php?year=2013&level=ALL&department=INF&program=0IN4MATX",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Note: This is a TENTATIVE schedule. The course listings shown here are neither   guaranteed, nor considered \"final\". Department Chairs may provide updated ...",
+   "htmlSnippet": "Note: This is a TENTATIVE schedule. The \u003cb\u003ecourse\u003c/b\u003e listings shown here are neither \u003cbr\u003e  guaranteed, nor considered &quot;final&quot;. Department Chairs may provide updated \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "o25bfvrvh5AJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/listing.php?year=2013&level...",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/listing.php?year=2013&amp;level...",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:19 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "computer science degree @ the bren school of information and ...",
+   "htmlTitle": "computer science degree @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/degrees/degree_cs.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jan 9, 2013 ... Two of these courses can be graduate courses offered by a department outside   of ICS with written consent of the advisor. (M.S. students must ...",
+   "htmlSnippet": "Jan 9, 2013 \u003cb\u003e...\u003c/b\u003e Two of these courses can be \u003cb\u003egraduate courses\u003c/b\u003e offered by a department outside \u003cbr\u003e  of ICS with written consent of the advisor. (M.S. students must \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "Uqx81Otu6AkJ",
+   "formattedUrl": "www.ics.uci.edu/grad/degrees/degree_cs.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/degrees/degree_cs.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Wed, 09 Jan 2013 10:34:16 -0320"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Donald Bren School of Information and Computer Sciences ...",
+   "htmlTitle": "Donald Bren School of Information and Computer Sciences \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Graduate · » Apply · » Degrees · » Tuition and costs · » Courses · » FAQ · »   Research areas · » Policies & forms · » Contact a counselor · » Graduate housing ...",
+   "htmlSnippet": "\u003cb\u003eGraduate\u003c/b\u003e &middot; » Apply &middot; » Degrees &middot; » Tuition and costs &middot; » \u003cb\u003eCourses\u003c/b\u003e &middot; » FAQ &middot; » \u003cbr\u003e  Research areas &middot; » Policies &amp; forms &middot; » Contact a counselor &middot; » \u003cb\u003eGraduate\u003c/b\u003e housing \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "DwtQQEMCmp4J",
+   "formattedUrl": "www.ics.uci.edu/",
+   "htmlFormattedUrl": "www.ics.uci.edu/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/community/events/techspeakers2013/Wilson.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "242",
+      "height": "208",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_UFZLt1lTOucH2XH4UV0MTnhY9fIby6AVr6uV0qRHr3egWbEEZuCRGM3A"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Thu, 21 Feb 2013 09:26:32 -0320"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "graduate student policies/forms @ the bren school of information ...",
+   "htmlTitle": "\u003cb\u003egraduate\u003c/b\u003e student policies/forms @ the bren school of information \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/policies/index.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Sep 24, 2012 ... If you have taken a graduate course at another University, and believe that it is   identical to a Bren School course, please contact the Bren ...",
+   "htmlSnippet": "Sep 24, 2012 \u003cb\u003e...\u003c/b\u003e If you have taken a \u003cb\u003egraduate course\u003c/b\u003e at another University, and believe that it is \u003cbr\u003e  identical to a Bren School course, please contact the Bren \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "BRk7F8kAcYsJ",
+   "formattedUrl": "www.ics.uci.edu/grad/policies/index.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/policies/index.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:15 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "This site will look much better in a browser that supports web ...",
+   "htmlTitle": "This site will look much better in a browser that supports web \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/listing.php?year=2013&level=ALL&department=ICS&program=ALL",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Bren school home \u003e Graduate \u003e Courses. Course Listing for 2013-14. Note: This   is a TENTATIVE schedule. The course listings shown here are neither ...",
+   "htmlSnippet": "Bren school home &gt; \u003cb\u003eGraduate\u003c/b\u003e &gt; \u003cb\u003eCourses\u003c/b\u003e. Course Listing for 2013-14. Note: This \u003cbr\u003e  is a TENTATIVE schedule. The course listings shown here are neither \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "r6vaqZHMvLsJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/listing.php?year=2013&level...",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/listing.php?year=2013&amp;level...",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:15 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "graduate course listing @ the bren school of information and ...",
+   "htmlTitle": "\u003cb\u003egraduate course\u003c/b\u003e listing @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/listing.php?year=2012&level=Graduate&department=CS&program=ALL",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Bren school home \u003e Graduate \u003e Courses. Course Listing for 2012-13. Note: This   is a TENTATIVE schedule. The course listings shown here are neither ...",
+   "htmlSnippet": "Bren school home &gt; \u003cb\u003eGraduate\u003c/b\u003e &gt; \u003cb\u003eCourses\u003c/b\u003e. Course Listing for 2012-13. Note: This \u003cbr\u003e  is a TENTATIVE schedule. The course listings shown here are neither \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "YTdT5QmMRugJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/listing.php?year...Graduate...",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/listing.php?year...\u003cb\u003eGraduate\u003c/b\u003e...",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:19 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "This site will look much better in a browser that supports web ...",
+   "htmlTitle": "This site will look much better in a browser that supports web \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/courses/listing.php?year=2012&level=ALL&department=STATS&program=0IN4MATX",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Sep 24, 2012 ... Bren school home \u003e Graduate \u003e Courses. Course Listing for 2012-13. Note: This   is a TENTATIVE schedule. The course listings shown here are ...",
+   "htmlSnippet": "Sep 24, 2012 \u003cb\u003e...\u003c/b\u003e Bren school home &gt; \u003cb\u003eGraduate\u003c/b\u003e &gt; \u003cb\u003eCourses\u003c/b\u003e. Course Listing for 2012-13. Note: This \u003cbr\u003e  is a TENTATIVE schedule. The course listings shown here are \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "gWMykFk3SxAJ",
+   "formattedUrl": "www.ics.uci.edu/grad/courses/listing.php?year=2012&level...",
+   "htmlFormattedUrl": "www.ics.uci.edu/\u003cb\u003egrad\u003c/b\u003e/\u003cb\u003ecourses\u003c/b\u003e/listing.php?year=2012&amp;level...",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:19 -0380"
+     }
+    ]
+   }
+  }
+ ]
+}

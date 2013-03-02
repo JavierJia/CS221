@@ -1,0 +1,290 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - machine learning",
+    "totalResults": "6990",
+    "searchTerms": "machine learning",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - machine learning",
+    "totalResults": "6990",
+    "searchTerms": "machine learning",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.25401,
+  "formattedSearchTime": "0.25",
+  "totalResults": "6990",
+  "formattedTotalResults": "6,990"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "UCI Machine Learning Repository",
+   "htmlTitle": "UCI \u003cb\u003eMachine Learning\u003c/b\u003e Repository",
+   "link": "http://www.ics.uci.edu/~mlearn/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "A repository of databases, domain theories and data generators ...",
+   "htmlSnippet": "A repository of databases, domain theories and data generators \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "yZvKLzcSdCAJ",
+   "formattedUrl": "www.ics.uci.edu/~mlearn/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~mlearn/"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Machine Learning for User Modeling",
+   "htmlTitle": "\u003cb\u003eMachine Learning\u003c/b\u003e for User Modeling",
+   "link": "http://www.ics.uci.edu/~pazzani/Publications/webb.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Machine Learning for User Modeling. GEOFFREY I. WEBB1, MICHAEL J.   PAZZANI2 and DANIEL BILLSUS2. 1School of Computing and Mathematics,   Deakin ...",
+   "htmlSnippet": "\u003cb\u003eMachine Learning\u003c/b\u003e for User Modeling. GEOFFREY I. WEBB1, MICHAEL J. \u003cbr\u003e  PAZZANI2 and DANIEL BILLSUS2. 1School of Computing and Mathematics, \u003cbr\u003e  Deakin \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "1y8tQnCWxgQJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~pazzani/Publications/webb.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~pazzani/Publications/webb.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20010324112451",
+      "producer": "Acrobat Distiller 3.01 for Windows",
+      "creator": "3B2 Total Publishing 6.03d/W",
+      "title": "User188 19..29",
+      "moddate": "D:20010330112333+02'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "A First Encounter with Machine Learning - Donald Bren School of ...",
+   "htmlTitle": "A First Encounter with \u003cb\u003eMachine Learning\u003c/b\u003e - Donald Bren School of \u003cb\u003e...\u003c/b\u003e",
+   "link": "https://www.ics.uci.edu/~welling/teaching/273ASpring10/IntroMLBook.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "A First Encounter with Machine Learning. Max Welling. Donald Bren School of   Information and Computer Science. University of California Irvine. April 21, 2010 ...",
+   "htmlSnippet": "A First Encounter with \u003cb\u003eMachine Learning\u003c/b\u003e. Max Welling. Donald Bren School of \u003cbr\u003e  Information and Computer Science. University of California Irvine. April 21, 2010 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "6tBM_JWYAyUJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "https://www.ics.uci.edu/~welling/teaching/273ASpring10/IntroMLBook.pdf",
+   "htmlFormattedUrl": "https://www.ics.uci.edu/~welling/teaching/273ASpring10/IntroMLBook.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "GPL Ghostscript 8.63",
+      "creationdate": "D:20100421170025-07'00'",
+      "moddate": "D:20100421170025-07'00'",
+      "creator": "dvips(k) 5.97 Copyright 2008 Radical Eye Software",
+      "title": "IntroMLBook.dvi"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Commercial Applications of Machine Learning for ... - CiteSeerX",
+   "htmlTitle": "Commercial Applications of \u003cb\u003eMachine Learning\u003c/b\u003e for \u003cb\u003e...\u003c/b\u003e - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~pazzani/Publications/Pricai2002.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Commercial Applications of Machine Learning for. Personalized Wireless Portals.   Michael J. Pazzani. Abstract. Consumers and businesses have access to vast ...",
+   "htmlSnippet": "Commercial Applications of \u003cb\u003eMachine Learning\u003c/b\u003e for. Personalized Wireless Portals. \u003cbr\u003e  Michael J. Pazzani. Abstract. Consumers and businesses have access to vast \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "YVhWpVKq_uwJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~pazzani/Publications/Pricai2002.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~pazzani/Publications/Pricai2002.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20030211091106",
+      "producer": "Acrobat Distiller 4.0 for Windows",
+      "creator": "Windows NT 4.0",
+      "title": "Microsoft Word - PazzaniPricai.doc",
+      "moddate": "D:20030211091108-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "A Machine Learning Approach to Predict Chemical Reactions - NIPS",
+   "htmlTitle": "A \u003cb\u003eMachine Learning\u003c/b\u003e Approach to Predict Chemical Reactions - NIPS",
+   "link": "http://www.ics.uci.edu/~mkayala/docs/KayalaBaldiNips2011.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "A Machine Learning Approach to Predict Chemical. Reactions. Matthew A.   Kayala Pierre Baldi∗. Institute of Genomics and Bioinformatics. School of   Information ...",
+   "htmlSnippet": "A \u003cb\u003eMachine Learning\u003c/b\u003e Approach to Predict Chemical. Reactions. Matthew A. \u003cbr\u003e  Kayala Pierre Baldi∗. Institute of Genomics and Bioinformatics. School of \u003cbr\u003e  Information \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "pzinseVtT_wJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~mkayala/docs/KayalaBaldiNips2011.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~mkayala/docs/KayalaBaldiNips2011.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "GPL Ghostscript 8.54",
+      "creationdate": "D:20111026125844",
+      "moddate": "D:20111026125844",
+      "creator": "dvips(k) 5.96 Copyright 2005 Radical Eye Software",
+      "title": "mkreact_nips2011_finalpreprint.dvi"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Between meaning and machine: Learning to ... - David Ribes",
+   "htmlTitle": "Between meaning and \u003cb\u003emachine\u003c/b\u003e: \u003cb\u003eLearning\u003c/b\u003e to \u003cb\u003e...\u003c/b\u003e - David Ribes",
+   "link": "http://www.ics.uci.edu/~gbowker/publications/Ribes%20Bowker%20-%20Between%20Meaning%20and%20Machine.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Between meaning and machine: Learning to represent the knowledge of   communities. David Ribes a,*, Geoffrey C. Bowker b a Georgetown University ...",
+   "htmlSnippet": "Between meaning and \u003cb\u003emachine\u003c/b\u003e: \u003cb\u003eLearning\u003c/b\u003e to represent the knowledge of \u003cbr\u003e  communities. David Ribes a,*, Geoffrey C. Bowker b a Georgetown University \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "0_Ky3zGIHzEJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/.../Ribes%20Bowker%20- %20Between%20Meaning%20and%20Machine.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/.../Ribes%20Bowker%20- %20Between%20Meaning%20and%20\u003cb\u003eMachine\u003c/b\u003e.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20090519113920+05'30'",
+      "author": "\"David Ribes; Geoffrey C. Bowker\"",
+      "creator": "Elsevier",
+      "producer": "Acrobat Distiller 8.1.0 (Windows)",
+      "authoritativedomain_1_": "sciencedirect.com",
+      "authoritativedomain_2_": "elsevier.com",
+      "moddate": "D:20090519114101+05'30'",
+      "title": "Between meaning and machine: Learning to represent the knowledge of communities"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Machine Learning Structural and Functional Proteomics - CiteSeerX",
+   "htmlTitle": "\u003cb\u003eMachine Learning\u003c/b\u003e Structural and Functional Proteomics - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~pfbaldi/publications/journals/ieeev2.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Machine Learning Structural and Functional Proteomics. Pierre Baldi* and   Gianluca Pollastri. Department of Information and Computer Science. Institute for ...",
+   "htmlSnippet": "\u003cb\u003eMachine Learning\u003c/b\u003e Structural and Functional Proteomics. Pierre Baldi* and \u003cbr\u003e  Gianluca Pollastri. Department of Information and Computer Science. Institute for \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "rlgydHKPiQUJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~pfbaldi/publications/journals/ieeev2.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~pfbaldi/publications/journals/ieeev2.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20011125084545",
+      "producer": "Acrobat Distiller 4.0 for Windows",
+      "creator": "dvips 5.66 (MiKTeX 1.07) Copyright 1997 Radical Eye Software (www.radicaleye.com)",
+      "title": "ieeev2.dvi",
+      "moddate": "D:20011125084545-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "artificial intelligence and machine learning @ the bren school of ...",
+   "htmlTitle": "artificial intelligence and \u003cb\u003emachine learning\u003c/b\u003e @ the bren school of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/faculty/area/area_ai.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jun 11, 2012 ... Research in artificial intelligence and machine learning addresses some of the   most exciting and challenging problems in computer science ...",
+   "htmlSnippet": "Jun 11, 2012 \u003cb\u003e...\u003c/b\u003e Research in artificial intelligence and \u003cb\u003emachine learning\u003c/b\u003e addresses some of the \u003cbr\u003e  most exciting and challenging problems in computer science \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "7QTZPXP4zKEJ",
+   "formattedUrl": "www.ics.uci.edu/faculty/area/area_ai.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/faculty/area/area_ai.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 11 Jun 2012 10:58:28 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Max Welling's Home Page",
+   "htmlTitle": "Max Welling&#39;s Home Page",
+   "link": "http://www.ics.uci.edu/~welling/classnotes/classnotes.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Max Welling's Classnotes in Machine Learning. Statistical Estimation [ps] -   bayesian estimation - maximum a posteriori (MAP) estimation - maximum   likelihood ...",
+   "htmlSnippet": "Max Welling&#39;s Classnotes in \u003cb\u003eMachine Learning\u003c/b\u003e. Statistical Estimation [ps] - \u003cbr\u003e  bayesian estimation - maximum a posteriori (MAP) estimation - maximum \u003cbr\u003e  likelihood \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "U4-GbMqB_-4J",
+   "formattedUrl": "www.ics.uci.edu/~welling/classnotes/classnotes.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~welling/classnotes/classnotes.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~welling/WELLLING%20011_408x272.shkl.JPG"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "275",
+      "height": "183",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5cLFI6757mqlslPQXps4_4_0qmSAT755YXl1TIu1uFf8YpignOwg1kK0"
+     }
+    ],
+    "metatags": [
+     {
+      "progid": "Word.Document",
+      "originator": "Microsoft Word 11"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Alexander Ihler",
+   "htmlTitle": "Alexander Ihler",
+   "link": "http://www.ics.uci.edu/~ihler/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "I work in artificial intelligence and machine learning, focusing on statistical   methods for learning from data and on approximate inference techniques for ...",
+   "htmlSnippet": "I work in artificial intelligence and \u003cb\u003emachine learning\u003c/b\u003e, focusing on statistical \u003cbr\u003e  methods for learning from data and on approximate inference techniques for \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "UE98N5zOzIwJ",
+   "formattedUrl": "www.ics.uci.edu/~ihler/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~ihler/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~ihler/ati04.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "120",
+      "height": "120",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnSvQAmySLBqmdflV2AMs4wqy9ql9M38QgscNonYvefad5EHl0xOHTg"
+     }
+    ]
+   }
+  }
+ ]
+}

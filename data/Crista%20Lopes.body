@@ -1,0 +1,256 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - Crista Lopes",
+    "totalResults": "171",
+    "searchTerms": "Crista Lopes",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - Crista Lopes",
+    "totalResults": "171",
+    "searchTerms": "Crista Lopes",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.119451,
+  "formattedSearchTime": "0.12",
+  "totalResults": "171",
+  "formattedTotalResults": "171"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Crista Lopes Home Page at UCI",
+   "htmlTitle": "\u003cb\u003eCrista Lopes\u003c/b\u003e Home Page at UCI",
+   "link": "http://www.ics.uci.edu/~lopes/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Cristina Videira Lopes Professor Department of Informatics Donald Bren School   of Information and Computer Sciences University of California Irvine, CA 92697 ...",
+   "htmlSnippet": "Cristina Videira \u003cb\u003eLopes\u003c/b\u003e Professor Department of Informatics Donald Bren School \u003cbr\u003e  of Information and Computer Sciences University of California Irvine, CA 92697 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "6fmj-zUKGW0J",
+   "formattedUrl": "www.ics.uci.edu/~lopes/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~lopes/pics/crista.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "191",
+      "height": "265",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOAPSVlMwH2JYob3A4fyY2iISgHB2fCjzK0uV0BbIfh1tdBBwalA61wIg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Crista Lopes' publications",
+   "htmlTitle": "\u003cb\u003eCrista Lopes\u003c/b\u003e&#39; publications",
+   "link": "http://www.ics.uci.edu/~lopes/publications.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Publications. R. Jurdak, A.G. Ruzzelli, G.M.P. O'Hare, and C. V. Lopes. \"Mote-  based Underwater Sensor Networks: Opportunities, Challenges, and Guidelines\"  , ...",
+   "htmlSnippet": "Publications. R. Jurdak, A.G. Ruzzelli, G.M.P. O&#39;Hare, and C. V. \u003cb\u003eLopes\u003c/b\u003e. &quot;Mote-\u003cbr\u003e  based Underwater Sensor Networks: Opportunities, Challenges, and Guidelines&quot;\u003cbr\u003e  , \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "I2N879JDQ7YJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/publications.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/publications.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Crista Lopes' patents",
+   "htmlTitle": "\u003cb\u003eCrista Lopes\u003c/b\u003e&#39; patents",
+   "link": "http://www.ics.uci.edu/~lopes/patents.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Patents. \"Design by Contract with Aspect-Oriented Programming\" Cristina Lopes;   Martin Lippert; and Erik Hilsdale. U.S. Patent No. 6,442,750. Issued August 27 ...",
+   "htmlSnippet": "Patents. &quot;Design by Contract with Aspect-Oriented Programming&quot; Cristina \u003cb\u003eLopes\u003c/b\u003e; \u003cbr\u003e  Martin Lippert; and Erik Hilsdale. U.S. Patent No. 6,442,750. Issued August 27 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "1MkykrGVnLIJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/patents.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/patents.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Thomas Debeauvais - UCI",
+   "htmlTitle": "Thomas Debeauvais - UCI",
+   "link": "http://www.ics.uci.edu/~tdebeauv/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "I'm a PhD student in the Informatics department of UCI , and my advisor is Crista   Lopes. I'm interested in MMOs , software engineering, scalability, game design, ...",
+   "htmlSnippet": "I&#39;m a PhD student in the Informatics department of UCI , and my advisor is \u003cb\u003eCrista\u003c/b\u003e \u003cbr\u003e  \u003cb\u003eLopes\u003c/b\u003e. I&#39;m interested in MMOs , software engineering, scalability, game design, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "97ziwPgRa5IJ",
+   "formattedUrl": "www.ics.uci.edu/~tdebeauv/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~tdebeauv/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~tdebeauv/img/photo.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "132",
+      "height": "164",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTdW9x65lnGTI_vb5Q7PyS1Bk3LiNtQH0-AC6Fi4sxMxpK7vJ3QD2ZnHL4"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "AOP Home Page at UCI",
+   "htmlTitle": "AOP Home Page at UCI",
+   "link": "http://www.ics.uci.edu/~lopes/aop/aop-pics.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "From left: Gregor Kiczales, Jim Hugunin, Crista Lopes, Bill Griswold and Mik   Kersten. Presentation at PARC Forum 3/2000. From left: Bill Griswold, Jim   Hugunin, ...",
+   "htmlSnippet": "From left: Gregor Kiczales, Jim Hugunin, \u003cb\u003eCrista Lopes\u003c/b\u003e, Bill Griswold and Mik \u003cbr\u003e  Kersten. Presentation at PARC Forum 3/2000. From left: Bill Griswold, Jim \u003cbr\u003e  Hugunin, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "zBTMyTg1SnIJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/aop/aop-pics.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/aop/aop-pics.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~lopes/pics/AOP-Parc-Forum.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNetfF1EkTwBmxmxCRwv3_GYiK5HnZTI1qJusCbv7b0JxoZc1jTe3a1mc"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Beyond AOP - Donald Bren School of Information and Computer ...",
+   "htmlTitle": "Beyond AOP - Donald Bren School of Information and Computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/documents/oopsla03/oopslaonward03.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Cristina Videira Lopes, Paul Dourish. School of Information and Computer   Science. University of California, Irvine. Irvine, CA 92697. +1-949-824-1525/8127 ...",
+   "htmlSnippet": "Cristina Videira \u003cb\u003eLopes\u003c/b\u003e, Paul Dourish. School of Information and Computer \u003cbr\u003e  Science. University of California, Irvine. Irvine, CA 92697. +1-949-824-1525/8127 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "8Euz3fFvnaYJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~lopes/documents/oopsla03/oopslaonward03.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/documents/oopsla03/oopslaonward03.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "cameraready2.doc - Microsoft Word",
+      "creationdate": "D:20030825112642",
+      "title": "cameraready2.doc",
+      "author": "lopes",
+      "producer": "Acrobat PDFWriter 5.0 for Windows NT"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Slides",
+   "htmlTitle": "Slides",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/inf141W12/slides/LSI.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "INF 141. IR METRICS. LATENT SEMANTIC ANALYSIS. AND INDEXING. Crista   Lopes. Page 2. Outline. □ Precision and Recall. □ The problem with indexing ...",
+   "htmlSnippet": "INF 141. IR METRICS. LATENT SEMANTIC ANALYSIS. AND INDEXING. \u003cb\u003eCrista\u003c/b\u003e \u003cbr\u003e  \u003cb\u003eLopes\u003c/b\u003e. Page 2. Outline. □ Precision and Recall. □ The problem with indexing \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "93G2bJgI_HcJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/inf141W12/slides/LSI.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/teaching/inf141W12/slides/LSI.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "title": "LSI.pptx",
+      "author": "Cristina Lopes",
+      "creator": "Microsoft PowerPoint",
+      "producer": "Mac OS X 10.5.8 Quartz PDFContext",
+      "creationdate": "D:20110302214830Z00'00'",
+      "moddate": "D:20110302214830Z00'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "research highlights @ the bren school of information and computer ...",
+   "htmlTitle": "research highlights @ the bren school of information and computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "https://www.ics.uci.edu/faculty/highlights/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Nov 14, 2012 ... A local company is designing a futuristic transport system and Crista Lopes, a   professor of informatics, is modeling its logic-control layer on ...",
+   "htmlSnippet": "Nov 14, 2012 \u003cb\u003e...\u003c/b\u003e A local company is designing a futuristic transport system and \u003cb\u003eCrista Lopes\u003c/b\u003e, a \u003cbr\u003e  professor of informatics, is modeling its logic-control layer on \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "s9h7PQCiSa0J",
+   "formattedUrl": "https://www.ics.uci.edu/faculty/highlights/",
+   "htmlFormattedUrl": "https://www.ics.uci.edu/faculty/highlights/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.informatics.uci.edu/bin/img/photos/faculty/wmt.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "65",
+      "height": "83",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROfH-sxr4s3Z7FcaBjtG8CXyLZqY6xmpVzGKbHsMcSpgJUsuo62drH"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Wed, 14 Nov 2012 15:11:18 -0320"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "AOP Home Page at UCI",
+   "htmlTitle": "AOP Home Page at UCI",
+   "link": "http://www.ics.uci.edu/~lopes/aop/aop.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "For project ideas and general information, please contact Prof. Crista Lopes.   Note that some of the ideas in AOP have been patented by the Xerox Corporation  .",
+   "htmlSnippet": "For project ideas and general information, please contact Prof. \u003cb\u003eCrista Lopes\u003c/b\u003e. \u003cbr\u003e  Note that some of the ideas in AOP have been patented by the Xerox Corporation\u003cbr\u003e  .",
+   "cacheId": "pW76aKBIpCEJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/aop/aop.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/aop/aop.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Digital Voices Home Page at UCI",
+   "htmlTitle": "Digital Voices Home Page at UCI",
+   "link": "http://www.ics.uci.edu/~lopes/dv/dv.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "... the \"Listen\" list on the left. If you can do it, I would like to hear from you! For   checking your result and for general information, please contact Prof. Crista   Lopes.",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e the &quot;Listen&quot; list on the left. If you can do it, I would like to hear from you! For \u003cbr\u003e  checking your result and for general information, please contact Prof. \u003cb\u003eCrista\u003c/b\u003e \u003cbr\u003e  \u003cb\u003eLopes\u003c/b\u003e.",
+   "cacheId": "el4_LI6xg6EJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/dv/dv.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~\u003cb\u003elopes\u003c/b\u003e/dv/dv.html"
+  }
+ ]
+}

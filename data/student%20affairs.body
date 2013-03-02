@@ -1,0 +1,255 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - student affairs",
+    "totalResults": "301",
+    "searchTerms": "student affairs",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - student affairs",
+    "totalResults": "301",
+    "searchTerms": "student affairs",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.12387,
+  "formattedSearchTime": "0.12",
+  "totalResults": "301",
+  "formattedTotalResults": "301"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "student affairs office @ the bren school of information and computer ...",
+   "htmlTitle": "\u003cb\u003estudent affairs\u003c/b\u003e office @ the bren school of information and computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/about/search/search_sao.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... Karina Bocanegra k.bocanegra@uci.edu. Graduate Counselor (949) 824-5156.   ICS 352. Kris Bolcer kris@ics.uci.edu. Director (949) 824-5156 ...",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e Karina Bocanegra k.bocanegra@uci.edu. Graduate Counselor (949) 824-5156. \u003cbr\u003e  ICS 352. Kris Bolcer kris@ics.uci.edu. Director (949) 824-5156 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "2oTuJN6MnvUJ",
+   "formattedUrl": "www.ics.uci.edu/about/search/search_sao.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/about/search/search_sao.php",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/bin/img/photos/staff/mstasik.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "65",
+      "height": "83",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRW8CZ4zKDqRDIQL7QP7hQBWJbD7jaO8Qg6fhqORyTJeKYjORxQBpsJ2w"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:42:18 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "contact a counselor @ the bren school of information and computer ...",
+   "htmlTitle": "contact a counselor @ the bren school of information and computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/ugrad/sao/index.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... The Bren School Student Affairs Office has relocated to: Information and   Computer Science, Suite 352 (building #302 on campus map).",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e The Bren School \u003cb\u003eStudent Affairs\u003c/b\u003e Office has relocated to: Information and \u003cbr\u003e  Computer Science, Suite 352 (building #302 on campus map).",
+   "cacheId": "dp8jXIOeLukJ",
+   "formattedUrl": "www.ics.uci.edu/ugrad/sao/index.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/ugrad/sao/index.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:44:12 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Student Affairs « Contact « BREN: Information and Computer ...",
+   "htmlTitle": "\u003cb\u003eStudent Affairs\u003c/b\u003e « Contact « BREN: Information and Computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/prospective/en/contact/student-affairs/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Student Affairs. Bren:ICS academic advisors assist all Bren:ICS majors, from start   to finish of their academic career. School-based academic advising begins with ...",
+   "htmlSnippet": "\u003cb\u003eStudent Affairs\u003c/b\u003e. Bren:ICS academic advisors assist all Bren:ICS majors, from start \u003cbr\u003e  to finish of their academic career. School-based academic advising begins with \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "C_fGugV33AUJ",
+   "formattedUrl": "www.ics.uci.edu/prospective/en/contact/student-affairs/",
+   "htmlFormattedUrl": "www.ics.uci.edu/prospective/en/contact/\u003cb\u003estudent\u003c/b\u003e-\u003cb\u003eaffairs\u003c/b\u003e/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/prospective/img/contact-student-affairs-img.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJAj-pezwW9RrCRu_s-MkmWAFuZdm3Zggl_e-oLZ6SO5-jsD9g14SuXcNf"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "contact a counselor @ the bren school of information and computer ...",
+   "htmlTitle": "contact a counselor @ the bren school of information and computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/sao/index.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Sep 24, 2012 ... The Bren School Student Affairs Office is located in the Information and Computer   Science Building, Suite 352 (building #302 on campus map).",
+   "htmlSnippet": "Sep 24, 2012 \u003cb\u003e...\u003c/b\u003e The Bren School \u003cb\u003eStudent Affairs\u003c/b\u003e Office is located in the Information and Computer \u003cbr\u003e  Science Building, Suite 352 (building #302 on campus map).",
+   "cacheId": "W6yHwNIjpgkJ",
+   "formattedUrl": "www.ics.uci.edu/grad/sao/index.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/grad/sao/index.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:16 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "annual report 2005-06 student affairs @ the bren school of ...",
+   "htmlTitle": "annual report 2005-06 \u003cb\u003estudent affairs\u003c/b\u003e @ the bren school of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/about/annualreport/2005-06/sao.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jun 11, 2012 ... The Student Affairs Office (SAO) is staffed by nine professionals and several peer   advisors who are committed to the success of our students, ...",
+   "htmlSnippet": "Jun 11, 2012 \u003cb\u003e...\u003c/b\u003e The \u003cb\u003eStudent Affairs\u003c/b\u003e Office (SAO) is staffed by nine professionals and several peer \u003cbr\u003e  advisors who are committed to the success of our students, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "rdLPs15bhEwJ",
+   "formattedUrl": "www.ics.uci.edu/about/annualreport/2005-06/sao.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/about/annualreport/2005-06/sao.php"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "2006-07 annual report student affairs @ the bren school of ...",
+   "htmlTitle": "2006-07 annual report \u003cb\u003estudent affairs\u003c/b\u003e @ the bren school of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/about/annualreport/2006-07/sao.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jun 11, 2012 ... The Student Affairs Office (SAO) is staffed by nine professionals and several peer   advisors who are committed to the success of our students, ...",
+   "htmlSnippet": "Jun 11, 2012 \u003cb\u003e...\u003c/b\u003e The \u003cb\u003eStudent Affairs\u003c/b\u003e Office (SAO) is staffed by nine professionals and several peer \u003cbr\u003e  advisors who are committed to the success of our students, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "2TzcUOeGBRAJ",
+   "formattedUrl": "www.ics.uci.edu/about/annualreport/2006-07/sao.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/about/annualreport/2006-07/sao.php"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Second baccalaureate policy for Computer Science (PDF, 85kb",
+   "htmlTitle": "Second baccalaureate policy for Computer Science (PDF, 85kb",
+   "link": "http://www.ics.uci.edu/bin/pdf/ugrad/cs/bs_cs_second_bacc.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "ICS Student Affairs Office ucounsel@uci.edu. (949) 824-5156. Donald Bren   School of Information and Computer Sciences. Second Baccalaureate Policy for   the ...",
+   "htmlSnippet": "ICS \u003cb\u003eStudent Affairs\u003c/b\u003e Office ucounsel@uci.edu. (949) 824-5156. Donald Bren \u003cbr\u003e  School of Information and Computer Sciences. Second Baccalaureate Policy for \u003cbr\u003e  the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "9a2qurVC0i4J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/bin/pdf/ugrad/cs/bs_cs_second_bacc.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/bin/pdf/ugrad/cs/bs_cs_second_bacc.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Eric Kowalik",
+      "creator": "Word",
+      "creationdate": "D:20080116163246-08'00'",
+      "moddate": "D:20080116163246-08'00'",
+      "producer": "Mac OS X 10.4.11 Quartz PDFContext",
+      "title": "Microsoft Word - Second Baccalaureate Policy for CS and ICS.doc"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ICS 90: New Student Seminar",
+   "htmlTitle": "ICS 90: New \u003cb\u003eStudent\u003c/b\u003e Seminar",
+   "link": "http://www.ics.uci.edu/~pattis/ICS-90/index.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Tu: 11/27, Tony Givargis (Associate Dean for Student Affairs, Student Affairs   Office), Introduction to Embedded Systems. Th: 11/29, Deva Ramanan Rich/  David: ...",
+   "htmlSnippet": "Tu: 11/27, Tony Givargis (Associate Dean for \u003cb\u003eStudent Affairs\u003c/b\u003e, \u003cb\u003eStudent Affairs\u003c/b\u003e \u003cbr\u003e  Office), Introduction to Embedded Systems. Th: 11/29, Deva Ramanan Rich/\u003cbr\u003e  David: \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "wtYkopB-GwYJ",
+   "formattedUrl": "www.ics.uci.edu/~pattis/ICS-90/index.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~pattis/ICS-90/index.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "undergraduate student faq @ the bren school of information and ...",
+   "htmlTitle": "undergraduate \u003cb\u003estudent\u003c/b\u003e faq @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/ugrad/qa/index.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... General Student Affairs Information. Why and when should ... Why and when   should I talk to the Associate Dean for Student Affairs? Where do I ...",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e General \u003cb\u003eStudent Affairs\u003c/b\u003e Information. Why and when should \u003cb\u003e...\u003c/b\u003e Why and when \u003cbr\u003e  should I talk to the Associate Dean for \u003cb\u003eStudent Affairs\u003c/b\u003e? Where do I \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "qZozaxI4-F0J",
+   "formattedUrl": "www.ics.uci.edu/ugrad/qa/index.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/ugrad/qa/index.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:44:11 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "dean's office @ the bren school of information and computer sciences",
+   "htmlTitle": "dean&#39;s office @ the bren school of information and computer sciences",
+   "link": "http://www.ics.uci.edu/about/search/search_dean.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... Professor, Assoc. Dean for Student Affairs (949) 824-9357. DBH 3076. Beth   Mersky bmersky@uci.edu. Dean's Office Assistant (949) 824-7427 ...",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e Professor, Assoc. Dean for \u003cb\u003eStudent Affairs\u003c/b\u003e (949) 824-9357. DBH 3076. Beth \u003cbr\u003e  Mersky bmersky@uci.edu. Dean&#39;s Office Assistant (949) 824-7427 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "KumbpEgeqtwJ",
+   "formattedUrl": "www.ics.uci.edu/about/search/search_dean.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/about/search/search_dean.php",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/bin/img/photos/faculty/sternh.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "65",
+      "height": "83",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrjmMjtCjjhRRSU_cwBG5EUcfkHvIlvz-iCdJn-iN9wyUp9_ja0PrqPw"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:42:17 -0380"
+     }
+    ]
+   }
+  }
+ ]
+}

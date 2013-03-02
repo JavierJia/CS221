@@ -1,0 +1,226 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - mondego",
+    "totalResults": "14",
+    "searchTerms": "mondego",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - mondego",
+    "totalResults": "14",
+    "searchTerms": "mondego",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.20219,
+  "formattedSearchTime": "0.20",
+  "totalResults": "14",
+  "formattedTotalResults": "14"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Crista Lopes Home Page at UCI",
+   "htmlTitle": "Crista Lopes Home Page at UCI",
+   "link": "http://www.ics.uci.edu/~lopes/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "My interests have expanded considerably since then. To find out about my   current projects and students, follow the links on the left or visit the mondego   pages.",
+   "htmlSnippet": "My interests have expanded considerably since then. To find out about my \u003cbr\u003e  current projects and students, follow the links on the left or visit the \u003cb\u003emondego\u003c/b\u003e \u003cbr\u003e  pages.",
+   "cacheId": "6fmj-zUKGW0J",
+   "formattedUrl": "www.ics.uci.edu/~lopes/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~lopes/pics/crista.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "191",
+      "height": "265",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOAPSVlMwH2JYob3A4fyY2iISgHB2fCjzK0uV0BbIfh1tdBBwalA61wIg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "INF 102 Winter 2006 Teacher: Prof. Cristina V. Lopes T.A. : Trung C ...",
+   "htmlTitle": "INF 102 Winter 2006 Teacher: Prof. Cristina V. Lopes T.A. : Trung C \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/inf102W06/homework/hw5/README.txt",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "It can be downloaded from here: http://mondego.calit2.uci.edu:3000/download/  ruby-sqllite-pack.zip 1) unzip the package to a folder. For example: c:\\opt\\ruby 2) ...",
+   "htmlSnippet": "It can be downloaded from here: http://\u003cb\u003emondego\u003c/b\u003e.calit2.uci.edu:3000/download/\u003cbr\u003e  ruby-sqllite-pack.zip 1) unzip the package to a folder. For example: c:\\opt\\ruby 2) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "jyv5o9t9VwMJ",
+   "mime": "text/plain",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W06/.../hw5/README.txt",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W06/.../hw5/README.txt"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "INF 102 Winter 2007 ...",
+   "htmlTitle": "INF 102 Winter 2007 \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/inf102W08/homework/hw5%20-%20Ruby%20on%20Rails/README.txt",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "It can be downloaded from here: http://mondego.calit2.uci.edu:3000/download/  ruby-sqllite-pack.zip 1) unzip the package to a folder. For example: c:\\opt\\ruby 2) ...",
+   "htmlSnippet": "It can be downloaded from here: http://\u003cb\u003emondego\u003c/b\u003e.calit2.uci.edu:3000/download/\u003cbr\u003e  ruby-sqllite-pack.zip 1) unzip the package to a folder. For example: c:\\opt\\ruby 2) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "kO99hv3AvUUJ",
+   "mime": "text/plain",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W08/.../README.txt",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W08/.../README.txt"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "STEP 1: Using Remote Desktop logon to mondego.calit2.ics.uci.edu ...",
+   "htmlTitle": "STEP 1: Using Remote Desktop logon to \u003cb\u003emondego\u003c/b\u003e.calit2.ics.uci.edu \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/inf102W06/code/sql/README.txt",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "STEP 1: Using Remote Desktop logon to mondego.calit2.ics.uci.edu STEP 2: At   command line, go to the following directory C:\\teaching\\inf102\\sql\u003e STEP 3: Run ...",
+   "htmlSnippet": "STEP 1: Using Remote Desktop logon to \u003cb\u003emondego\u003c/b\u003e.calit2.ics.uci.edu STEP 2: At \u003cbr\u003e  command line, go to the following directory C:\\teaching\\inf102\\sql&gt; STEP 3: Run \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "nqfuVHLE7LIJ",
+   "mime": "text/plain",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W06/code/.../README.txt",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/inf102W06/code/.../README.txt"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Calico - Mondego Group",
+   "htmlTitle": "Calico - \u003cb\u003eMondego\u003c/b\u003e Group",
+   "link": "http://www.ics.uci.edu/~nmangano/calico-inf191/calicoclient-webstart_mondegogroup.jnlp",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Calico - Mondego Group UCI-Informatics: Software Design and Collaboration   Laboratory -ipaddress calico.ics.uci.edu -port 36008 -defaultusername ...",
+   "htmlSnippet": "Calico - \u003cb\u003eMondego\u003c/b\u003e Group UCI-Informatics: Software Design and Collaboration \u003cbr\u003e  Laboratory -ipaddress calico.ics.uci.edu -port 36008 -defaultusername \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "BWuSl7bFEoYJ",
+   "mime": "text/xml",
+   "formattedUrl": "www.ics.uci.edu/.../calico.../calicoclient-webstart_mondegogroup.jnlp",
+   "htmlFormattedUrl": "www.ics.uci.edu/.../calico.../calicoclient-webstart_\u003cb\u003emondego\u003c/b\u003egroup.jnlp"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ICS 105:Human Computer Interaction Project Course",
+   "htmlTitle": "ICS 105:Human Computer Interaction Project Course",
+   "link": "http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/AnteaterIdol.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Instruction Team. Prof. Donald J. Patterson · Nick Noack , TA ...",
+   "htmlSnippet": "Instruction Team. Prof. Donald J. Patterson &middot; Nick Noack , TA \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "I63qyuqt-ycJ",
+   "formattedUrl": "www.ics.uci.edu/~djp3/classes/2006_03_30.../AnteaterIdol.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~djp3/classes/2006_03_30.../AnteaterIdol.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/AnteaterIdol/TeamNinjaSS.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "251",
+      "height": "201",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSILwhMpCElwbmGoFZNo13rh_pOrA3UsE13yXw9WadCic51kKEdcbf5DNI"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Slides - University of California, Irvine",
+   "htmlTitle": "Slides - University of California, Irvine",
+   "link": "http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/Lectures/searching_software_cs221_2008.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Nov 24, 2008 ... Baldi Group - Institute for Genomics and. Bioinformatics. ▫ Professor Pierre Baldi.   ▫ Paul Rigor. ▫ Mondego Group – Institute for Software ...",
+   "htmlSnippet": "Nov 24, 2008 \u003cb\u003e...\u003c/b\u003e Baldi Group - Institute for Genomics and. Bioinformatics. ▫ Professor Pierre Baldi. \u003cbr\u003e  ▫ Paul Rigor. ▫ \u003cb\u003eMondego\u003c/b\u003e Group – Institute for Software \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "yJ7wW_aA0cMJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~djp3/classes/.../searching_software_cs221_2008.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~djp3/classes/.../searching_software_cs221_2008.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20081125163019-08'00'",
+      "creator": "Acrobat PDFMaker 8.0 for PowerPoint",
+      "producer": "Acrobat Distiller 8.0.0 (Windows)",
+      "moddate": "D:20081125163027-08'00'",
+      "title": "Slide 1"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Goal: Implement a complete search engine for the ICS domain. At ...",
+   "htmlTitle": "Goal: Implement a complete search engine for the ICS domain. At \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~lopes/teaching/cs221W13/assignments/Project3.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Milestone #2. The following queries should be used to tune the performance of   your search engine: 1 - mondego. 2- machine learning. 3- software engineering ...",
+   "htmlSnippet": "Milestone #2. The following queries should be used to tune the performance of \u003cbr\u003e  your search engine: 1 - \u003cb\u003emondego\u003c/b\u003e. 2- machine learning. 3- software engineering \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "4ud0pDJn3HIJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~lopes/teaching/cs221W13/assignments/Project3.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/teaching/cs221W13/assignments/Project3.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Joel",
+      "creator": "Microsoft® Word 2010",
+      "creationdate": "D:20130120115551-08'00'",
+      "moddate": "D:20130120115551-08'00'",
+      "producer": "Microsoft® Word 2010"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "UCI Source Code Data Set: SDS_source-repo-18k",
+   "htmlTitle": "UCI Source Code Data Set: SDS_source-repo-18k",
+   "link": "http://www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "... {{SourcererDB:} An aggregated repository of statically analyzed and cross-  linked open source Java projects}, Year = {2009}}. Loading... (c) the mondego   group.",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e {{SourcererDB:} An aggregated repository of statically analyzed and cross-\u003cbr\u003e  linked open source Java projects}, Year = {2009}}. Loading... (c) the \u003cb\u003emondego\u003c/b\u003e \u003cbr\u003e  group.",
+   "cacheId": "55r062eX2FYJ",
+   "formattedUrl": "www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "UCI Source Code Data Sets",
+   "htmlTitle": "UCI Source Code Data Sets",
+   "link": "http://www.ics.uci.edu/~lopes/datasets/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "... Bren School of Information and Computer Sciences\" }. This work has been   partially supported by the National Science Foundation. (c) the mondego group.",
+   "htmlSnippet": "\u003cb\u003e...\u003c/b\u003e Bren School of Information and Computer Sciences&quot; }. This work has been \u003cbr\u003e  partially supported by the National Science Foundation. (c) the \u003cb\u003emondego\u003c/b\u003e group.",
+   "cacheId": "ZaAYFoYzfJ8J",
+   "formattedUrl": "www.ics.uci.edu/~lopes/datasets/",
+   "htmlFormattedUrl": "www.ics.uci.edu/~lopes/datasets/"
+  }
+ ]
+}
