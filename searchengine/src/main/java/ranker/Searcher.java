@@ -26,7 +26,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
@@ -37,7 +36,6 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
-import org.apache.lucene.util.Version;
 
 import analysis.NgramAnalyzer;
 
@@ -58,8 +56,8 @@ public class Searcher {
 
 		reader = DirectoryReader.open(FSDirectory.open(new File(index)));
 		searcher = new IndexSearcher(reader);
-		analyzer = new NgramAnalyzer(Version.LUCENE_41);
-//		analyzer = new StandardAnalyzer(Indexer.version);
+		analyzer = new NgramAnalyzer(Indexer.version);
+		// analyzer = new StandardAnalyzer(Indexer.version);
 	}
 
 	public void searching() throws IOException, ParseException {
@@ -148,7 +146,7 @@ public class Searcher {
 				if (raw) { // output raw format
 					System.out.println("doc=" + hits[i].doc + " score="
 							+ hits[i].score);
-//					continue;
+					// continue;
 				}
 
 				Document doc = searcher.doc(hits[i].doc);

@@ -11,7 +11,6 @@ import java.util.HashSet;
 import java.util.Map;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.FloatField;
@@ -25,9 +24,8 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-import analysis.NgramAnalyzer;
-
 import util.MD5;
+import analysis.NgramAnalyzer;
 
 public class Indexer {
 	public static final Version version = Version.LUCENE_41;
@@ -51,7 +49,7 @@ public class Indexer {
 		INDEXPATH = indexPath;
 
 		Analyzer analyzer = new NgramAnalyzer(Version.LUCENE_41);
-//		Analyzer analyzer = new StandardAnalyzer(version);
+		// Analyzer analyzer = new StandardAnalyzer(version);
 		IndexWriterConfig iwc = new IndexWriterConfig(version, analyzer);
 		iwc.setOpenMode(OpenMode.CREATE);
 		Directory dir = FSDirectory.open(new File(INDEXPATH));
