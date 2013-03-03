@@ -19,6 +19,7 @@ package ranker;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Date;
@@ -29,8 +30,8 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
@@ -52,7 +53,7 @@ public class Searcher {
 	public Searcher(String indexPath) throws IOException, ParseException {
 		String index = indexPath;
 		boosts.put(Indexer.CONTENT_FIELD, 1.0f);
-		boosts.put(Indexer.TITLE_FIELD, 2.0f);
+		boosts.put(Indexer.TITLE_FIELD, 1.0f);
 
 		reader = DirectoryReader.open(FSDirectory.open(new File(index)));
 		searcher = new IndexSearcher(reader);
@@ -60,7 +61,7 @@ public class Searcher {
 		// analyzer = new StandardAnalyzer(Indexer.version);
 	}
 
-	public void searching() throws IOException, ParseException {
+	public void interactiveSearching() throws IOException, ParseException {
 		String queries = null;
 		int repeat = 0;
 		boolean raw = true;
@@ -68,10 +69,10 @@ public class Searcher {
 		int hitsPerPage = 10;
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-		// MultiFieldQueryParser parser = new
-		// MultiFieldQueryParser(Version.LUCENE_41, fields, analyzer, boosts);
-		QueryParser parser = new QueryParser(Indexer.version, fields[0],
-				analyzer);
+		MultiFieldQueryParser parser = new MultiFieldQueryParser(
+				Indexer.version, fields, analyzer, boosts);
+		// QueryParser parser = new QueryParser(Indexer.version, fields[0],
+		// analyzer);
 		while (true) {
 			if (queries == null && queryString == null) { // prompt the user
 				System.out.println("Enter query: ");
@@ -208,6 +209,27 @@ public class Searcher {
 					break;
 				end = Math.min(numTotalHits, start + hitsPerPage);
 			}
+		}
+	}
+
+	public void batchSearching(File queryFile) throws IOException,
+			ParseException {
+		int hitsPerPage = 10;
+		MultiFieldQueryParser parser = new MultiFieldQueryParser(
+				Indexer.version, fields, analyzer, boosts);
+		BufferedReader in = new BufferedReader(new FileReader(queryFile));
+
+		String line;
+		
+		while ((line = in.readLine()) != null) {
+			line = line.trim();
+			if (line.length() == 0) {
+				break;
+			}
+			
+			Query query = parser.parse(line);
+			System.out.println("Query: " + line);
+			doPagingSearch(in, searcher, query, hitsPerPage, true,false);
 		}
 	}
 }

@@ -21,12 +21,13 @@ public class App {
 	 */
 	public static void main(String[] args) throws IOException, ParseException {
 		String usage = "java -jar index|search"
-				+ " [-index INDEX_PATH] [-docs DOCS_PATH] [-pagerank PAGERANK_FILE]"
+				+ " [-index INDEX_PATH] [-docs DOCS_PATH] [-queryfile queryfiles] [-pagerank PAGERANK_FILE]"
 				+ "This indexes the documents in DOCS_PATH, creating a Lucene index"
 				+ "in INDEX_PATH that can be searched with SearchFiles";
 		String indexPath = "index";
 		String docsPath = null;
 		String pageRankPath = null;
+		String queryFilePath = null;
 		boolean bIndex = false;
 		boolean bSearch = false;
 		if (args.length < 2) {
@@ -52,7 +53,10 @@ public class App {
 			} else if ("-pagerank".equalsIgnoreCase(args[i])) {
 				pageRankPath = args[i + 1];
 				i++;
+			} else if ("-queryfile".equalsIgnoreCase(args[i])){
+				queryFilePath = args[i+1];
 			}
+				
 		}
 
 		if (bIndex) {
@@ -96,7 +100,19 @@ public class App {
 
 		if (bSearch) {
 			Searcher searcher = new Searcher(indexPath);
-			searcher.searching();
+			if (queryFilePath == null){
+				searcher.interactiveSearching();
+			}else{
+				final File queryFile = new File(queryFilePath);
+				if (!queryFile.exists() || !queryFile.canRead()) {
+					System.out
+							.println("Document directory '"
+									+ queryFile.getAbsolutePath()
+									+ "' does not exist or is not readable, please check the path");
+					System.exit(1);
+				}
+				searcher.batchSearching(queryFile);
+			}
 		}
 	}
 }
