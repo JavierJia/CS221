@@ -8,6 +8,7 @@ import org.apache.lucene.analysis.core.LowerCaseFilter;
 import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.core.StopFilter;
 import org.apache.lucene.analysis.ngram.NGramTokenFilter;
+import org.apache.lucene.analysis.shingle.ShingleFilter;
 import org.apache.lucene.analysis.standard.StandardFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.util.CharArraySet;
@@ -63,7 +64,8 @@ public class NgramAnalyzer extends StopwordAnalyzerBase {
 		TokenStream tok = new StandardFilter(matchVersion, src);
 		tok = new LowerCaseFilter(matchVersion, tok);
 		tok = new StopFilter(matchVersion, tok, stopwords);
-		tok = new NGramTokenFilter(tok);
+		//tok = new NGramTokenFilter(tok);
+		tok = new ShingleFilter(tok, 2);
 		return new TokenStreamComponents(src, tok) {
 			@Override
 			protected void setReader(final Reader reader) throws IOException {

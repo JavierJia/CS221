@@ -13,9 +13,12 @@ import org.apache.lucene.queryparser.classic.ParseException;
  * 
  */
 public class App {
-	/** Index all text files under a directory. 
-	 * @throws ParseException 
-	 * @throws IOException */
+	/**
+	 * Index all text files under a directory.
+	 * 
+	 * @throws ParseException
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException, ParseException {
 		String usage = "java -jar index|search"
 				+ " [-index INDEX_PATH] [-docs DOCS_PATH] [-pagerank PAGERANK_FILE]"
