@@ -1,0 +1,230 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - REST",
+    "totalResults": "5000",
+    "searchTerms": "REST",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - REST",
+    "totalResults": "5000",
+    "searchTerms": "REST",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.13971,
+  "formattedSearchTime": "0.14",
+  "totalResults": "5000",
+  "formattedTotalResults": "5,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Representational State Transfer (REST)",
+   "htmlTitle": "Representational State Transfer (\u003cb\u003eREST\u003c/b\u003e)",
+   "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "This chapter introduces and elaborates the Representational State Transfer (  REST) architectural style for distributed hypermedia systems, describing the ...",
+   "htmlSnippet": "This chapter introduces and elaborates the Representational State Transfer (\u003cbr\u003e  \u003cb\u003eREST\u003c/b\u003e) architectural style for distributed hypermedia systems, describing the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "4Fu_OIEDW2QJ",
+   "formattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/\u003cb\u003erest\u003c/b\u003e_arch_style.htm",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~fielding/pubs/dissertation/early_web_arch.gif"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "252",
+      "height": "200",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRONLSzXkAeYAWi6vrWGD_Qm7K1zDRkiUZs_mcvGTJNd3HNS6yw1psRpi-"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Architectural Styles and the Design of Network-based Software ...",
+   "htmlTitle": "Architectural Styles and the Design of Network-based Software \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "CHAPTER 5: Representational State Transfer (REST) · 5.1 Deriving REST · 5.2   REST Architectural Elements · 5.3 REST Architectural Views · 5.4 Related Work ...",
+   "htmlSnippet": "CHAPTER 5: Representational State Transfer (\u003cb\u003eREST\u003c/b\u003e) &middot; 5.1 Deriving \u003cb\u003eREST\u003c/b\u003e &middot; 5.2 \u003cbr\u003e  \u003cb\u003eREST\u003c/b\u003e Architectural Elements &middot; 5.3 \u003cb\u003eREST\u003c/b\u003e Architectural Views &middot; 5.4 Related Work \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "qCYbtOnGM1wJ",
+   "formattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Fielding Dissertation: CHAPTER 6: Experience and Evaluation",
+   "htmlTitle": "Fielding Dissertation: CHAPTER 6: Experience and Evaluation",
+   "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Since 1994, the REST architectural style has been used to guide the design and   development of the architecture for the modern Web. This chapter describes the ...",
+   "htmlSnippet": "Since 1994, the \u003cb\u003eREST\u003c/b\u003e architectural style has been used to guide the design and \u003cbr\u003e  development of the architecture for the modern Web. This chapter describes the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "PHQd1UwNwp4J",
+   "formattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Extending the REpresentational State Transfer (REST) Architectural ...",
+   "htmlTitle": "Extending the REpresentational State Transfer (\u003cb\u003eREST\u003c/b\u003e) Architectural \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~rohit/ARRESTED-ICSE.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Extending the REpresentational State Transfer (REST). Architectural Style for   Decentralized Systems. Rohit Khare and Richard N. Taylor. University of   California ...",
+   "htmlSnippet": "Extending the REpresentational State Transfer (\u003cb\u003eREST\u003c/b\u003e). Architectural Style for \u003cbr\u003e  Decentralized Systems. Rohit Khare and Richard N. Taylor. University of \u003cbr\u003e  California \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "3dShcq-OYKsJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~rohit/ARRESTED-ICSE.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~rohit/AR\u003cb\u003eREST\u003c/b\u003eED-ICSE.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20040301014117-08'00'",
+      "moddate": "D:20040301014117-08'00'",
+      "producer": "PSNormalizer.framework"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Fielding Dissertation: Introduction",
+   "htmlTitle": "Fielding Dissertation: Introduction",
+   "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "REST provides a set of architectural constraints that, when applied as a whole, ...   I describe the software engineering principles guiding REST and the ...",
+   "htmlSnippet": "\u003cb\u003eREST\u003c/b\u003e provides a set of architectural constraints that, when applied as a whole, \u003cb\u003e...\u003c/b\u003e \u003cbr\u003e  I describe the software engineering principles guiding \u003cb\u003eREST\u003c/b\u003e and the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "7xVxP6blWZEJ",
+   "formattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "REST, Service Gateways",
+   "htmlTitle": "\u003cb\u003eREST\u003c/b\u003e, Service Gateways",
+   "link": "http://www.ics.uci.edu/~cs237/presentations/rest_gateways.pptx",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "REST – Representational State Transfer. Presented by: Gaurav Agashe. Agenda.   What is REST? Why REST? Where is REST used? Uniform Operations; When ...",
+   "htmlSnippet": "\u003cb\u003eREST\u003c/b\u003e – Representational State Transfer. Presented by: Gaurav Agashe. Agenda. \u003cbr\u003e  What is \u003cb\u003eREST\u003c/b\u003e? Why \u003cb\u003eREST\u003c/b\u003e? Where is \u003cb\u003eREST\u003c/b\u003e used? Uniform Operations; When \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "UJj-p-ToPKEJ",
+   "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+   "fileFormat": "Microsoft Powerpoint",
+   "formattedUrl": "www.ics.uci.edu/~cs237/presentations/rest_gateways.pptx",
+   "htmlFormattedUrl": "www.ics.uci.edu/~cs237/presentations/\u003cb\u003erest\u003c/b\u003e_gateways.pptx"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Principled Design of the Modern Web Architecture",
+   "htmlTitle": "Principled Design of the Modern Web Architecture",
+   "link": "http://www.ics.uci.edu/~taylor/documents/2002-REST-TOIT.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "State Transfer (REST) architectural style, developed as an abstract model of the   ... We describe the software engineering principles guiding REST and the inter- ...",
+   "htmlSnippet": "State Transfer (\u003cb\u003eREST\u003c/b\u003e) architectural style, developed as an abstract model of the \u003cbr\u003e  \u003cb\u003e...\u003c/b\u003e We describe the software engineering principles guiding \u003cb\u003eREST\u003c/b\u003e and the inter- \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "DxxHpTybbhgJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~taylor/documents/2002-REST-TOIT.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~taylor/documents/2002-\u003cb\u003eREST\u003c/b\u003e-TOIT.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20020617163749",
+      "producer": "Acrobat Distiller 3.0 for Power Macintosh",
+      "moddate": "D:20020617165359"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "printing - Donald Bren School of Information and Computer ...",
+   "htmlTitle": "printing - Donald Bren School of Information and Computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~rohit/Khare-Thesis-Duplex.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "UNIVERSITY OF CALIFORNIA,. IRVINE. Extending the REpresentational State   Transfer REST. Architectural Style for Decentralized Systems. DISSERTATION ...",
+   "htmlSnippet": "UNIVERSITY OF CALIFORNIA,. IRVINE. Extending the REpresentational State \u003cbr\u003e  Transfer \u003cb\u003eREST\u003c/b\u003e. Architectural Style for Decentralized Systems. DISSERTATION \u003cb\u003e...\u003c/b\u003e",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~rohit/Khare-Thesis-Duplex.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~rohit/Khare-Thesis-Duplex.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20040825113953-07'00'",
+      "moddate": "D:20040825120858-07'00'",
+      "producer": "PSNormalizer.framework"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Fielding Dissertation: Conclusions",
+   "htmlTitle": "Fielding Dissertation: Conclusions",
+   "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "REST is a coordinated set of architectural constraints that attempts to minimize   latency and network communication while at the same time maximizing the ...",
+   "htmlSnippet": "\u003cb\u003eREST\u003c/b\u003e is a coordinated set of architectural constraints that attempts to minimize \u003cbr\u003e  latency and network communication while at the same time maximizing the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "eSiH5Z_IDKwJ",
+   "formattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "the rest @ ::setbang:: [johanna brewer]",
+   "htmlTitle": "the \u003cb\u003erest\u003c/b\u003e @ ::setbang:: [johanna brewer]",
+   "link": "http://www.ics.uci.edu/~johannab/the-rest.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "I've never been able to make decisions, so for now my writing career has to take   a backseat to the PhD. I still write, just a bit more infrequently, and you can ...",
+   "htmlSnippet": "I&#39;ve never been able to make decisions, so for now my writing career has to take \u003cbr\u003e  a backseat to the PhD. I still write, just a bit more infrequently, and you can \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "N-IeTyDkts4J",
+   "formattedUrl": "www.ics.uci.edu/~johannab/the-rest.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~johannab/the-\u003cb\u003erest\u003c/b\u003e.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~johannab/images/background.gif"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "233",
+      "height": "216",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBJOEqL4UF1Pf2hTGm7tvfp9gYXQbE69r2K6U1QFjq0fVcLNULQbqhNiC9"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - security",
+    "totalResults": "4330",
+    "searchTerms": "security",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - security",
+    "totalResults": "4330",
+    "searchTerms": "security",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.143864,
+  "formattedSearchTime": "0.14",
+  "totalResults": "4330",
+  "formattedTotalResults": "4,330"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "linux security @ the bren school of information and computer sciences",
+   "htmlTitle": "linux \u003cb\u003esecurity\u003c/b\u003e @ the bren school of information and computer sciences",
+   "link": "http://www.ics.uci.edu/computing/linux/security.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... With the power and flexibility of Unix and Unix variants like Linux come many   potential security holes. To limit the vulnerability of your ...",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e With the power and flexibility of Unix and Unix variants like Linux come many \u003cbr\u003e  potential \u003cb\u003esecurity\u003c/b\u003e holes. To limit the vulnerability of your \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "JrWmnh4TS6AJ",
+   "formattedUrl": "www.ics.uci.edu/computing/linux/security.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/computing/linux/\u003cb\u003esecurity\u003c/b\u003e.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:46:49 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "AudES - an Expert System for Security Auditing Abstract - CiteSeerX",
+   "htmlTitle": "AudES - an Expert System for \u003cb\u003eSecurity\u003c/b\u003e Auditing Abstract - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~gts/paps/st90.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "AudES - an Expert System for Security Auditing. Gene Tsudik. Rita Summers. IBM   Los Angeles Scientific Center. Abstract. Computer security auditing constitutes ...",
+   "htmlSnippet": "AudES - an Expert System for \u003cb\u003eSecurity\u003c/b\u003e Auditing. Gene Tsudik. Rita Summers. IBM \u003cbr\u003e  Los Angeles Scientific Center. Abstract. Computer \u003cb\u003esecurity\u003c/b\u003e auditing constitutes \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "X5j7Jl3TbwYJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/st90.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/st90.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "TeX",
+      "producer": "pdfTeX-0.13d",
+      "creationdate": "D:20060206172500"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Security Issues in a Future Vehicular Network - University of ...",
+   "htmlTitle": "\u003cb\u003eSecurity\u003c/b\u003e Issues in a Future Vehicular Network - University of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~dsm/papers/sec001.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Security Issues in a Future Vehicular Network. Magda El Zarki, Sharad Mehrotra,   Gene Tsudik and Nalini Venkatasubramanian. Department of Information and ...",
+   "htmlSnippet": "\u003cb\u003eSecurity\u003c/b\u003e Issues in a Future Vehicular Network. Magda El Zarki, Sharad Mehrotra, \u003cbr\u003e  Gene Tsudik and Nalini Venkatasubramanian. Department of Information and \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "ubpL0Bmr-aUJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~dsm/papers/sec001.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~dsm/papers/sec001.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "Aladdin Ghostscript 6.01"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Weak Forward Security in Mediated RSA* Gene Tsudiki Department ...",
+   "htmlTitle": "Weak Forward \u003cb\u003eSecurity\u003c/b\u003e in Mediated RSA* Gene Tsudiki Department \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~gts/paps/t02.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "of splitting RSA private keys between the user and the Security Medi- ator (”•–). ...   Forward security is an important and desirable feature for signature schemes.",
+   "htmlSnippet": "of splitting RSA private keys between the user and the \u003cb\u003eSecurity\u003c/b\u003e Medi- ator (”•–). \u003cb\u003e...\u003c/b\u003e \u003cbr\u003e  Forward \u003cb\u003esecurity\u003c/b\u003e is an important and desirable feature for signature schemes.",
+   "cacheId": "HNBY8HaOHq8J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/t02.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/t02.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "AFPL Ghostscript 7.04",
+      "creator": "dvips(k) 5.86 Copyright 1999 Radical Eye Software",
+      "title": "fin.dvi",
+      "creationdate": "Wed Oct 16 07:37:06 2002"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SPROUT - Security and Privacy in Location-based MANETs/VANETs",
+   "htmlTitle": "SPROUT - \u003cb\u003eSecurity\u003c/b\u003e and Privacy in Location-based MANETs/VANETs",
+   "link": "http://www.ics.uci.edu/~keldefra/manet.htm",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Another important issue in location based MANET/VANETs is secure location   verification. We propose new techniques to securely verify locations of nodes in ...",
+   "htmlSnippet": "Another important issue in location based MANET/VANETs is \u003cb\u003esecure\u003c/b\u003e location \u003cbr\u003e  verification. We propose new techniques to securely verify locations of nodes in \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "5JM0ixsYZboJ",
+   "formattedUrl": "www.ics.uci.edu/~keldefra/manet.htm",
+   "htmlFormattedUrl": "www.ics.uci.edu/~keldefra/manet.htm",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/~keldefra/figs/manet.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "255",
+      "height": "197",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTw5SYurA2tjmCflyMXJ9lBWcWJId5mfyRngYJo4tZDWTt6wwG4zrRv9wk"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Security Issues in Policy Routing - Computer Science & Engineering",
+   "htmlTitle": "\u003cb\u003eSecurity\u003c/b\u003e Issues in Policy Routing - Computer Science &amp; Engineering",
+   "link": "http://www.ics.uci.edu/~gts/paps/et89.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Security. Issues in Policy. Routing. Deborah. Estrin and. Gene. Tsudikl. Computer  . Science. Department. University of Southern. California. Abstract. Routing ...",
+   "htmlSnippet": "\u003cb\u003eSecurity\u003c/b\u003e. Issues in Policy. Routing. Deborah. Estrin and. Gene. Tsudikl. Computer\u003cbr\u003e  . Science. Department. University of Southern. California. Abstract. Routing \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "0eloUNXUjkEJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/et89.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/et89.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:19990422160317",
+      "title": "Security Issues in Policy Routing",
+      "author": "Deborah Estrin and Gene Tsudik",
+      "creator": "Sony Electronic Publishing Services",
+      "producer": "Acrobat PDFWriter 3.02 for Windows",
+      "creationdate": "D:19990330154430"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Two Experiences Designing for Effective Security - University of ...",
+   "htmlTitle": "Two Experiences Designing for Effective \u003cb\u003eSecurity\u003c/b\u003e - University of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~jie/soups05.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Two Experiences Designing for Effective Security. Rogério de Paula, Xianghua   Ding, Paul Dourish, Kari Nies, Ben Pillet,. David Redmiles, Jie Ren, Jennifer ...",
+   "htmlSnippet": "Two Experiences Designing for Effective \u003cb\u003eSecurity\u003c/b\u003e. Rogério de Paula, Xianghua \u003cbr\u003e  Ding, Paul Dourish, Kari Nies, Ben Pillet,. David Redmiles, Jie Ren, Jennifer \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "2TpDAmDd0gAJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~jie/soups05.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~jie/soups05.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20050705090911-04'00'",
+      "creationdate": "D:20050530202929Z",
+      "title": "DePaula_03.pdf",
+      "creator": "PScript5.dll Version 5.2",
+      "author": "terrill",
+      "producer": "Acrobat Distiller 5.0.5 (Windows)"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Reducing the Cost of Security in Link-State Routing - CiteSeerX",
+   "htmlTitle": "Reducing the Cost of \u003cb\u003eSecurity\u003c/b\u003e in Link-State Routing - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~gts/paps/hpt96.ps.gz",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Reducing the Cost of Security in Link-State Routing. Ralf Hauser. McKinsey   Consulting. Z urich, Switzerland. hauser@acm.org. Tony Przygienda. Fore   Systems ...",
+   "htmlSnippet": "Reducing the Cost of \u003cb\u003eSecurity\u003c/b\u003e in Link-State Routing. Ralf Hauser. McKinsey \u003cbr\u003e  Consulting. Z urich, Switzerland. hauser@acm.org. Tony Przygienda. Fore \u003cbr\u003e  Systems \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "FCHA8DU2Ua4J",
+   "mime": "application/postscript",
+   "fileFormat": "Adobe PostScript",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/hpt96.ps.gz",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/hpt96.ps.gz",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "GNU Ghostscript 7.07",
+      "creator": "dvips 5.47 Copyright 1986-91 Radical Eye Software",
+      "title": "myown.dvi"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "1 Introduction: Security of Routing Protocols",
+   "htmlTitle": "1 Introduction: \u003cb\u003eSecurity\u003c/b\u003e of Routing Protocols",
+   "link": "http://www.ics.uci.edu/~gts/paps/hpt98.ps.gz",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Lowering Security Overhead in Link State Routing. Ralf Hauser y. McKinsey   Consulting. hauser@acm.org. Tony Przygienda. Lucent Bell Labs. prz@fore.com ...",
+   "htmlSnippet": "Lowering \u003cb\u003eSecurity\u003c/b\u003e Overhead in Link State Routing. Ralf Hauser y. McKinsey \u003cbr\u003e  Consulting. hauser@acm.org. Tony Przygienda. Lucent Bell Labs. prz@fore.com \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "OibJOTpoTN4J",
+   "mime": "application/postscript",
+   "fileFormat": "Adobe PostScript",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/hpt98.ps.gz",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/hpt98.ps.gz",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "GNU Ghostscript 7.07",
+      "creator": "dvips 5.58 Copyright 1986, 1994 Radical Eye Software",
+      "title": "new.dvi",
+      "creationdate": "Fri Jan  9 16:16:51 1998"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Visa Scheme for Inter-Organization Network Security - Computer ...",
+   "htmlTitle": "Visa Scheme for Inter-Organization Network \u003cb\u003eSecurity\u003c/b\u003e - Computer \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~gts/paps/et87.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Visa Scheme for Inter-Organization. Network. Security. Deborah. Estrin and.   Gene. Tsudik. Computer. Science. Department. University of Southern. California ...",
+   "htmlSnippet": "Visa Scheme for Inter-Organization. Network. \u003cb\u003eSecurity\u003c/b\u003e. Deborah. Estrin and. \u003cbr\u003e  Gene. Tsudik. Computer. Science. Department. University of Southern. California \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "jGtYAYn7nhYJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~gts/paps/et87.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~gts/paps/et87.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:19990422160605",
+      "title": "Visa Scheme for Inter-Organization Network Security",
+      "author": "Deborah Estrin and Gene Tsudik",
+      "creator": "Sony Electronic Publishing Services",
+      "producer": "Acrobat PDFWriter 3.02 for Windows",
+      "creationdate": "D:19990330154654"
+     }
+    ]
+   }
+  }
+ ]
+}

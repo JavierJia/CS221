@@ -1,0 +1,268 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - software engineering",
+    "totalResults": "4010",
+    "searchTerms": "software engineering",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - software engineering",
+    "totalResults": "4010",
+    "searchTerms": "software engineering",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.190936,
+  "formattedSearchTime": "0.19",
+  "totalResults": "4010",
+  "formattedTotalResults": "4,010"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Software Engineering (SE) « Degrees « BREN: Information and ...",
+   "htmlTitle": "\u003cb\u003eSoftware Engineering\u003c/b\u003e (SE) « Degrees « BREN: Information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/prospective/en/degrees/software-engineering/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "The Software Engineering major prepares students to be productive members of   software engineering teams in a variety of application domains, with focus on ...",
+   "htmlSnippet": "The \u003cb\u003eSoftware Engineering\u003c/b\u003e major prepares students to be productive members of \u003cbr\u003e  \u003cb\u003esoftware engineering\u003c/b\u003e teams in a variety of application domains, with focus on \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "8EOlDrZBTq0J",
+   "formattedUrl": "www.ics.uci.edu/prospective/en/degrees/software-engineering/",
+   "htmlFormattedUrl": "www.ics.uci.edu/prospective/en/degrees/\u003cb\u003esoftware\u003c/b\u003e-\u003cb\u003eengineering\u003c/b\u003e/"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "software engineering @ the bren school of information and ...",
+   "htmlTitle": "\u003cb\u003esoftware engineering\u003c/b\u003e @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/faculty/area/area_software",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Jun 11, 2012 ... Software has transformed society in dramatic and powerful ways; software   systems inform, control and enhance daily activities. Software ...",
+   "htmlSnippet": "Jun 11, 2012 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eSoftware\u003c/b\u003e has transformed society in dramatic and powerful ways; \u003cb\u003esoftware\u003c/b\u003e \u003cbr\u003e  systems inform, control and enhance daily activities. \u003cb\u003eSoftware\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "IbhYdQKwIFQJ",
+   "formattedUrl": "www.ics.uci.edu/faculty/area/area_software",
+   "htmlFormattedUrl": "www.ics.uci.edu/faculty/area/area_\u003cb\u003esoftware\u003c/b\u003e",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 11 Jun 2012 10:58:29 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Fundamental Rules of Software Engineering",
+   "htmlTitle": "The Fundamental Rules of \u003cb\u003eSoftware Engineering\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~emilyo/SimSE/se_rules.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "“The Fundamental Rules” of Software Engineering. 1) If you don't do a system   architectural design with well-defined interfaces, integration will be a big mess.",
+   "htmlSnippet": "“The Fundamental Rules” of \u003cb\u003eSoftware Engineering\u003c/b\u003e. 1) If you don&#39;t do a system \u003cbr\u003e  architectural design with well-defined interfaces, integration will be a big mess.",
+   "cacheId": "JgvTdXl0mzIJ",
+   "formattedUrl": "www.ics.uci.edu/~emilyo/SimSE/se_rules.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~emilyo/SimSE/se_rules.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "progid": "Word.Document",
+      "originator": "Microsoft Word 10"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "SOFTWARE ENGINEERING @ UCI",
+   "htmlTitle": "\u003cb\u003eSOFTWARE ENGINEERING\u003c/b\u003e @ UCI",
+   "link": "http://www.ics.uci.edu/prospective/pdf/se.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "SOFTWARE ENGINEERING @ UCI of my classmates have been able to start   their own companies, work as consultants for large multinational corporations, or ...",
+   "htmlSnippet": "\u003cb\u003eSOFTWARE ENGINEERING\u003c/b\u003e @ UCI of my classmates have been able to start \u003cbr\u003e  their own companies, work as consultants for large multinational corporations, or \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "9G0XcLIDhPcJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/prospective/pdf/se.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/prospective/pdf/se.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20120411154136-07'00'",
+      "creator": "Adobe InDesign CS4 (6.0.6)",
+      "moddate": "D:20120411154138-07'00'",
+      "producer": "Adobe PDF Library 9.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "software engineering degree @ the bren school of information and ...",
+   "htmlTitle": "\u003cb\u003esoftware engineering\u003c/b\u003e degree @ the bren school of information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/grad/degrees/degree_se.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Sep 24, 2012 ... Software Engineering (SE) (M.S. and Ph.D.) The field of Software Engineering is   concerned with the creation and analysis of the complex ...",
+   "htmlSnippet": "Sep 24, 2012 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eSoftware Engineering\u003c/b\u003e (SE) (M.S. and Ph.D.) The field of \u003cb\u003eSoftware Engineering\u003c/b\u003e is \u003cbr\u003e  concerned with the creation and analysis of the complex \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "nDFbqJtdJkEJ",
+   "formattedUrl": "www.ics.uci.edu/grad/degrees/degree_se.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/grad/degrees/degree_se.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 24 Sep 2012 08:25:13 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Teaching Software Engineering Using Simulation Games - CiteSeerX",
+   "htmlTitle": "Teaching \u003cb\u003eSoftware Engineering\u003c/b\u003e Using Simulation Games - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~emilyo/papers/ICSIE2004.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Teaching Software Engineering Using Simulation Games. Emily Oh Navarro,   Alex Baker, André van der Hoek. School of Information and Computer Science ...",
+   "htmlSnippet": "Teaching \u003cb\u003eSoftware Engineering\u003c/b\u003e Using Simulation Games. Emily Oh Navarro, \u003cbr\u003e  Alex Baker, André van der Hoek. School of Information and Computer Science \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "TOTQBQNdhRwJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~emilyo/papers/ICSIE2004.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~emilyo/papers/ICSIE2004.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20031031201442Z",
+      "creationdate": "D:20031031201442Z",
+      "title": "Microsoft Word - ICSIE2004-camera-ready.doc",
+      "creator": "Windows NT 4.0",
+      "producer": "Acrobat Distiller 5.0 (Windows)"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "an interactive simulation game for software - Donald Bren School of ...",
+   "htmlTitle": "an interactive simulation game for \u003cb\u003esoftware\u003c/b\u003e - Donald Bren School of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~andre/papers/C41.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "The typical software engineering education lacks a practi- cal experience of the ...   that simulates software engineering processes, and is de- signed specifically ...",
+   "htmlSnippet": "The typical \u003cb\u003esoftware engineering\u003c/b\u003e education lacks a practi- cal experience of the \u003cb\u003e...\u003c/b\u003e \u003cbr\u003e  that simulates \u003cb\u003esoftware engineering\u003c/b\u003e processes, and is de- signed specifically \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "gFsUWrbF0h8J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~andre/papers/C41.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~andre/papers/C41.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20040419102748-07'00'",
+      "creationdate": "D:20040419102748-07'00'",
+      "title": "Microsoft Word - CATE04-FINAL.doc",
+      "creator": "PScript5.dll Version 5.2",
+      "producer": "Acrobat Distiller 6.0 (Windows)",
+      "author": "andre"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Impact of Software Engineering Research on the Practice of ... - Adele",
+   "htmlTitle": "Impact of \u003cb\u003eSoftware Engineering\u003c/b\u003e Research on the Practice of \u003cb\u003e...\u003c/b\u003e - Adele",
+   "link": "http://www.ics.uci.edu/~andre/papers/J8.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "P1: JOL. ACMJ091-01. ACM-TRANSACTION. October 29, 2005. 3:11. Impact of   Software Engineering Research on the Practice of Software Configuration ...",
+   "htmlSnippet": "P1: JOL. ACMJ091-01. ACM-TRANSACTION. October 29, 2005. 3:11. Impact of \u003cbr\u003e  \u003cb\u003eSoftware Engineering\u003c/b\u003e Research on the Practice of Software Configuration \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "SkQVtwQ-vxIJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~andre/papers/J8.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~andre/papers/J8.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20051104104336+01'00'",
+      "creationdate": "D:20051028214456Z",
+      "title": "ACMJ091-01.tex",
+      "creator": "Textures.: LaserWriter 8 Z1-8.7.1",
+      "author": "ASINDU16",
+      "producer": "Acrobat Distiller 5.0.5 for Macintosh"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Software Engineering, IEEE Transactions on",
+   "htmlTitle": "\u003cb\u003eSoftware Engineering\u003c/b\u003e, IEEE Transactions on",
+   "link": "http://www.ics.uci.edu/~taylor/ics228/Spade.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "In the software engineering field, several Software. Engineering Environments (  SEE) have been developed to support and facilitate software development.",
+   "htmlSnippet": "In the \u003cb\u003esoftware engineering\u003c/b\u003e field, several Software. Engineering Environments (\u003cbr\u003e  SEE) have been developed to support and facilitate software development.",
+   "cacheId": "SWaxl5qNiJEJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~taylor/ics228/Spade.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~taylor/ics228/Spade.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "Thu Feb  4 09:07:10 1999",
+      "producer": "Acrobat PDFWriter 2.01 for Windows",
+      "creator": "IEEE",
+      "author": "IEEE",
+      "subject": "Periodical",
+      "moddate": "Thu Feb  4 09:07:36 1999"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Domain Ontologies in Software Engineering: 1 ... - CiteSeerX",
+   "htmlTitle": "Domain Ontologies in \u003cb\u003eSoftware Engineering\u003c/b\u003e: 1 \u003cb\u003e...\u003c/b\u003e - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~andre/informatics223s2007/musen.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Domain Ontologies in Software Engineering: Use of Protégé with the EON   Architecture. Mark A. Musen. Section on Medical Informatics. Stanford University ...",
+   "htmlSnippet": "Domain Ontologies in \u003cb\u003eSoftware Engineering\u003c/b\u003e: Use of Protégé with the EON \u003cbr\u003e  Architecture. Mark A. Musen. Section on Medical Informatics. Stanford University \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "4yTw9Fb0qDMJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~andre/informatics223s2007/musen.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~andre/informatics223s2007/musen.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:19970108111029",
+      "producer": "Acrobat Distiller 3.0 for Power Macintosh",
+      "moddate": "D:19970108111551"
+     }
+    ]
+   }
+  }
+ ]
+}

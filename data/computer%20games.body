@@ -1,0 +1,276 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - computer games",
+    "totalResults": "2090",
+    "searchTerms": "computer games",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - computer games",
+    "totalResults": "2090",
+    "searchTerms": "computer games",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "016661682708046640224:5t0ry0getxe",
+    "siteSearch": "ics.uci.edu"
+   }
+  ]
+ },
+ "context": {
+  "title": "Ics.uci.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.158286,
+  "formattedSearchTime": "0.16",
+  "totalResults": "2090",
+  "formattedTotalResults": "2,090"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Computer Game Science « Degrees « BREN: Information and ...",
+   "htmlTitle": "\u003cb\u003eComputer Game\u003c/b\u003e Science « Degrees « BREN: Information and \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/prospective/en/degrees/computer-game-science/",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "The Computer Game Science (CGS) major combines a solid foundation in   computer science with a focus on designing, building, and understanding   computer ...",
+   "htmlSnippet": "The \u003cb\u003eComputer Game\u003c/b\u003e Science (CGS) major combines a solid foundation in \u003cbr\u003e  computer science with a focus on designing, building, and understanding \u003cbr\u003e  computer \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "5-8ntT-YLrsJ",
+   "formattedUrl": "www.ics.uci.edu/prospective/en/degrees/computer-game-science/",
+   "htmlFormattedUrl": "www.ics.uci.edu/prospective/en/degrees/\u003cb\u003ecomputer\u003c/b\u003e-\u003cb\u003egame\u003c/b\u003e-science/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/prospective/img/degrees-cgs-img.png"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAD3awtI5nQbXVAAQQeZsEPqFV08Z51vjTbgSY2HZGKe5bD9xj2TxWF_u8"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "undergraduate degree in computer game science @ the bren school ...",
+   "htmlTitle": "undergraduate degree in \u003cb\u003ecomputer game\u003c/b\u003e science @ the bren school \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/ugrad/degrees/degree_cgs.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Mar 12, 2012 ... Degree Available: Major. The Computer Game Science (CGS) major combines a   solid foundation in computer science with a focus on ...",
+   "htmlSnippet": "Mar 12, 2012 \u003cb\u003e...\u003c/b\u003e Degree Available: Major. The \u003cb\u003eComputer Game\u003c/b\u003e Science (CGS) major combines a \u003cbr\u003e  solid foundation in computer science with a focus on \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "aEkW04rQhGMJ",
+   "formattedUrl": "www.ics.uci.edu/ugrad/degrees/degree_cgs.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/ugrad/degrees/degree_cgs.php",
+   "pagemap": {
+    "metatags": [
+     {
+      "date": "Mon, 12 Mar 2012 14:44:19 -0380"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Geometry in Action: Game Programming",
+   "htmlTitle": "Geometry in Action: \u003cb\u003eGame\u003c/b\u003e Programming",
+   "link": "http://www.ics.uci.edu/~eppstein/gina/vidgames.html",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Video game programming is closely related to computer graphics, but has its own   special needs -- often speed is much more important than verisimilitude.",
+   "htmlSnippet": "\u003cb\u003eVideo game\u003c/b\u003e programming is closely related to computer graphics, but has its own \u003cbr\u003e  special needs -- often speed is much more important than verisimilitude.",
+   "cacheId": "9Dm03wFF7mIJ",
+   "formattedUrl": "www.ics.uci.edu/~eppstein/gina/vidgames.html",
+   "htmlFormattedUrl": "www.ics.uci.edu/~eppstein/gina/vid\u003cb\u003egames\u003c/b\u003e.html"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "computer game science @ uci - Donald Bren School of Information ...",
+   "htmlTitle": "\u003cb\u003ecomputer game\u003c/b\u003e science @ uci - Donald Bren School of Information \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/ugrad/cgs.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Computer Games and Society. I wrote a paper about and analyzed the work of a   UCI anthropologist who studies World of Warcraft. Game Systems and Design ...",
+   "htmlSnippet": "\u003cb\u003eComputer Games\u003c/b\u003e and Society. I wrote a paper about and analyzed the work of a \u003cbr\u003e  UCI anthropologist who studies World of Warcraft. Game Systems and Design \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "X_io6rs-NF4J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/ugrad/cgs.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/ugrad/cgs.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20110325125720-07'00'",
+      "creator": "Adobe InDesign CS4 (6.0)",
+      "moddate": "D:20110331154149-07'00'",
+      "producer": "Adobe PDF Library 9.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Computer Games and Virtual Worlds for Health, Assistive ...",
+   "htmlTitle": "\u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds for Health, Assistive \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~wscacchi/GameLab/Scacchi-GfH-Talk-March11.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Therapeutics, and Performance. Enhancement. Walt Scacchi. Center for   Computer Games and Virtual Worlds. School of Information and Computer   Sciences ...",
+   "htmlSnippet": "Therapeutics, and Performance. Enhancement. Walt Scacchi. Center for \u003cbr\u003e  \u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds. School of Information and Computer \u003cbr\u003e  Sciences \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "4BLwd457XusJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~wscacchi/GameLab/Scacchi-GfH-Talk-March11.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~wscacchi/\u003cb\u003eGame\u003c/b\u003eLab/Scacchi-GfH-Talk-March11.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "Impress",
+      "producer": "OpenOffice.org 3.2",
+      "creationdate": "D:20110308221847-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Social Characters for Computer Games - CiteSeerX",
+   "htmlTitle": "Social Characters for \u003cb\u003eComputer Games\u003c/b\u003e - CiteSeerX",
+   "link": "http://www.ics.uci.edu/~wmt/pubs/ITSE05Tomlinson.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "1. Social Characters for Computer Games. Bill Tomlinson. ACE (Arts   Computation Engineering) program, University of California, Irvine. 430A   Computer Science ...",
+   "htmlSnippet": "1. Social Characters for \u003cb\u003eComputer Games\u003c/b\u003e. Bill Tomlinson. ACE (Arts \u003cbr\u003e  Computation Engineering) program, University of California, Irvine. 430A \u003cbr\u003e  Computer Science \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "xSMoXnox9QkJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~wmt/pubs/ITSE05Tomlinson.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~wmt/pubs/ITSE05Tomlinson.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "moddate": "D:20051208170712-08'00'",
+      "creationdate": "D:20050106004854-08'00'",
+      "creator": "Word",
+      "producer": "Mac OS X 10.3.6 Quartz PDFContext"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Creating Opportunitities for Computer Game R&D Projects (PDF",
+   "htmlTitle": "Creating Opportunitities for \u003cb\u003eComputer Game\u003c/b\u003e R&amp;D Projects (PDF",
+   "link": "http://www.ics.uci.edu/~wscacchi/GameLab/CGVW-Seminar-Jan2013.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Creating Opportunities for Computer. Game R&D Projects. Walt Scacchi and   friends. Center for Computer Games and Virtual Worlds and. Institute for Software ...",
+   "htmlSnippet": "Creating Opportunities for Computer. Game R&amp;D Projects. Walt Scacchi and \u003cbr\u003e  friends. Center for \u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds and. Institute for Software \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "ZHgmepN1VQoJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~wscacchi/GameLab/CGVW-Seminar-Jan2013.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~wscacchi/\u003cb\u003eGame\u003c/b\u003eLab/CGVW-Seminar-Jan2013.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "Impress",
+      "producer": "LibreOffice 3.6",
+      "creationdate": "D:20130116155809-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Center for Computer Games and Virtual Worlds (PDF - Donald Bren ...",
+   "htmlTitle": "Center for \u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds (PDF - Donald Bren \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~wscacchi/GameLab/CGVW-Dec2012.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Center for Computer Games and. Virtual Worlds. Walt Scacchi and others http://  cgvw.ics.uci.edu. University of California, Irvine. December 2012 ...",
+   "htmlSnippet": "Center for \u003cb\u003eComputer Games\u003c/b\u003e and. Virtual Worlds. Walt Scacchi and others http://\u003cbr\u003e  cgvw.ics.uci.edu. University of California, Irvine. December 2012 \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "W5HfUxfjvG0J",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/~wscacchi/GameLab/CGVW-Dec2012.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/~wscacchi/\u003cb\u003eGame\u003c/b\u003eLab/CGVW-Dec2012.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "Impress",
+      "producer": "LibreOffice 3.6",
+      "creationdate": "D:20121207000431-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Computer Games and Virtual Worlds: New Modalities of ...",
+   "htmlTitle": "\u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds: New Modalities of \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/~wscacchi/GameLab/Games-StrokeRehab-Scacchi-Nov11.pdf",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Nov 5, 2011 ... Center for Computer Games and Virtual Worlds. University of California, Irvine.   Orange County Stroke Rehab Network. Continuing Education ...",
+   "htmlSnippet": "Nov 5, 2011 \u003cb\u003e...\u003c/b\u003e Center for \u003cb\u003eComputer Games\u003c/b\u003e and Virtual Worlds. University of California, Irvine. \u003cbr\u003e  Orange County Stroke Rehab Network. Continuing Education \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "PVwMOHXLz4sJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "www.ics.uci.edu/.../GameLab/Games-StrokeRehab-Scacchi-Nov11.pdf",
+   "htmlFormattedUrl": "www.ics.uci.edu/.../\u003cb\u003eGame\u003c/b\u003eLab/\u003cb\u003eGames\u003c/b\u003e-StrokeRehab-Scacchi-Nov11.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creator": "Impress",
+      "producer": "LibreOffice 3.4",
+      "creationdate": "D:20111116153747-08'00'"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Game Jam - Donald Bren School of Information and Computer ...",
+   "htmlTitle": "\u003cb\u003eGame\u003c/b\u003e Jam - Donald Bren School of Information and \u003cb\u003eComputer\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://www.ics.uci.edu/community/news/spotlight/spotlight_gamejam_winter_2012.php",
+   "displayLink": "www.ics.uci.edu",
+   "snippet": "Computer games science major Jason Ames Lee, producer for the winning team,   said his group was “concerned with the feeling of the game,” so they ...",
+   "htmlSnippet": "\u003cb\u003eComputer games\u003c/b\u003e science major Jason Ames Lee, producer for the winning team, \u003cbr\u003e  said his group was “concerned with the feeling of the game,” so they \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "yr_S-n3BCu0J",
+   "formattedUrl": "www.ics.uci.edu/community/.../spotlight_gamejam_winter_2012.php",
+   "htmlFormattedUrl": "www.ics.uci.edu/community/.../spotlight_\u003cb\u003egame\u003c/b\u003ejam_winter_2012.php",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.ics.uci.edu/bin/img/photos/spotlight_gamejam_winter_2012/GameJam_Massteroid.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "296",
+      "height": "171",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9i05y8EOqndK1SCV8b9c1qHBWnluvI6GTyI9gPJvHaa6U4n-6zii1PPtN"
+     }
+    ],
+    "metatags": [
+     {
+      "date": "Thu, 18 Oct 2012 13:57:17 -0380"
+     }
+    ]
+   }
+  }
+ ]
+}
