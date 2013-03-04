@@ -96,6 +96,14 @@ public class WebURL implements Serializable {
 	}
 
 
+	public String getPernalSite(){
+		String [] split =  path.split("/");
+		String rstr = getFullDomain();
+		if (split != null && split.length > 0){
+			rstr += split[0] + "/";
+		}
+		return rstr;
+	}
 	/**
 	 * Returns the crawl depth at which this Url is first observed. Seed Urls
 	 * are at depth 0. Urls that are extracted from seed Urls are at depth 1,

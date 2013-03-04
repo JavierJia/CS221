@@ -21,13 +21,14 @@ public class App {
 	 */
 	public static void main(String[] args) throws IOException, ParseException {
 		String usage = "java -jar index|search"
-				+ " [-index INDEX_PATH] [-docs DOCS_PATH] [-queryfile queryfiles] [-pagerank PAGERANK_FILE]"
+				+ " [-index INDEX_PATH] [-docs DOCS_PATH] [-queryfile queryfiles] [-authority authorityfile] [-pagerank PAGERANK_FILE]"
 				+ "This indexes the documents in DOCS_PATH, creating a Lucene index"
 				+ "in INDEX_PATH that can be searched with SearchFiles";
 		String indexPath = "index";
 		String docsPath = null;
 		String pageRankPath = null;
 		String queryFilePath = null;
+		String authorityPath = null;
 		boolean bIndex = false;
 		boolean bSearch = false;
 		if (args.length < 2) {
@@ -55,6 +56,8 @@ public class App {
 				i++;
 			} else if ("-queryfile".equalsIgnoreCase(args[i])) {
 				queryFilePath = args[i + 1];
+			} else if ("-authority".equalsIgnoreCase(args[i])){
+				authorityPath = args[i+1];
 			}
 
 		}
@@ -103,7 +106,11 @@ public class App {
 			if (pageRankPath != null) {
 				pageRank = Utility.loadPageRank(pageRankPath);
 			}
-			Searcher searcher = new Searcher(indexPath,pageRank);
+			Map<String, Float> authorityMap = null;
+			if (authorityPath != null){
+				authorityMap = Utility.loadPageRank(authorityPath);
+			}
+			Searcher searcher = new Searcher(indexPath,pageRank, authorityMap);
 			if (queryFilePath == null) {
 				searcher.interactiveSearching();
 			} else {
@@ -115,6 +122,7 @@ public class App {
 									+ "' does not exist or is not readable, please check the path");
 					System.exit(1);
 				}
+				
 				searcher.batchSearching(queryFile);
 			}
 		}

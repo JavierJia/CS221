@@ -145,10 +145,14 @@ public class Utility {
 			BufferedReader br = new BufferedReader(fr);
 
 			String line = br.readLine();
+			int count = 0;
 			while (line != null) {
 				String[] subStrs = line.split(" +");
 				pageRank.put(subStrs[0], Float.parseFloat(subStrs[1]));
 				line = br.readLine();
+				if (++count > 250){
+					break;
+				}
 			}
 
 			br.close();

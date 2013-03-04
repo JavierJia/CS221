@@ -48,12 +48,13 @@ public class Searcher {
 	private IndexSearcher searcher;
 	private Analyzer analyzer;
 	public final Map<String, Float> pageRank;
+	public final Map<String, Float> authorityMap;
 
 	String[] fields = { Indexer.CONTENT_FIELD, Indexer.TITLE_FIELD };
 	Map<String,Float> boosts = new HashMap<String,Float>();
 	
 
-	public Searcher(String indexPath, final Map<String, Float> pageRank) throws IOException, ParseException {
+	public Searcher(String indexPath, final Map<String, Float> pageRank, Map<String, Float> authorityMap) throws IOException, ParseException {
 		String index = indexPath;
 
 		boosts.put(Indexer.CONTENT_FIELD, Ranker.BOOST_CONTENT);
@@ -63,6 +64,7 @@ public class Searcher {
 		searcher = new IndexSearcher(reader);
 		analyzer = new NgramAnalyzer(Indexer.version);
 		this.pageRank = pageRank;
+		this.authorityMap = authorityMap;
 	}
 
 	public void interactiveSearching() throws IOException, ParseException {
@@ -106,7 +108,7 @@ public class Searcher {
 						+ "ms");
 			}
 
-			doPagingSearch(in, searcher, query, pageRank, hitsPerPage, raw,
+			doPagingSearch(in, searcher, query, pageRank,authorityMap, hitsPerPage, raw,
 					queries == null && queryString == null);
 
 			if (queryString != null) {
@@ -117,12 +119,12 @@ public class Searcher {
 	}
 
 	public static void doPagingSearch(BufferedReader in,
-			IndexSearcher searcher, Query query, final Map<String, Float> pageRank,int hitsPerPage, boolean raw,
+			IndexSearcher searcher, Query query, final Map<String, Float> pageRank,final Map<String, Float> authorityMap,int hitsPerPage, boolean raw,
 			boolean interactive) throws IOException {
 
 		// Collect enough docs to show 5 pages
 		TopDocs results = searcher.search(query, Ranker.CANDIDATE_FACTOR * hitsPerPage);
-		ScoreDoc[] hits = Ranker.rerank(searcher, results, pageRank);
+		ScoreDoc[] hits = Ranker.rerank(searcher, results, pageRank, authorityMap);
 
 		int numTotalHits = results.totalHits;
 		System.out.println(numTotalHits + " total matching documents");
@@ -235,7 +237,7 @@ public class Searcher {
 
 			Query query = parser.parse(line);
 			System.out.println("Query: " + line);
-			doPagingSearch(in, searcher, query, pageRank, hitsPerPage, true, false);
+			doPagingSearch(in, searcher, query, pageRank,authorityMap, hitsPerPage, true, false);
 		}
 	}
 }
