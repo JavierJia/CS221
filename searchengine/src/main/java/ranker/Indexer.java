@@ -14,7 +14,6 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.FloatField;
-import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
@@ -65,8 +64,6 @@ public class Indexer {
 
 	public void indexDocs(final File file, final Map<String, Float> pageRank)
 			throws IOException, NoSuchAlgorithmException {
-		// Map<String, Float> pageRank =
-		// Utility.loadPageRank("C:\\Users\\Leopold\\Downloads\\webdata\\pageRank.data");
 		// do not try to index files that cannot be read
 		if (file.canRead()) {
 			if (file.isDirectory()) {
@@ -97,13 +94,12 @@ public class Indexer {
 
 					// convert local path to url
 					String localPath = file.getPath();
-					String url = localPath.replace(DOCPATH, "http://");
+					String url = localPath.replace(DOCPATH, "http:/");
 					if (url.endsWith("index.txt")) {
-						url = url.replaceFirst("index.txt", "index.html");
-
+						url = url.replaceFirst("index.txt", "");
 					}
 
-					Field urlField = new StringField(URL_FIELD, url,
+					Field urlField = new TextField(URL_FIELD, url,
 							Field.Store.YES);
 					// System.out.println("URL: " + url + pageRank.get(url));
 					doc.add(urlField);
@@ -112,7 +108,6 @@ public class Indexer {
 						float rank = pageRank.get(url);
 						FloatField page_rank_field = new FloatField(
 								PAGERANK_FIELD, rank, Field.Store.YES);
-						page_rank_field.setBoost(2);
 						doc.add(page_rank_field);
 					}
 
@@ -127,7 +122,6 @@ public class Indexer {
 					}
 
 					TextField content = new TextField(CONTENT_FIELD, reader);
-					content.setBoost(1);
 					doc.add(content);
 
 					if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {

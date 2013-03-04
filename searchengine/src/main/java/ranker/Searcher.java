@@ -32,6 +32,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
@@ -46,19 +47,22 @@ public class Searcher {
 	private IndexReader reader;
 	private IndexSearcher searcher;
 	private Analyzer analyzer;
+	public final Map<String, Float> pageRank;
 
 	String[] fields = { Indexer.CONTENT_FIELD, Indexer.TITLE_FIELD };
-	Map<String, Float> boosts = new HashMap<String, Float>();
+	Map<String,Float> boosts = new HashMap<String,Float>();
+	
 
-	public Searcher(String indexPath) throws IOException, ParseException {
+	public Searcher(String indexPath, final Map<String, Float> pageRank) throws IOException, ParseException {
 		String index = indexPath;
-		boosts.put(Indexer.CONTENT_FIELD, 1.0f);
-		boosts.put(Indexer.TITLE_FIELD, 1.0f);
 
+		boosts.put(Indexer.CONTENT_FIELD, Ranker.BOOST_CONTENT);
+		boosts.put(Indexer.TITLE_FIELD, Ranker.BOOST_TITLE);
+		
 		reader = DirectoryReader.open(FSDirectory.open(new File(index)));
 		searcher = new IndexSearcher(reader);
 		analyzer = new NgramAnalyzer(Indexer.version);
-		// analyzer = new StandardAnalyzer(Indexer.version);
+		this.pageRank = pageRank;
 	}
 
 	public void interactiveSearching() throws IOException, ParseException {
@@ -71,8 +75,8 @@ public class Searcher {
 
 		MultiFieldQueryParser parser = new MultiFieldQueryParser(
 				Indexer.version, fields, analyzer, boosts);
-		// QueryParser parser = new QueryParser(Indexer.version, fields[0],
-		// analyzer);
+//		QueryParser parser = new QueryParser(Indexer.version, fields[0],
+//		 analyzer);
 		while (true) {
 			if (queries == null && queryString == null) { // prompt the user
 				System.out.println("Enter query: ");
@@ -102,7 +106,7 @@ public class Searcher {
 						+ "ms");
 			}
 
-			doPagingSearch(in, searcher, query, hitsPerPage, raw,
+			doPagingSearch(in, searcher, query, pageRank, hitsPerPage, raw,
 					queries == null && queryString == null);
 
 			if (queryString != null) {
@@ -113,12 +117,12 @@ public class Searcher {
 	}
 
 	public static void doPagingSearch(BufferedReader in,
-			IndexSearcher searcher, Query query, int hitsPerPage, boolean raw,
+			IndexSearcher searcher, Query query, final Map<String, Float> pageRank,int hitsPerPage, boolean raw,
 			boolean interactive) throws IOException {
 
 		// Collect enough docs to show 5 pages
-		TopDocs results = searcher.search(query, 5 * hitsPerPage);
-		ScoreDoc[] hits = results.scoreDocs;
+		TopDocs results = searcher.search(query, Ranker.CANDIDATE_FACTOR * hitsPerPage);
+		ScoreDoc[] hits = Ranker.rerank(searcher, results, pageRank);
 
 		int numTotalHits = results.totalHits;
 		System.out.println(numTotalHits + " total matching documents");
@@ -214,22 +218,24 @@ public class Searcher {
 
 	public void batchSearching(File queryFile) throws IOException,
 			ParseException {
-		int hitsPerPage = 10;
+		int hitsPerPage = 20;
 		MultiFieldQueryParser parser = new MultiFieldQueryParser(
 				Indexer.version, fields, analyzer, boosts);
+//		QueryParser parser = new QueryParser(Indexer.version, fields[0],
+//				 analyzer);
 		BufferedReader in = new BufferedReader(new FileReader(queryFile));
 
 		String line;
-		
+
 		while ((line = in.readLine()) != null) {
 			line = line.trim();
 			if (line.length() == 0) {
 				break;
 			}
-			
+
 			Query query = parser.parse(line);
 			System.out.println("Query: " + line);
-			doPagingSearch(in, searcher, query, hitsPerPage, true,false);
+			doPagingSearch(in, searcher, query, pageRank, hitsPerPage, true, false);
 		}
 	}
 }

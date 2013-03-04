@@ -53,10 +53,10 @@ public class App {
 			} else if ("-pagerank".equalsIgnoreCase(args[i])) {
 				pageRankPath = args[i + 1];
 				i++;
-			} else if ("-queryfile".equalsIgnoreCase(args[i])){
-				queryFilePath = args[i+1];
+			} else if ("-queryfile".equalsIgnoreCase(args[i])) {
+				queryFilePath = args[i + 1];
 			}
-				
+
 		}
 
 		if (bIndex) {
@@ -99,10 +99,14 @@ public class App {
 		}
 
 		if (bSearch) {
-			Searcher searcher = new Searcher(indexPath);
-			if (queryFilePath == null){
+			Map<String, Float> pageRank = null;
+			if (pageRankPath != null) {
+				pageRank = Utility.loadPageRank(pageRankPath);
+			}
+			Searcher searcher = new Searcher(indexPath,pageRank);
+			if (queryFilePath == null) {
 				searcher.interactiveSearching();
-			}else{
+			} else {
 				final File queryFile = new File(queryFilePath);
 				if (!queryFile.exists() || !queryFile.canRead()) {
 					System.out

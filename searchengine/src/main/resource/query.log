@@ -1,320 +1,593 @@
 Query: mondego
 11 total matching documents
-doc=2858 score=8.974594
-1. http:///mondego.ics.uci.edu/index.html
+doc=3645 score=8.82759
+1. http://mondego.ics.uci.edu/
    Title: Mondego Group @ UC IrvineTheme >
-doc=2963 score=5.950837
-2. http:///sdcl.ics.uci.edu/2012/05/calico-for-the-mondego-group/feed/index.html
+doc=3750 score=5.8096695
+2. http://sdcl.ics.uci.edu/2012/05/calico-for-the-mondego-group/feed/
    Title: By: Mondegohttp://sdcl.ics.uci.edu/2012/05/calico-for-the-mondego-group/
-doc=3015 score=4.9015007
-3. http:///sdcl.ics.uci.edu/mondego-group/index.html
+doc=3802 score=4.885147
+3. http://sdcl.ics.uci.edu/mondego-group/
    Title: Mondego Group – Software Design and Collaboration LaboratorySDCL Software Design and Collaboration Laboratory
-doc=2964 score=4.8455415
-4. http:///sdcl.ics.uci.edu/2012/05/calico-for-the-mondego-group/index.html
+doc=3751 score=4.77505
+4. http://sdcl.ics.uci.edu/2012/05/calico-for-the-mondego-group/
    Title: Calico for the Mondego group – Software Design and Collaboration LaboratorySDCL Software Design and Collaboration Laboratory
-doc=3010 score=0.27979434
-5. http:///sdcl.ics.uci.edu/database-group/index.html
+doc=3797 score=0.35048485
+5. http://sdcl.ics.uci.edu/database-group/
    Title: Database Group – Software Design and Collaboration LaboratorySDCL Software Design and Collaboration Laboratory
-doc=23150 score=0.27698225
-6. http:///www.ics.uci.edu/~lopes/index.html
+doc=21346 score=0.3469623
+6. http://www.ics.uci.edu/~lopes/
    Title: Crista Lopes Home Page at UCI       Cristina Videira Lopes
-doc=23145 score=0.19585603
-7. http:///www.ics.uci.edu/~lopes/datasets/index.html
+doc=21341 score=0.2453394
+7. http://www.ics.uci.edu/~lopes/datasets/index.html
    Title: UCI Source Code Data SetsUCI Source Code Data Sets 
-doc=23146 score=0.19585603
-8. http:///www.ics.uci.edu/~lopes/datasets/Koders-log-2007.html
+doc=21342 score=0.2453394
+8. http://www.ics.uci.edu/~lopes/datasets/Koders-log-2007.html
    Title: UCI Source Code Data Set:  Koders-log-2007Quick Links:   
-doc=23147 score=0.1678766
-9. http:///www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html
+doc=21343 score=0.21029091
+9. http://www.ics.uci.edu/~lopes/datasets/SDS_source-repo-18k.html
    Title: UCI Source Code Data Set:  SDS_source-repo-18kQuick Links:   
-doc=8511 score=0.15827557
-10. http:///www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/AnteaterIdol.html
+doc=8827 score=0.19826417
+10. http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/AnteaterIdol.html
+   Title: ICS 105:Human Computer Interaction Project CourseInformation and Computer Science 105 /
+doc=8826 score=0.14019394
+11. http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/index.html
    Title: ICS 105:Human Computer Interaction Project CourseInformation and Computer Science 105 /
 Query: machine learning
 1984 total matching documents
-doc=2851 score=5.3975973
-1. http:///mlearn.ics.uci.edu/MLRepository.html
+doc=3638 score=5.2559123
+1. http://mlearn.ics.uci.edu/MLRepository.html
    Title: UCI Machine Learning RepositoryWelcome to the UCI Machine Learning Repository!
-doc=25323 score=5.2702804
-2. http:///www.ics.uci.edu/~xhx/publications/papers_ML.html
+doc=25323 score=5.0727735
+2. http://www.ics.uci.edu/~xhx/publications/papers_ML.html
    Title: Xiaohui XiePublications in machine learning
-doc=2850 score=4.771888
-3. http:///mlearn.ics.uci.edu/MLOther.html
+doc=3637 score=4.706509
+3. http://mlearn.ics.uci.edu/MLOther.html
    Title: UCI: Information Related to Machine LearningInformation Related to Machine Learning
-doc=3081 score=4.6436124
-4. http:///sli.ics.uci.edu/Classes/2012F-273a/index.html
+doc=3868 score=4.530224
+4. http://sli.ics.uci.edu/Classes/2012F-273a/
    Title: SLI | Classes / CS273a: Introduction to Machine Learning(?)
-doc=24736 score=4.493891
-5. http:///www.ics.uci.edu/~welling/publications/publications.html
-   Title: Max Wellings's Publications in Machine Learning  
-doc=7545 score=4.4504824
-6. http:///archive.ics.uci.edu/ml/datasets/Othello+Domain+Theory/index.html
+doc=7843 score=4.351299
+5. http://archive.ics.uci.edu/ml/datasets/Othello+Domain+Theory/
    Title: UCI Machine Learning Repository: Othello Domain Theory Data Set         Center for Machine Learning and Intelligent Systems
-doc=7505 score=4.4187503
-7. http:///archive.ics.uci.edu/ml/datasets/Logic+Theorist/index.html
+doc=24732 score=4.3280005
+6. http://www.ics.uci.edu/~welling/publications/publications.html
+   Title: Max Wellings's Publications in Machine Learning  
+doc=7803 score=4.3116193
+7. http://archive.ics.uci.edu/ml/datasets/Logic+Theorist/
    Title: UCI Machine Learning Repository: Logic Theorist Data Set         Center for Machine Learning and Intelligent Systems
-doc=7360 score=4.4000072
-8. http:///archive.ics.uci.edu/ml/about.html
+doc=7658 score=4.303181
+8. http://archive.ics.uci.edu/ml/about.html
    Title: UCI Machine Learning Repository: About         Center for Machine Learning and Intelligent Systems
-doc=7516 score=4.3707857
-9. http:///archive.ics.uci.edu/ml/datasets/Mobile+Robots/index.html
-   Title: UCI Machine Learning Repository: Mobile Robots Data Set         Center for Machine Learning and Intelligent Systems
-doc=7361 score=4.364128
-10. http:///archive.ics.uci.edu/ml/citation_policy.html
+doc=7659 score=4.258315
+9. http://archive.ics.uci.edu/ml/citation_policy.html
    Title: UCI Machine Learning Repository: Citation Policy         Center for Machine Learning and Intelligent Systems
+doc=7814 score=4.2516403
+10. http://archive.ics.uci.edu/ml/datasets/Mobile+Robots/
+   Title: UCI Machine Learning Repository: Mobile Robots Data Set         Center for Machine Learning and Intelligent Systems
+doc=7812 score=4.2367415
+11. http://archive.ics.uci.edu/ml/datasets/Meta-data/
+   Title: UCI Machine Learning Repository: Meta-data Data Set         Center for Machine Learning and Intelligent Systems
+doc=7859 score=4.211018
+12. http://archive.ics.uci.edu/ml/datasets/Primary+Tumor/
+   Title: UCI Machine Learning Repository: Primary Tumor Data Set         Center for Machine Learning and Intelligent Systems
+doc=7750 score=4.191585
+13. http://archive.ics.uci.edu/ml/datasets/EBL+Domain+Theories/
+   Title: UCI Machine Learning Repository: EBL Domain Theories Data Set         Center for Machine Learning and Intelligent Systems
+doc=7917 score=4.191585
+14. http://archive.ics.uci.edu/ml/datasets/Undocumented/
+   Title: UCI Machine Learning Repository: Undocumented Data Set         Center for Machine Learning and Intelligent Systems
+doc=7745 score=4.191563
+15. http://archive.ics.uci.edu/ml/datasets/Document+Understanding/
+   Title: UCI Machine Learning Repository: Document Understanding Data Set         Center for Machine Learning and Intelligent Systems
+doc=7753 score=4.175012
+16. http://archive.ics.uci.edu/ml/datasets/Economic+Sanctions/
+   Title: UCI Machine Learning Repository: Economic Sanctions Data Set         Center for Machine Learning and Intelligent Systems
+doc=7882 score=4.174472
+17. http://archive.ics.uci.edu/ml/datasets/Soybean+%28Large%29/
+   Title: UCI Machine Learning Repository: Soybean (Large) Data Set         Center for Machine Learning and Intelligent Systems
+doc=7883 score=4.174472
+18. http://archive.ics.uci.edu/ml/datasets/Soybean+%28Small%29/
+   Title: UCI Machine Learning Repository: Soybean (Small) Data Set         Center for Machine Learning and Intelligent Systems
+doc=7884 score=4.174472
+19. http://archive.ics.uci.edu/ml/datasets/Soybean+(Large)/
+   Title: UCI Machine Learning Repository: Soybean (Large) Data Set         Center for Machine Learning and Intelligent Systems
+doc=7885 score=4.174472
+20. http://archive.ics.uci.edu/ml/datasets/Soybean+(Small)/
+   Title: UCI Machine Learning Repository: Soybean (Small) Data Set         Center for Machine Learning and Intelligent Systems
 Query: software engineering
 3041 total matching documents
-doc=25491 score=8.401073
-1. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld023.htm
+doc=25491 score=8.273771
+1. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld023.htm
    Title: Software Engineering PrinciplesSoftware Engineering Principles 
-doc=25490 score=8.382691
-2. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld022.htm
+doc=25490 score=8.250184
+2. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld022.htm
    Title: Software Engineering PrinciplesSoftware Engineering Principles 
-doc=25495 score=7.7530828
-3. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld027.htm
+doc=25495 score=7.6067176
+3. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld027.htm
    Title: Summary: Software EngineeringSummary: Software Engineering 
-doc=25448 score=7.3152413
-4. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/sld007.htm
+doc=25448 score=7.0946493
+4. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/sld007.htm
    Title: What is Software Engineering?
-doc=25449 score=7.3152413
-5. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/sld008.htm
+doc=25449 score=7.0946493
+5. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/sld008.htm
    Title: Software Engineering Vs. Programming
-doc=25461 score=7.3152413
-6. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/sld022.htm
+doc=25461 score=7.0946493
+6. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/sld022.htm
    Title: Software Engineering Principles
-doc=25465 score=7.3152413
-7. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/sld027.htm
+doc=25465 score=7.0946493
+7. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/sld027.htm
    Title: Summary: Software Engineering
-doc=25476 score=7.1604548
-8. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld008.htm
+doc=25476 score=7.0477395
+8. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld008.htm
    Title: Software Engineering Vs. ProgrammingSoftware Engineering Vs. Programming 
-doc=1304 score=7.0309896
-9. http:///galen.ics.uci.edu/expertise/index.html
+doc=1314 score=6.9316216
+9. http://galen.ics.uci.edu/expertise/
    Title: Galen Lab: Software Engineering ExpertiseSoftware Engineering Expertise
-doc=25475 score=6.871581
-10. http:///www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld007.htm
+doc=25475 score=6.79786
+10. http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld007.htm
    Title: What is Software Engineering?What is Software Engineering? 
+doc=1263 score=6.133957
+11. http://galen.ics.uci.edu/expertise/archives/2005/05/is_software_eng.html
+   Title: Empirical Studies of Software Engineering Expertise: "Is Software Engineering Training Enough for Software Engineers?"Empirical Studies of Software Engineering Expertise
+doc=23359 score=5.5844154
+12. http://www.ics.uci.edu/~taylor/classes/211/syllabusFQ07.html
+   Title: IN4MATX 211 Fall 2007Informatics 211: Software Engineering
+doc=23358 score=5.5795097
+13. http://www.ics.uci.edu/~taylor/classes/211/syllabusFQ06.html
+   Title: IN4MATX 211 Fall 2006Informatics 211: Software Engineering
+doc=7206 score=5.5107036
+14. http://www.ics.uci.edu/~emilyo/SimSE/se_rules.html
+   Title: The Fundamental Rules of Software Engineering“The
+doc=1267 score=5.336687
+15. http://galen.ics.uci.edu/expertise/archives/2005/05/progress_report_3.html
+   Title: Empirical Studies of Software Engineering Expertise: Progress Report - Week 4Empirical Studies of Software Engineering Expertise
+doc=1311 score=5.2651477
+16. http://galen.ics.uci.edu/expertise/blog/
+   Title: Empirical Studies of Software Engineering ExpertiseEmpirical Studies of Software Engineering Expertise
+doc=1273 score=5.261305
+17. http://galen.ics.uci.edu/expertise/archives/2005/05/shopping_cart.html
+   Title: Empirical Studies of Software Engineering Expertise: Shopping CartEmpirical Studies of Software Engineering Expertise
+doc=1253 score=5.2439117
+18. http://galen.ics.uci.edu/expertise/archives/2005/05/acommunication.html
+   Title: Empirical Studies of Software Engineering Expertise: “Communication Problems in Requirements Engineering: A Field Study”Empirical Studies of Software Engineering Expertise
+doc=1234 score=5.1933866
+19. http://galen.ics.uci.edu/expertise/archives/2005/04/progress_report.html
+   Title: Empirical Studies of Software Engineering Expertise: Progress ReportEmpirical Studies of Software Engineering Expertise
+doc=1230 score=5.1827497
+20. http://galen.ics.uci.edu/expertise/archives/2005/04/frequently_abus.html
+   Title: Empirical Studies of Software Engineering Expertise: Frequently Abused WordsEmpirical Studies of Software Engineering Expertise
 Query: security
 666 total matching documents
-doc=2353 score=7.2345886
-1. http:///djp3-pc2.ics.uci.edu/LUCICodeRepository/nomaticIM/wiki/Security/index.html
+doc=2350 score=7.145497
+1. http://djp3-pc2.ics.uci.edu/LUCICodeRepository/nomaticIM/wiki/Security/
    Title: Security – Nomatic*IMSearch:
-doc=6404 score=6.294333
-2. http:///www.ics.uci.edu/~goodrich/teach/ics247/index.html
+doc=2948 score=6.2031755
+2. http://www.ics.uci.edu/~goodrich/teach/ics247/
    Title: ICS 247 - Computer Security AlgorithmsICS 247 - Computer Security Algorithms 
-doc=6408 score=6.2835393
-3. http:///www.ics.uci.edu/~goodrich/teach/ics280/index.html
+doc=2952 score=6.1892805
+3. http://www.ics.uci.edu/~goodrich/teach/ics280/
    Title: ICS 280 - Computer Security AlgorithmsICS 280 - Computer Security Algorithms 
-doc=23067 score=6.170059
-4. http:///www.ics.uci.edu/~kobsa/talks/privsecum/outlinec.htm
+doc=21263 score=6.052938
+4. http://www.ics.uci.edu/~kobsa/talks/privsecum/outlinec.htm
    Title: User Modeling, Privacy and Security 
-doc=3158 score=6.1220875
-5. http:///sprout.ics.uci.edu/projects/privacy-dna/index.html
+doc=3945 score=6.016179
+5. http://sprout.ics.uci.edu/projects/privacy-dna/
    Title: Security and Privacy in GenomicsS.P.I.G.
-doc=6403 score=6.1056066
-6. http:///www.ics.uci.edu/~goodrich/teach/ics247/hw/index.html
+doc=2947 score=5.950212
+6. http://www.ics.uci.edu/~goodrich/teach/ics247/hw/
    Title: ICS 247 - Security Algorithms AssignmentsICS 247 - Security Algorithms Assignments
-doc=6407 score=6.1056066
-7. http:///www.ics.uci.edu/~goodrich/teach/ics280/hw/index.html
+doc=2951 score=5.950212
+7. http://www.ics.uci.edu/~goodrich/teach/ics280/hw/
    Title: ICS 280 - Security Algorithms AssignmentsICS 280 - Security Algorithms Assignments
-doc=23068 score=6.044242
-8. http:///www.ics.uci.edu/~kobsa/talks/privsecum/ppframe.htm
+doc=21264 score=5.890962
+8. http://www.ics.uci.edu/~kobsa/talks/privsecum/ppframe.htm
    Title: User Modeling, Privacy and Security
-doc=4889 score=5.4294477
-9. http:///www.ics.uci.edu/community/events/openhouse/research12.html
+doc=5676 score=5.3773866
+9. http://www.ics.uci.edu/community/events/openhouse/research12.html
    Title: Cyber-Security and Privacyuniversity of california, irvine
-doc=3148 score=5.3214474
-10. http:///sprout.ics.uci.edu/past_projects/odb/index.html
+doc=3935 score=5.2483478
+10. http://sprout.ics.uci.edu/past_projects/odb/index.html
    Title: Security in Outsourced DatabasesSecurity in Outsourced Databases
+doc=2965 score=5.1510367
+11. http://www.ics.uci.edu/~goodrich/teach/ics8/notes/
+   Title: ICS 8 - Introduction to Computer Security, Auxiliary NotesICS 8 - Introduction to Computer Security, Auxiliary Notes
+doc=8317 score=4.9624057
+12. http://www.ics.uci.edu/~dan/genealogy/Miller/javascrp/ssn.htm
+   Title: Social Security Place of Issue LookupSocial Security Place of Issue Lookup
+doc=2946 score=4.7640266
+13. http://www.ics.uci.edu/~goodrich/teach/ics247/hw/hw4.html
+   Title: ICS 247 - Security Algorithms Homework 4ICS 247 - Security Algorithms Homework 4, 50 Points
+doc=8416 score=4.7640266
+14. http://www.ics.uci.edu/~dan/genealogy/Miller/langsam/ssdilang.htm
+   Title: Social Security Death Index for LangsamSocial Security Death Index for the Langsam Family
+doc=2956 score=4.579445
+15. http://www.ics.uci.edu/~goodrich/teach/ics8/hw/hw3.html
+   Title: ICS 8 - Introduction to Computer Security Homework 3ICS 8 - Introduction to Computer Security Homework 3, 50 Points
+doc=2957 score=4.579445
+16. http://www.ics.uci.edu/~goodrich/teach/ics8/hw/hw4.html
+   Title: ICS 8 - Introduction to Computer Security Homework 4ICS 8 - Introduction to Computer Security Homework 4, 50 Points
+doc=2954 score=4.5366945
+17. http://www.ics.uci.edu/~goodrich/teach/ics8/hw/hw1.html
+   Title: ICS 8 - Introduction to Computer Security Homework 1ICS 8 - Introduction to Computer Security Homework 1, 50 Points
+doc=2955 score=4.525193
+18. http://www.ics.uci.edu/~goodrich/teach/ics8/hw/hw2.html
+   Title: ICS 8 - Introduction to Computer Security Homework 2ICS 8 - Introduction to Computer Security Homework 2, 50 Points
+doc=2961 score=4.525193
+19. http://www.ics.uci.edu/~goodrich/teach/ics8/hw/hw8.html
+   Title: ICS 8 - Introduction to Computer Security Homework 8ICS 8 - Introduction to Computer Security Homework 8, 50 Points
+doc=4773 score=4.517002
+20. http://vcp.ics.uci.edu/biblio/keyword/245/
+   Title: Contains the keyword security | Virtual Collaboration PortalVirtual Collaboration Portal        
 Query: student affairs
 1882 total matching documents
-doc=8239 score=6.085796
-1. http:///www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Commencement/index.html
+doc=8555 score=5.852376
+1. http://www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Commencement/
    Title: Index of /~develop/ICSEventWeb/2004/Student Affairs/CommencementIndex of /~develop/ICSEventWeb/2004/Student Affairs/Commencement
-doc=8240 score=6.085796
-2. http:///www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Graduate/index.html
+doc=8556 score=5.852376
+2. http://www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Graduate/
    Title: Index of /~develop/ICSEventWeb/2004/Student Affairs/GraduateIndex of /~develop/ICSEventWeb/2004/Student Affairs/Graduate
-doc=8242 score=6.085796
-3. http:///www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Recruitement/index.html
+doc=8558 score=5.852376
+3. http://www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Recruitement/
    Title: Index of /~develop/ICSEventWeb/2004/Student Affairs/RecruitementIndex of /~develop/ICSEventWeb/2004/Student Affairs/Recruitement
-doc=8243 score=6.085796
-4. http:///www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Undergraduate/index.html
+doc=8559 score=5.852376
+4. http://www.ics.uci.edu/~develop/ICSEventWeb/2004/Student%20Affairs/Undergraduate/
    Title: Index of /~develop/ICSEventWeb/2004/Student Affairs/UndergraduateIndex of /~develop/ICSEventWeb/2004/Student Affairs/Undergraduate
-doc=8258 score=6.085796
-5. http:///www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Commencement/index.html
+doc=8574 score=5.852376
+5. http://www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Commencement/
    Title: Index of /~develop/ICSEventWeb/2005/Student Affairs/CommencementIndex of /~develop/ICSEventWeb/2005/Student Affairs/Commencement
-doc=8259 score=6.085796
-6. http:///www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Graduate/index.html
+doc=8575 score=5.852376
+6. http://www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Graduate/
    Title: Index of /~develop/ICSEventWeb/2005/Student Affairs/GraduateIndex of /~develop/ICSEventWeb/2005/Student Affairs/Graduate
-doc=8261 score=6.085796
-7. http:///www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Recruitement/index.html
+doc=8577 score=5.852376
+7. http://www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Recruitement/
    Title: Index of /~develop/ICSEventWeb/2005/Student Affairs/RecruitementIndex of /~develop/ICSEventWeb/2005/Student Affairs/Recruitement
-doc=8262 score=6.085796
-8. http:///www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Undergraduate/index.html
+doc=8578 score=5.852376
+8. http://www.ics.uci.edu/~develop/ICSEventWeb/2005/Student%20Affairs/Undergraduate/
    Title: Index of /~develop/ICSEventWeb/2005/Student Affairs/UndergraduateIndex of /~develop/ICSEventWeb/2005/Student Affairs/Undergraduate
-doc=8277 score=6.085796
-9. http:///www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Commencement/index.html
+doc=8593 score=5.852376
+9. http://www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Commencement/
    Title: Index of /~develop/ICSEventWeb/2006/Student Affairs/CommencementIndex of /~develop/ICSEventWeb/2006/Student Affairs/Commencement
-doc=8278 score=6.085796
-10. http:///www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Graduate/index.html
+doc=8594 score=5.852376
+10. http://www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Graduate/
    Title: Index of /~develop/ICSEventWeb/2006/Student Affairs/GraduateIndex of /~develop/ICSEventWeb/2006/Student Affairs/Graduate
+doc=8596 score=5.852376
+11. http://www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Recruitement/
+   Title: Index of /~develop/ICSEventWeb/2006/Student Affairs/RecruitementIndex of /~develop/ICSEventWeb/2006/Student Affairs/Recruitement
+doc=8597 score=5.852376
+12. http://www.ics.uci.edu/~develop/ICSEventWeb/2006/Student%20Affairs/Undergraduate/
+   Title: Index of /~develop/ICSEventWeb/2006/Student Affairs/UndergraduateIndex of /~develop/ICSEventWeb/2006/Student Affairs/Undergraduate
+doc=8618 score=5.852376
+13. http://www.ics.uci.edu/~develop/ICSEventWeb/2007/Student%20Affairs/Commencement/
+   Title: Index of /~develop/ICSEventWeb/2007/Student Affairs/CommencementIndex of /~develop/ICSEventWeb/2007/Student Affairs/Commencement
+doc=8619 score=5.852376
+14. http://www.ics.uci.edu/~develop/ICSEventWeb/2007/Student%20Affairs/Graduate/
+   Title: Index of /~develop/ICSEventWeb/2007/Student Affairs/GraduateIndex of /~develop/ICSEventWeb/2007/Student Affairs/Graduate
+doc=8621 score=5.852376
+15. http://www.ics.uci.edu/~develop/ICSEventWeb/2007/Student%20Affairs/Recruitement/
+   Title: Index of /~develop/ICSEventWeb/2007/Student Affairs/RecruitementIndex of /~develop/ICSEventWeb/2007/Student Affairs/Recruitement
+doc=8624 score=5.852376
+16. http://www.ics.uci.edu/~develop/ICSEventWeb/2007/Student%20Affairs/Undergraduate/
+   Title: Index of /~develop/ICSEventWeb/2007/Student Affairs/UndergraduateIndex of /~develop/ICSEventWeb/2007/Student Affairs/Undergraduate
+doc=8647 score=5.852376
+17. http://www.ics.uci.edu/~develop/ICSEventWeb/2008/Student%20Affairs/Commencement/
+   Title: Index of /~develop/ICSEventWeb/2008/Student Affairs/CommencementIndex of /~develop/ICSEventWeb/2008/Student Affairs/Commencement
+doc=8648 score=5.852376
+18. http://www.ics.uci.edu/~develop/ICSEventWeb/2008/Student%20Affairs/Graduate/
+   Title: Index of /~develop/ICSEventWeb/2008/Student Affairs/GraduateIndex of /~develop/ICSEventWeb/2008/Student Affairs/Graduate
+doc=8650 score=5.852376
+19. http://www.ics.uci.edu/~develop/ICSEventWeb/2008/Student%20Affairs/Recruitement/
+   Title: Index of /~develop/ICSEventWeb/2008/Student Affairs/RecruitementIndex of /~develop/ICSEventWeb/2008/Student Affairs/Recruitement
+doc=8652 score=5.852376
+20. http://www.ics.uci.edu/~develop/ICSEventWeb/2008/Student%20Affairs/Undergraduate/
+   Title: Index of /~develop/ICSEventWeb/2008/Student Affairs/UndergraduateIndex of /~develop/ICSEventWeb/2008/Student Affairs/Undergraduate
 Query: graduate courses
 1189 total matching documents
-doc=23079 score=5.1331806
-1. http:///www.ics.uci.edu/~ktanimur/courses.html
+doc=21275 score=5.122006
+1. http://www.ics.uci.edu/~ktanimur/courses.html
    Title: Kazuyuki Tanimura::Graduate CoursesKazuyuki Tanimura
-doc=23274 score=4.6566563
-2. http:///www.ics.uci.edu/~mmazmani/Site/Courses.html
+doc=21470 score=4.599967
+2. http://www.ics.uci.edu/~mmazmani/Site/Courses.html
    Title: Courses I teach 
-doc=24669 score=4.5968785
-3. http:///www.ics.uci.edu/~vgunes/courses.htm
+doc=24665 score=4.537677
+3. http://www.ics.uci.edu/~vgunes/courses.htm
    Title: Courses 
-doc=5092 score=4.384177
-4. http:///www.ics.uci.edu/grad/index.php
+doc=5879 score=4.3814306
+4. http://www.ics.uci.edu/grad/index.php
    Title: Graduate Education @ UC Irvine, Bren:ICS» About              
-doc=22865 score=3.4339695
-5. http:///www.ics.uci.edu/~kay/pubs/intro-ed-res-dept.html
+doc=21061 score=3.4542928
+5. http://www.ics.uci.edu/~kay/pubs/intro-ed-res-dept.html
    Title: Large Introductory Courses in Research CS DepartmentsIntroductory courses offered by computer science
-doc=4829 score=3.0138052
-6. http:///www.ics.uci.edu/about/search/search_graduate.php
+doc=5616 score=2.9853058
+6. http://www.ics.uci.edu/about/search/search_graduate.php
    Title: graduate student @ the bren school of information and computer sciences» About              
-doc=7141 score=3.0107024
-7. http:///www.ics.uci.edu/~eppstein/gina/teach.html
-   Title: Geometry in Action: Teaching ResourcesGeometry Courses and Teaching Materials
-doc=23878 score=3.0016947
-8. http:///www.ics.uci.edu/~sjordan/research/applicants.html
+doc=23248 score=2.9696476
+7. http://www.ics.uci.edu/~sjordan/research/applicants.html
    Title: Information for Prospective Graduate StudentsScott Jordan          Department of Computer ScienceUniversity of California, Irvine
-doc=4806 score=2.9888237
-9. http:///www.ics.uci.edu/about/bren/gallery/gallery_10_jpg.php
+doc=7504 score=2.9640276
+8. http://www.ics.uci.edu/~eppstein/gina/teach.html
+   Title: Geometry in Action: Teaching ResourcesGeometry Courses and Teaching Materials
+doc=5593 score=2.9530058
+9. http://www.ics.uci.edu/about/bren/gallery/gallery_10_jpg.php
    Title: photo of 2004 graduate sepideh gazeri @ the bren school of information and computer sciences» About              
-doc=5094 score=2.9676166
-10. http:///www.ics.uci.edu/grad/policies/index.php
+doc=5881 score=2.9255857
+10. http://www.ics.uci.edu/grad/policies/index.php
    Title: graduate student policies/forms @ the bren school of information and computer sciences» About              
+doc=5748 score=2.8999739
+11. http://www.ics.uci.edu/community/news/spotlight/spotlight_hirano.php
+   Title: graduate student wins nsf fellowship spotlight @ the bren school of information and computer sciences» About              
+doc=5766 score=2.8999739
+12. http://www.ics.uci.edu/community/news/spotlight/spotlight_nsf_fellows_2012-bache.php
+   Title: 2012 NSF Graduate Research Fellow Profile @ the bren school of information and computer sciences» About              
+doc=5864 score=2.8853874
+13. http://www.ics.uci.edu/grad/admissions/index.php
+   Title: graduate admission process @ the bren school of information and computer sciences» About              
+doc=5882 score=2.8801472
+14. http://www.ics.uci.edu/grad/qa/index.php
+   Title: graduate student faq @ the bren school of information and computer sciences» About              
+doc=5878 score=2.879557
+15. http://www.ics.uci.edu/grad/degrees/index.php
+   Title: graduate degrees @ the bren school of information and computer sciences» About              
+doc=5767 score=2.866829
+16. http://www.ics.uci.edu/community/news/spotlight/spotlight_nsf_fellows_2012-digiuseppe.php
+   Title: 2012 NSF Graduate Research Fellow Profile @ the bren school of information and computer sciences» About              
+doc=5617 score=2.8299549
+17. http://www.ics.uci.edu/about/search/search_graduate_all.php
+   Title: graduate student list @ the bren school of information and computer sciences» About              
+doc=21410 score=2.7791607
+18. http://www.ics.uci.edu/~majumder/students-N.html
+   Title: Aditi MajumderCurrent Graduate Students
+doc=6062 score=2.49825
+19. http://www.ics.uci.edu/ugrad/degrees/degree_cse_track.php
+   Title: cse track courses @ the bren school of information and computer sciences» About              
+doc=6058 score=2.4831598
+20. http://www.ics.uci.edu/ugrad/degrees/degree_cs_project.php
+   Title: project courses for the computer science major @ the bren school of information and computer sciences» About              
 Query: Crista Lopes
 127 total matching documents
-doc=23152 score=13.668524
-1. http:///www.ics.uci.edu/~lopes/patents.html
+doc=21348 score=13.291307
+1. http://www.ics.uci.edu/~lopes/patents.html
    Title: Crista Lopes' patentsPatents 
-doc=23150 score=10.208115
-2. http:///www.ics.uci.edu/~lopes/index.html
+doc=21346 score=9.938912
+2. http://www.ics.uci.edu/~lopes/
    Title: Crista Lopes Home Page at UCI       Cristina Videira Lopes
-doc=23143 score=0.5654384
-3. http:///www.ics.uci.edu/~lopes/aop/aop-pics.html
+doc=21339 score=0.7245363
+3. http://www.ics.uci.edu/~lopes/aop/aop-pics.html
    Title: AOP Home Page at UCIPictures from the AOP project at PARC (2000)
-doc=2577 score=0.49978167
-4. http:///luci.ics.uci.edu/lightweight/bioFaculty/index.html
+doc=3364 score=0.64040565
+4. http://luci.ics.uci.edu/lightweight/bioFaculty/index.html
    Title: Light Weight: LUCI: The Laboratory for Ubiquitous Computing and Interaction at UCILightweight Version
-doc=4861 score=0.34984717
-5. http:///www.ics.uci.edu/community/events/openhouse/gallery_02.html
+doc=5648 score=0.44828397
+5. http://www.ics.uci.edu/community/events/openhouse/gallery_02.html
    Title: Dedication Photo Galleryuniversity of california, irvine
-doc=24042 score=0.34984717
-6. http:///www.ics.uci.edu/~tdebeauv/index.html
+doc=23412 score=0.44828397
+6. http://www.ics.uci.edu/~tdebeauv/
    Title: Thomas Debeauvais - UCIAbout
-doc=4299 score=0.299869
-7. http:///vcp.ics.uci.edu/content/modeling-user-reputation-wikis/index.html
+doc=5086 score=0.3842434
+7. http://vcp.ics.uci.edu/content/modeling-user-reputation-wikis/
    Title: Modeling User Reputation in Wikis | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=2858 score=0.26552165
-8. http:///mondego.ics.uci.edu/index.html
+doc=3645 score=0.34023175
+8. http://mondego.ics.uci.edu/
    Title: Mondego Group @ UC IrvineTheme >
-doc=4104 score=0.24989083
-9. http:///vcp.ics.uci.edu/content/10000-gold-20-dollars-exploratory-study-world-warcraft-gold-buyers-0/index.html
+doc=4891 score=0.32020283
+9. http://vcp.ics.uci.edu/content/10000-gold-20-dollars-exploratory-study-world-warcraft-gold-buyers-0/
    Title: 10,000 gold for 20 dollars: an exploratory study of World of Warcraft gold buyers | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=4284 score=0.24989083
-10. http:///vcp.ics.uci.edu/content/leveraging-crowdsourcing-heuristics-improve-search-wikipedia/index.html
+doc=5071 score=0.32020283
+10. http://vcp.ics.uci.edu/content/leveraging-crowdsourcing-heuristics-improve-search-wikipedia/
    Title: Leveraging Crowdsourcing Heuristics to Improve Search in Wikipedia | Virtual Collaboration PortalVirtual Collaboration Portal        
+doc=5644 score=0.32020283
+11. http://www.ics.uci.edu/community/events/openhouse/building.html
+   Title: About the Buildinguniversity of california, irvine
+doc=6100 score=0.32020283
+12. http://www.ics.uci.edu/~abaquero/coursework.html
+   Title: Alegria BaqueroAlegria Baquero
+doc=21525 score=0.32020283
+13. http://www.ics.uci.edu/~nlopezgi/flexitools/contact.html
+   Title: FlexiTools@SPLASH2010 - OrganizationFlexiTools@SPLASH
+doc=4982 score=0.29651195
+14. http://vcp.ics.uci.edu/content/dvas/
+   Title: DVAS | Virtual Collaboration PortalVirtual Collaboration Portal        
+doc=5862 score=0.2685009
+15. http://www.ics.uci.edu/faculty/highlights/index.php
+   Title: research highlights @ the bren school of information and computer sciences» About              
+doc=5664 score=0.25616226
+16. http://www.ics.uci.edu/community/events/openhouse/index.html
+   Title: Donald Bren Hall Dedicationuniversity of california, irvine
+doc=22895 score=0.22414199
+17. http://www.ics.uci.edu/~redmiles/ics229-WQ06/
+   Title: ICS 229 Class Home Page 
+doc=22912 score=0.22414199
+18. http://www.ics.uci.edu/~redmiles/inf44-SQ07/schedule.html
+   Title: INF 44 Class Schedule Pagep.MSONORMAL
+doc=3367 score=0.21601085
+19. http://luci.ics.uci.edu/lightweight/bioFaculty/lopes/index.html
+   Title: Light Weight: LUCI: The Laboratory for Ubiquitous Computing and Interaction at UCILightweight Version
+doc=1843 score=0.1921217
+20. http://awareness.ics.uci.edu/~rsilvafi/index.html
+   Title: Roberto Silveira Silva Filho's web siteRoberto S. Silva Filho
 Query: REST
 536 total matching documents
-doc=16539 score=6.4186463
-1. http:///www.ics.uci.edu/~eppstein/pix/ontheroad/BwilOrchard.html
+doc=16835 score=6.3516994
+1. http://www.ics.uci.edu/~eppstein/pix/ontheroad/BwilOrchard.html
    Title: OrchardPrev: Rest AreaUp: On The RoadNext: Central Valley
-doc=16540 score=6.4186463
-2. http:///www.ics.uci.edu/~eppstein/pix/ontheroad/BwilRestArea.html
+doc=16836 score=6.3516994
+2. http://www.ics.uci.edu/~eppstein/pix/ontheroad/BwilRestArea.html
    Title: Rest AreaPrev: UnderpassUp: On The RoadNext: Orchard
-doc=18248 score=6.2538986
-3. http:///www.ics.uci.edu/~eppstein/pix/sunsets/m2-fw-nh.html
+doc=18544 score=6.138037
+3. http://www.ics.uci.edu/~eppstein/pix/sunsets/m2-fw-nh.html
    Title: Noyo HarborPrev: Rest AreaUp: SunsetsNext: Pelican Point
-doc=18251 score=5.37633
-4. http:///www.ics.uci.edu/~eppstein/pix/sunsets/ontheroad-bra.html
+doc=18547 score=5.33786
+4. http://www.ics.uci.edu/~eppstein/pix/sunsets/ontheroad-bra.html
    Title: Rest AreaPrev: Montjuïc Cable CarUp: SunsetsNext: Noyo Harbor
-doc=6226 score=5.340805
-5. http:///www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+doc=2770 score=5.291788
+5. http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
    Title: Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST)[Top]
-doc=11191 score=5.211582
-6. http:///www.ics.uci.edu/~eppstein/pix/calave/StarbucksAlley.html
+doc=11487 score=5.124198
+6. http://www.ics.uci.edu/~eppstein/pix/calave/StarbucksAlley.html
    Title: Starbucks AlleyPrev: Space NetworkUp: California Avenue, Palo AltoNext: Enough Rest
-doc=18244 score=5.211582
-7. http:///www.ics.uci.edu/~eppstein/pix/sunsets/bar-mj-s6.html
+doc=18540 score=5.124198
+7. http://www.ics.uci.edu/~eppstein/pix/sunsets/bar-mj-s6.html
    Title: Montjuïc Cable CarPrev: The WaveUp: SunsetsNext: Rest Area
-doc=4256 score=4.373131
-8. http:///vcp.ics.uci.edu/content/harmonizing-architectural-dissonance-rest-based-architectures-0/index.html
+doc=5043 score=4.3997517
+8. http://vcp.ics.uci.edu/content/harmonizing-architectural-dissonance-rest-based-architectures-0/
    Title: Harmonizing Architectural Dissonance in REST-based Architectures | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=4225 score=4.344007
-9. http:///vcp.ics.uci.edu/content/extending-representational-state-transfer-rest-architectural-style-decentralized-systems-0/index.html
+doc=5012 score=4.361981
+9. http://vcp.ics.uci.edu/content/extending-representational-state-transfer-rest-architectural-style-decentralized-systems-0/
    Title: Extending the Representational State Transfer (REST) Architectural Style for Decentralized Systems | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=16542 score=4.1692657
-10. http:///www.ics.uci.edu/~eppstein/pix/ontheroad/CulverFiveUnderpass.html
+doc=16838 score=4.110358
+10. http://www.ics.uci.edu/~eppstein/pix/ontheroad/CulverFiveUnderpass.html
    Title: UnderpassPrev: The Unbearable Flatness of Being, IIUp: On The RoadNext: Rest Area
+doc=6906 score=2.5345988
+11. http://www.ics.uci.edu/~bsemaan/
+   Title: Bryan Christopher SemaanI successfully defended my dissertation at UC Irvine in November, and am ever-grateful for the mentorship provided by my advisor, Gloria Mark, and the rest of my fabulous committee: Judy Olson, Gary Olson, and
+doc=15578 score=0.32049346
+12. http://www.ics.uci.edu/~eppstein/pix/kern/index.html
+   Title: Sequoia National Monument and the Kern ValleyPrev: Vista Verde promotionUp: Summer 2008Next: The Robot Cometh
+doc=2772 score=0.29560104
+13. http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+   Title: Architectural Styles and the Design of Network-based Software ArchitecturesUNIVERSITY OF CALIFORNIA, IRVINE
+doc=18811 score=0.26707786
+14. http://www.ics.uci.edu/~eppstein/pix/sv/mgt/UnderTable.html
+   Title: Under the tablePrev: BrothersUp: Matheson get-together, July 1, 2001Next: Timothy
+doc=7888 score=0.25054127
+15. http://archive.ics.uci.edu/ml/datasets/SPECTF+Heart/
+   Title: UCI Machine Learning Repository: SPECTF Heart Data Set         Center for Machine Learning and Intelligent Systems
+doc=20845 score=0.25054127
+16. http://www.ics.uci.edu/~kay/courses/141/schemenotes.html
+   Title: Notes on SchemeInformation & Computer Science   David G.
+doc=2761 score=0.2136623
+17. http://www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm
+   Title: Fielding Dissertation: Conclusions[Top]
+doc=11469 score=0.2136623
+18. http://www.ics.uci.edu/~eppstein/pix/calave/EnoughRest.html
+   Title: Enough RestPrev: Starbucks AlleyUp: California Avenue, Palo AltoNext: Hotel California
+doc=14061 score=0.2136623
+19. http://www.ics.uci.edu/~eppstein/pix/hotshots/rhcp/MeganBatting.html
+   Title: Megan puts bat on ballPrev: BreannaUp: Hot Shots vs Red Hot Chili PeppersNext: Brittany at bat
+doc=14922 score=0.2136623
+20. http://www.ics.uci.edu/~eppstein/pix/ivy/sluggers/SophiePitch.html
+   Title: Sophie pitchingPrev: Annie comes homeUp: Poison Ivy vs SluggersNext: Team cheer
 Query: computer games
 4125 total matching documents
-doc=2152 score=6.6480083
-1. http:///cgvw.ics.uci.edu/index.html
+doc=2149 score=6.7951794
+1. http://cgvw.ics.uci.edu/
    Title: Center for Computer Games & Virtual WorldsCenter for Computer Games & Virtual Worlds
-doc=25027 score=6.2072635
-2. http:///www.ics.uci.edu/~wscacchi/Presentations/Nasa-ARC-talk/tsld045.htm
+doc=25023 score=6.1120815
+2. http://www.ics.uci.edu/~wscacchi/Presentations/Nasa-ARC-talk/tsld045.htm
    Title: Computer Games as Work Practice SimulatorsComputer Games as Work Practice Simulators 
-doc=24792 score=5.7672806
-3. http:///www.ics.uci.edu/~wmt/courses/US12B/us12b-syllabus.html
+doc=24788 score=5.6698055
+3. http://www.ics.uci.edu/~wmt/courses/US12B/us12b-syllabus.html
    Title: US 12B - Computer Games as Art, Culture, and Technology - SyllabusUS 12B — Computer Games as Art, Culture, and Technology
-doc=24986 score=5.703619
-4. http:///www.ics.uci.edu/~wscacchi/Presentations/Nasa-ARC-talk/sld045.htm
+doc=24982 score=5.569268
+4. http://www.ics.uci.edu/~wscacchi/Presentations/Nasa-ARC-talk/sld045.htm
    Title: Computer Games as Work Practice SimulatorsSlide 45 of 54
-doc=7062 score=5.130259
-5. http:///www.ics.uci.edu/~eppstein/cgt/hard.html
+doc=7425 score=5.0597925
+5. http://www.ics.uci.edu/~eppstein/cgt/hard.html
    Title: Computational Complexity of Games and PuzzlesComputational Complexity of Games and Puzzles
-doc=4221 score=4.8016796
-6. http:///vcp.ics.uci.edu/content/exploring-potential-computer-games-decentralized-command-and-control/index.html
+doc=5008 score=4.7992234
+6. http://vcp.ics.uci.edu/content/exploring-potential-computer-games-decentralized-command-and-control/
    Title: Exploring the Potential of Computer Games for Decentralized Command and Control | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=24641 score=3.655006
-7. http:///www.ics.uci.edu/~thornton/inf45/LabManual/GamesWithoutFrontiers/index.html
+doc=24637 score=3.6221273
+7. http://www.ics.uci.edu/~thornton/inf45/LabManual/GamesWithoutFrontiers/
    Title: Informatics 45 Spring 2010, Project #4: Games Without FrontiersInformatics 45 Spring 2010 |
-doc=4402 score=2.2736785
-8. http:///vcp.ics.uci.edu/content/spew-real-time-data-games/index.html
+doc=5189 score=2.2156613
+8. http://vcp.ics.uci.edu/content/spew-real-time-data-games/
    Title: SPEW: Real Time Data Games  | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=4321 score=1.867559
-9. http:///vcp.ics.uci.edu/content/outrun-perversive-games-designing-de-simulation-8-bit-driving/index.html
+doc=5108 score=1.8351984
+9. http://vcp.ics.uci.edu/content/outrun-perversive-games-designing-de-simulation-8-bit-driving/
    Title: OutRun: Perversive Games & Designing the De-Simulation of 8-bit Driving | Virtual Collaboration PortalVirtual Collaboration Portal        
-doc=24044 score=1.8180012
-10. http:///www.ics.uci.edu/~tdebeauv/NGsummaries/NG03.html
+doc=23414 score=1.7713151
+10. http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG03.html
    Title: Modeling player session times of online games, by Chang and Feng
+doc=23415 score=1.7655429
+11. http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG04.html
+   Title: Implementation of a service platform for online games, by Shaikh et al.
+doc=12665 score=1.71664
+12. http://www.ics.uci.edu/~eppstein/pix/ditr/pp/LexiSpaghettiOs.html
+   Title: Lexi's dinnerPrev: Mia's parents and a friendUp: In the stands, Diamonds in the Rough vs Panther PowerNext: Finger Games
+doc=20802 score=1.6759254
+13. http://www.ics.uci.edu/~kay/courses/131/Companies.html
+   Title: Companies Finding Some Computer Jobs Best Done in U.S.International National Politics Business Technology Science Health Sports New York Region Education Weather Obituaries NYT Front Page Corrections Editorials/Op-Ed Readers' Opinions Arts Books Movies Travel Dining & Wine Home & Garden Fashion & Style New York Today Crossword/Games Cartoons Magazine Week in Review Photos College Learning Network Archive Classifieds Theater Tickets Premium Products NYT Store NYT Mobile E-Cards & More About NYTDigital Jobs at NYTDigital Online Media Kit Our Advertisers Your Profile E-Mail Preferences News Tracker Premium Account Site Help Privacy Policy Home Delivery Customer Service Electronic Edition Media KitText Version 
+doc=5107 score=1.6230632
+14. http://vcp.ics.uci.edu/content/outrun-perversive-games-and-designing-de-simulation-eight-bit-driving/
+   Title: OutRun: Perversive Games and Designing the De-Simulation of Eight-Bit Driving | Virtual Collaboration PortalVirtual Collaboration Portal        
+doc=5905 score=1.6151093
+15. http://www.ics.uci.edu/prospective/en/degrees/computer-game-science/
+   Title: Computer Game Science « Degrees « BREN: Information and Computer Sciences « University of California Irvine?>
+doc=6053 score=1.5666327
+16. http://www.ics.uci.edu/ugrad/degrees/degree_cgs.php
+   Title: undergraduate degree in computer game science @ the bren school of information and computer sciences» About              
+doc=6055 score=1.4913341
+17. http://www.ics.uci.edu/ugrad/degrees/degree_cs.php
+   Title: undergraduate degree in computer science @ the bren school of information and computer sciences» About              
+doc=8834 score=1.3580099
+18. http://www.ics.uci.edu/~djp3/classes/2007_01_01_ICS131/assignmentSchedule.html
+   Title: Informatics 131: Winter 2007: Assignment ScheduleInformatics 131: Human Computer Interaction
+doc=7511 score=1.3496326
+19. http://www.ics.uci.edu/~eppstein/gina/vidgames.html
+   Title: Geometry in Action: Game ProgrammingVideo and Computer Game Programming
+doc=5719 score=1.335202
+20. http://www.ics.uci.edu/community/news/spotlight/index.php
+   Title: spotlights @ the bren school of information and computer sciences» About              
 Query: information retrieval
 5157 total matching documents
-doc=8628 score=7.9031754
-1. http:///www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/Lectures/Lecture01.html/index.html
+doc=8944 score=7.592686
+1. http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/Lectures/Lecture01.html/index.html
    Title: Information Retrieval is hot
-doc=8693 score=7.285548
-2. http:///www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/index.html
+doc=9009 score=7.1106977
+2. http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/index.html
    Title: Winter 2009: Informatics 141 : Information Retrieval : HomeInformatics   141: Information Retrieval: 
-doc=8713 score=7.2193346
-3. http:///www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/materials.html
+doc=9029 score=7.0263567
+3. http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/materials.html
    Title: Winter 2009: Informatics 141 : Information Retrieval : MaterialsInformatics   141: Information Retrieval: 
-doc=8685 score=7.002203
-4. http:///www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/admin.html
+doc=9001 score=6.7497783
+4. http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/admin.html
    Title: Winter 2009: Informatics 141 : Information Retrieval : AdminInformatics   141: Information Retrieval: 
-doc=23155 score=5.9628425
-5. http:///www.ics.uci.edu/~lopes/teaching/inf141W12/assignments/Assignment1.html
+doc=21351 score=5.7556667
+5. http://www.ics.uci.edu/~lopes/teaching/inf141W12/assignments/Assignment1.html
    Title: Assignmente 1INF 141 / CS 121 Information Retrieval
-doc=23157 score=5.9628425
-6. http:///www.ics.uci.edu/~lopes/teaching/inf141W13/assignments/Assignment1.html
+doc=21353 score=5.7556667
+6. http://www.ics.uci.edu/~lopes/teaching/inf141W13/assignments/Assignment1.html
    Title: Assignmente 1INF 141 / CS 121 Information Retrieval
-doc=8749 score=5.8480625
-7. http:///www.ics.uci.edu/~djp3/classes/2010_01_CS221/materials.html
+doc=6944 score=5.724555
+7. http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/materials.html
    Title: CS 221, Information Retrieval, Winter 2009-2010 Department of Informatics, UCIComputer Science 221: Information Retrieval 
-doc=8683 score=5.822237
-8. http:///www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/materials.html
+doc=8999 score=5.6916595
+8. http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/materials.html
    Title: Fall 2008: Computer Science 221 : Information Retrieval : MaterialsComputer Science  221: Information Retrieval: 
-doc=8655 score=5.810966
-9. http:///www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/materials.html
+doc=8971 score=5.677303
+9. http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/materials.html
    Title: Winter 2008: Informatics 141 Information Retrieval : MaterialsInformatics 141/ Computer Science 121: Information Retrieval 
-doc=8675 score=5.7962775
-10. http:///www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/index.html
+doc=8991 score=5.658593
+10. http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/index.html
    Title: Fall 2008: Computer Science 221 : Information Retrieval : HomeComputer Science  221: Information Retrieval: 
+doc=6942 score=5.6434484
+11. http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/index.html
+   Title: CS 221, Information Retrieval, Winter 2009-2010 Department of Informatics, UCIComputer Science 221: Information Retrieval 
+doc=8876 score=5.634759
+12. http://www.ics.uci.edu/~djp3/classes/2007_04_02_CS221/index.html
+   Title: Spring 2007: CS 221 Information RetrievalComputer Science  221: Information Retrieval 
+doc=8940 score=5.612241
+13. http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/calendar.html
+   Title: Winter 2008: Informatics 141 Information Retrieval : CalendarInformatics 141/ Computer Science 121: Information Retrieval 
+doc=8990 score=5.6048775
+14. http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/calendar.html
+   Title: Fall 2008: Computer Science 221 : Information Retrieval : CalendarComputer Science  221: Information Retrieval: 
+doc=9008 score=5.590454
+15. http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/calendar.html
+   Title: Winter 2009: Informatics 141 : Information Retrieval : CalendarInformatics   141: Information Retrieval: Calendar: Winter 2009
+doc=8986 score=5.575655
+16. http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/Assignments/Assignment04.html
+   Title: Fall 2008: Computer Science 221 : Information Retrieval : Assignment 04Computer Science  221: Information Retrieval: 
+doc=6941 score=5.5235233
+17. http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/assignmentSchedule.html
+   Title: CS 221, Information Retrieval, Winter 2009-2010 Department of Informatics, UCIComputer Science 221: Information Retrieval 
+doc=8939 score=5.521626
+18. http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/Assignments/ReadingList07/ReadingList07.html/index.html
+   Title: Reading 07-01: Chapter 8 Evaluation in Information Retrieval
+doc=9002 score=5.4292316
+19. http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/Assignments/Assignment01.html
+   Title: Winter 2009: Informatics 141 : Information Retrieval : Assignment 01Informatics   141: Information Retrieval: 
+doc=9060 score=5.425728
+20. http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/assignment05.html
+   Title: CS 221, Information Retrieval, Winter 2009-2010 Department of Informatics, UCIComputer Science 221: Information Retrieval 
