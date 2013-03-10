@@ -17,29 +17,28 @@
 	<build>
 		<plugins>
 
-	<plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>appassembler-maven-plugin</artifactId>
-		<executions>
-			<execution>
+			<plugin>
+				<!-- This plugin is needed for the servlet example -->
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>7.2.0.v20101020</version>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
 				<configuration>
-					<programs>
-						<program>
-							<mainClass>ranker.App</mainClass>
-							<name>search</name>
-						</program>
-					</programs>
-					<repositoryLayout>flat</repositoryLayout>
-					<repositoryName>lib</repositoryName>
+					<mainClass>server.EngineRun</mainClass>
 				</configuration>
-				<phase>package</phase>
-				<goals>
-					<goal>assemble</goal>
-				</goals>
-			</execution>
-		</executions>
-	</plugin>
-	</plugins>
+			</plugin>
+		</plugins>
 	</build>
 
 
@@ -64,6 +63,17 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
 			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>7.2.0.v20101020</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>7.2.0.v20101020</version>
 		</dependency>
 	</dependencies>
 </project>
