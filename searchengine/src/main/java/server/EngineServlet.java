@@ -8,49 +8,60 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import net.sf.json.JSONObject;
 
-public class EngineServlet extends HttpServlet{
+import org.apache.lucene.queryparser.classic.ParseException;
+
+import ranker.Searcher;
+
+public class EngineServlet extends HttpServlet {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException {
-		System.out.println("into the servlet");
-		PrintWriter out = resp.getWriter();
-		out.println("Welcome to our site");
-//		super.doGet(req, resp);
-	}
-
-
-	@Override
-	protected void service(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		System.out.println("into the service");
-		String action = request.getParameter("action");
-		if (action != null){
-		System.out.println(action);
-		}else{
-			System.out.println("action is null");
+	private Searcher searcher;
+	public final static String INDEX_PATH = "/Users/jiajianfeng/Downloads/irindex"; 
+	
+	public EngineServlet(){
+		try {
+			searcher = new Searcher(INDEX_PATH,null, null);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
 		}
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		String query = request.getParameter("query");
-
-		if (action != null) {
-			if ("query".equals(action)){
-				
+		PrintWriter out = response.getWriter();
+		if (query == null){
+			return;
+		}
+		JSONObject json = new JSONObject();
+		json.put("query", query);
+		JSONObject result = new JSONObject();
+		int start = 0;
+		String strStart = request.getParameter("start");
+		if (strStart != null){
+			try{
+				start = Integer.parseInt(strStart);
 			}
-			else if ( "next".equals(action)){
-				
-			}else{
-				
+			catch(Exception ex){
+				start = 0;
 			}
 		}
-
-		response.getWriter().write("into the query");
-		super.service(request, response);
+		try {
+			 result = searcher.doWebPagingSearch(query, null, null, 10, start);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		json.put("result", result);
+		out.println(json.toString(2));
 	}
+
 }

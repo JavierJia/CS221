@@ -58,6 +58,9 @@ public class Ranker {
 	}
 	
 	private static float getAuthorityScore(Map<String, Float> authorityMap, WebURL url) {
+		if (authorityMap == null){
+			return 0;
+		}
 		if (authorityMap.containsKey(url.getURL())){
 			System.err.println("url:" + url.getURL() + "in pagerank");
 				return ARTHOURITY_FACTOR ;
