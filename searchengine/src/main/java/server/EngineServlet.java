@@ -22,7 +22,7 @@ public class EngineServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private Searcher searcher;
-	public final static String INDEX_PATH = "/Users/jiajianfeng/Downloads/irindex"; 
+	public final static String INDEX_PATH = "/home/jianfeng/workspace/code/cs221/index"; 
 	
 	public EngineServlet(){
 		try {
@@ -37,6 +37,7 @@ public class EngineServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		response.addHeader("Access-Control-Allow-Origin", "*");
 		String query = request.getParameter("query");
 		PrintWriter out = response.getWriter();
 		if (query == null){
